@@ -17,10 +17,23 @@ if { ![info exist ::env(STD_CELL_LIBRARY_OPT)] } {
     set ::env(STD_CELL_LIBRARY_OPT) gf180mcu_fd_sc_mcu7t5v0
 }
 
+if { ![info exist ::env(IO_PAD_LIBRARY)] } {
+    set ::env(IO_PAD_LIBRARY) gf180mcu_fd_io
+}
+
 # Lib Files
-set ::env(LIB_SYNTH) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lib/$::env(STD_CELL_LIBRARY)__tt_025C_5v00.lib"
-set ::env(LIB_FASTEST) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lib/$::env(STD_CELL_LIBRARY)__ff_n40C_5v50.lib"
-set ::env(LIB_SLOWEST) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lib/$::env(STD_CELL_LIBRARY)__ss_125C_4v50.lib"
+set ::env(LIB_SYNTH) "\
+    $::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lib/$::env(STD_CELL_LIBRARY)__tt_025C_5v00.lib\
+    $::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(IO_PAD_LIBRARY)/lib/$::env(IO_PAD_LIBRARY)__tt_025C_5v00.lib\
+"
+set ::env(LIB_FASTEST) "\
+    $::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lib/$::env(STD_CELL_LIBRARY)__ff_n40C_5v50.lib\
+    $::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(IO_PAD_LIBRARY)/lib/$::env(IO_PAD_LIBRARY)__ff_n40C_5v50.lib\
+"
+set ::env(LIB_SLOWEST) "\
+    $::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lib/$::env(STD_CELL_LIBRARY)__ss_125C_4v50.lib\
+    $::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(IO_PAD_LIBRARY)/lib/$::env(IO_PAD_LIBRARY)__ss_125C_4v50.lib\
+"
 
 set ::env(LIB_TYPICAL) $::env(LIB_SYNTH)
 
@@ -28,16 +41,58 @@ set ::env(LIB_TYPICAL) $::env(LIB_SYNTH)
 set ::env(TECH_LEF) [glob "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/techlef/*__nom.tlef"]
 set ::env(TECH_LEF_MIN)  [glob "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/techlef/*__min.tlef"]
 set ::env(TECH_LEF_MAX)  [glob "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/techlef/*__max.tlef"]
-set ::env(CELLS_LEF) [glob "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lef/*.lef"]
-set ::env(GDS_FILES) [glob "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/gds/*.gds"]
-set ::env(STD_CELL_LIBRARY_CDL)	"$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/cdl/$::env(STD_CELL_LIBRARY).cdl"
-set ::env(GPIO_PADS_LEF) "\
-    $::env(PDK_ROOT)/$::env(PDK)/libs.ref/gf180mcu_io/lef/GF018green_ipio_5p0c_75_5lm.lef
-"
-set ::env(GPIO_PADS_VERILOG) "\
-    $::env(PDK_ROOT)/$::env(PDK)/libs.ref/gf180mcu_io/verilog/GF018green_ipio_5p0c_75_5lm.v
+
+# Standard cells
+set ::env(CELL_LEFS) [glob "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/lef/*.lef"]
+set ::env(CELL_GDS) [glob "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/gds/*.gds"]
+set ::env(CELL_VERILOG_MODELS) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/verilog/$::env(STD_CELL_LIBRARY).v"
+set ::env(CELL_SPICE_MODELS) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/spice/$::env(STD_CELL_LIBRARY).spice"
+set ::env(CELL_CDLS)	"$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(STD_CELL_LIBRARY)/cdl/$::env(STD_CELL_LIBRARY).cdl"
+
+# Pad views
+set ::env(PAD_LEFS) [glob "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(IO_PAD_LIBRARY)/lef/$::env(IO_PAD_LIBRARY)*.lef"]
+set ::env(PAD_GDS) [glob "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(IO_PAD_LIBRARY)/gds/*.gds"]
+set ::env(PAD_VERILOG_MODELS) [glob "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(IO_PAD_LIBRARY)/verilog/*__blackbox.v"]
+set ::env(PAD_SPICE_MODELS) [glob "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(IO_PAD_LIBRARY)/spice/*.spice"]
+set ::env(PAD_CDLS) "$::env(PDK_ROOT)/$::env(PDK)/libs.ref/$::env(IO_PAD_LIBRARY)/cdl/$::env(IO_PAD_LIBRARY).cdl"
+
+# Pad IO sites
+set ::env(PAD_IO_SITE_NAME) "GF_IO_Site"
+set ::env(PAD_CORNER_SITE_NAME) "GF_COR_Site"
+
+# Pad fake IO sites information
+set ::env(PAD_FAKE_IO_SITE_HEIGHT) "350"
+set ::env(PAD_FAKE_IO_SITE_WIDTH) "1"
+set ::env(PAD_FAKE_CORNER_SITE_HEIGHT) "355"
+set ::env(PAD_FAKE_CORNER_SITE_WIDTH) "355"
+
+# Pad cells
+set ::env(PAD_CELLS) [dict create]
+dict set ::env(PAD_CELLS) "$::env(IO_PAD_LIBRARY)__*" "75, 350"
+set ::env(PAD_CORNER) "$::env(IO_PAD_LIBRARY)__cor"
+set ::env(PAD_FILLERS) "\
+    $::env(IO_PAD_LIBRARY)__fill10\
+    $::env(IO_PAD_LIBRARY)__fill5\
+    $::env(IO_PAD_LIBRARY)__fill1\
 "
 
+# Pad bondpad information (if needed)
+# Note: bondpads are integrated in GF180MCU
+#set ::env(PAD_BONDPAD_NAME) "bondpad_70x70"
+#set ::env(PAD_BONDPAD_WIDTH) "70"
+#set ::env(PAD_BONDPAD_HEIGHT) "70"
+#set ::env(PAD_BONDPAD_OFFSETS) [dict create]
+#dict set ::env(PAD_BONDPAD_OFFSETS) "instance*" "5.0, -70.0"
+
+# Pad io terminals (if needed)
+set ::env(PAD_PLACE_IO_TERMINALS) "\
+    $::env(IO_PAD_LIBRARY)__*/PAD\
+    $::env(IO_PAD_LIBRARY)__dvss*/DVSS\
+    $::env(IO_PAD_LIBRARY)__dvdd*/DVDD\
+"
+
+# Pad sites to edge offset
+set ::env(PAD_EDGE_SPACING) "25"
 
 # Latch mapping
 set ::env(SYNTH_LATCH_MAP) "$::env(PDK_ROOT)/$::env(PDK)/libs.tech/openlane/$::env(STD_CELL_LIBRARY)/latch_map.v"
