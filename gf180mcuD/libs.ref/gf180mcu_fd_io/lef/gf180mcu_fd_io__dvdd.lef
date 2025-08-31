@@ -14,6 +14,10 @@ MACRO gf180mcu_fd_io__dvdd
     USE POWER ;
     PORT
       LAYER Metal5 ;
+        RECT 25.000 20.000 50.000 45.000 ;
+    END
+    PORT
+      LAYER Metal5 ;
         RECT 74.000 118.000 75.000 125.000 ;
     END
     PORT
@@ -669,6 +673,14 @@ MACRO gf180mcu_fd_io__dvdd
         RECT 0.000 246.000 1.000 253.000 ;
     END
   END VSS
+#  PIN PAD
+#    DIRECTION INOUT ;
+#    USE POWER ;
+#    PORT
+#      LAYER Metal5 ;
+#        RECT 25.000 20.000 50.000 45.000 ;
+#    END
+#  END PAD
   OBS
       LAYER Nwell ;
         RECT 3.060 67.480 71.940 345.275 ;
