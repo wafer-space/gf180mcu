@@ -54,6 +54,12 @@ from klayout_api_cells import gf180mcu_klayoutapi
 # Instantiate and register the library
 gf180mcu_klayoutapi()
 
+# Load the KLayout API based sealring
+from sealring_cells import gf180mcu_sealring
+
+# Instantiate and register the library
+gf180mcu_sealring()
+
 # check if GF_PDK_OPTION is set
 if "GF_PDK_OPTION" not in os.environ:
     print("## Warning: environmental variable GF_PDK_OPTION is not set, assuming option D.")
