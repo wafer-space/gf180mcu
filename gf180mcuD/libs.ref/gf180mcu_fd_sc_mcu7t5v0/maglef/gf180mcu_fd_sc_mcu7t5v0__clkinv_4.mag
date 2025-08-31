@@ -1,0 +1,72 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 352 1206 870
+<< pwell >>
+rect -86 -86 1206 352
+<< metal1 >>
+rect 0 724 1120 844
+rect 49 518 95 724
+rect 273 541 319 654
+rect 486 593 554 724
+rect 690 541 767 654
+rect 273 477 767 541
+rect 945 518 991 724
+rect 130 353 542 430
+rect 690 307 767 477
+rect 273 243 767 307
+rect 49 60 95 208
+rect 273 140 319 243
+rect 486 60 554 197
+rect 690 140 767 243
+rect 945 60 991 208
+rect 0 -60 1120 60
+<< labels >>
+rlabel metal1 s 130 353 542 430 6 I
+port 1 nsew default input
+rlabel metal1 s 690 140 767 243 6 ZN
+port 2 nsew default output
+rlabel metal1 s 273 140 319 243 6 ZN
+port 2 nsew default output
+rlabel metal1 s 273 243 767 307 6 ZN
+port 2 nsew default output
+rlabel metal1 s 690 307 767 477 6 ZN
+port 2 nsew default output
+rlabel metal1 s 273 477 767 541 6 ZN
+port 2 nsew default output
+rlabel metal1 s 690 541 767 654 6 ZN
+port 2 nsew default output
+rlabel metal1 s 273 541 319 654 6 ZN
+port 2 nsew default output
+rlabel metal1 s 945 518 991 724 6 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 486 593 554 724 6 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 49 518 95 724 6 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 0 724 1120 844 6 VDD
+port 3 nsew power bidirectional abutment
+rlabel nwell s -86 352 1206 870 6 VNW
+port 4 nsew power bidirectional
+rlabel pwell s -86 -86 1206 352 6 VPW
+port 5 nsew ground bidirectional
+rlabel metal1 s 0 -60 1120 60 8 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 945 60 991 208 6 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 486 60 554 197 6 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 49 60 95 208 6 VSS
+port 6 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 1120 784
+string LEFclass core
+string LEFsite GF018hv5v_mcu_sc7
+string LEFsymmetry X Y
+string LEFview TRUE
+string GDS_END 826338
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu7t5v0/gds/gf180mcu_fd_sc_mcu7t5v0.gds
+string GDS_START 823102
+<< end >>

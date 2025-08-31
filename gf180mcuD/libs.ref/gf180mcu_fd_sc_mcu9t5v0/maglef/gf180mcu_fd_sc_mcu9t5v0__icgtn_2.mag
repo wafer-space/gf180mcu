@@ -1,0 +1,121 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 453 3670 1094
+<< pwell >>
+rect -86 -86 3670 453
+<< metal1 >>
+rect 0 918 3584 1098
+rect 287 680 333 918
+rect 1161 680 1207 918
+rect 142 354 194 542
+rect 478 354 530 542
+rect 262 90 330 220
+rect 1113 90 1159 231
+rect 1725 680 1771 918
+rect 1705 90 1751 231
+rect 2405 680 2451 918
+rect 2270 354 2335 542
+rect 3051 680 3097 918
+rect 2385 90 2431 231
+rect 2833 90 2879 231
+rect 3041 90 3087 325
+rect 3255 163 3330 842
+rect 3459 680 3505 918
+rect 3489 90 3535 325
+rect 0 -90 3584 90
+<< obsm1 >>
+rect 809 634 855 842
+rect 1253 826 1669 872
+rect 1253 634 1299 826
+rect 809 613 1299 634
+rect 586 588 1299 613
+rect 586 567 848 588
+rect 586 323 632 567
+rect 887 415 955 542
+rect 1365 415 1411 780
+rect 678 369 1411 415
+rect 213 308 459 312
+rect 49 266 459 308
+rect 586 277 767 323
+rect 49 262 232 266
+rect 49 163 95 262
+rect 413 231 459 266
+rect 413 163 543 231
+rect 721 163 767 277
+rect 1337 163 1411 369
+rect 1481 331 1567 780
+rect 1623 377 1669 826
+rect 1929 796 2359 842
+rect 1715 388 1870 434
+rect 1715 331 1761 388
+rect 1481 285 1761 331
+rect 1481 163 1527 285
+rect 1929 163 1975 796
+rect 2201 628 2247 744
+rect 2061 582 2247 628
+rect 2313 634 2359 796
+rect 2313 588 2539 634
+rect 2061 308 2107 582
+rect 2493 483 2539 588
+rect 2757 434 2803 842
+rect 2757 388 3196 434
+rect 2757 312 2803 388
+rect 2061 262 2218 308
+rect 2598 266 2803 312
+rect 2598 262 2666 266
+<< labels >>
+rlabel metal1 s 2270 354 2335 542 6 CLKN
+port 1 nsew clock input
+rlabel metal1 s 478 354 530 542 6 E
+port 2 nsew default input
+rlabel metal1 s 142 354 194 542 6 TE
+port 3 nsew default input
+rlabel metal1 s 3255 163 3330 842 6 Q
+port 4 nsew default output
+rlabel metal1 s 3459 680 3505 918 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 3051 680 3097 918 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 2405 680 2451 918 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 1725 680 1771 918 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 1161 680 1207 918 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 287 680 333 918 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 0 918 3584 1098 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel nwell s -86 453 3670 1094 6 VNW
+port 6 nsew power bidirectional
+rlabel pwell s -86 -86 3670 453 6 VPW
+port 7 nsew ground bidirectional
+rlabel metal1 s 0 -90 3584 90 8 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 3489 90 3535 325 6 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 3041 90 3087 325 6 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 2833 90 2879 231 6 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 2385 90 2431 231 6 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 1705 90 1751 231 6 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 1113 90 1159 231 6 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 262 90 330 220 6 VSS
+port 8 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 3584 1008
+string LEFclass core
+string LEFsite GF018hv5v_green_sc9
+string LEFsymmetry X Y
+string LEFview TRUE
+string GDS_END 835924
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu9t5v0/gds/gf180mcu_fd_sc_mcu9t5v0.gds
+string GDS_START 827488
+<< end >>

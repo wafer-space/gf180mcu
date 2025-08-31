@@ -1,0 +1,143 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 355 3446 870
+rect -86 352 952 355
+rect 1550 352 3446 355
+<< pwell >>
+rect 952 352 1550 355
+rect -86 -86 3446 352
+<< metal1 >>
+rect 0 724 3360 844
+rect 58 507 126 724
+rect 468 424 550 674
+rect 58 360 318 424
+rect 373 360 550 424
+rect 1256 501 1302 724
+rect 1938 584 1984 724
+rect 262 60 330 199
+rect 1213 60 1281 215
+rect 2327 514 2373 724
+rect 2729 563 2797 724
+rect 2932 548 3004 676
+rect 2932 480 3116 548
+rect 3174 506 3220 724
+rect 2022 318 2194 353
+rect 2022 307 2551 318
+rect 2148 242 2551 307
+rect 1964 60 2010 169
+rect 3044 216 3116 480
+rect 2740 60 2786 169
+rect 2911 120 3116 216
+rect 3177 60 3247 150
+rect 0 -60 3360 60
+<< obsm1 >>
+rect 762 512 808 653
+rect 600 466 1087 512
+rect 1464 632 1879 678
+rect 38 245 423 292
+rect 38 153 106 245
+rect 377 199 423 245
+rect 600 199 646 466
+rect 692 374 987 420
+rect 692 289 738 374
+rect 1041 315 1087 466
+rect 1464 407 1510 632
+rect 1729 407 1786 570
+rect 1833 538 1879 632
+rect 2040 632 2281 678
+rect 2040 538 2086 632
+rect 1833 491 2086 538
+rect 2143 445 2189 570
+rect 1137 361 1510 407
+rect 1041 268 1416 315
+rect 377 153 554 199
+rect 600 153 778 199
+rect 1464 156 1510 361
+rect 1583 361 1786 407
+rect 1835 399 2189 445
+rect 2235 425 2281 632
+rect 2536 517 2582 676
+rect 2536 471 2775 517
+rect 1583 152 1655 361
+rect 1835 261 1883 399
+rect 2235 379 2683 425
+rect 2729 365 2775 471
+rect 2729 319 2994 365
+rect 2729 307 2775 319
+rect 1835 215 2102 261
+rect 2602 253 2775 307
+rect 1583 106 1815 152
+rect 2056 152 2102 215
+rect 2602 152 2648 253
+rect 2056 106 2247 152
+rect 2319 106 2648 152
+<< labels >>
+rlabel metal1 s 2148 242 2551 307 6 CLK
+port 1 nsew clock input
+rlabel metal1 s 2022 307 2551 318 6 CLK
+port 1 nsew clock input
+rlabel metal1 s 2022 318 2194 353 6 CLK
+port 1 nsew clock input
+rlabel metal1 s 373 360 550 424 6 E
+port 2 nsew default input
+rlabel metal1 s 468 424 550 674 6 E
+port 2 nsew default input
+rlabel metal1 s 58 360 318 424 6 TE
+port 3 nsew default input
+rlabel metal1 s 2911 120 3116 216 6 Q
+port 4 nsew default output
+rlabel metal1 s 3044 216 3116 480 6 Q
+port 4 nsew default output
+rlabel metal1 s 2932 480 3116 548 6 Q
+port 4 nsew default output
+rlabel metal1 s 2932 548 3004 676 6 Q
+port 4 nsew default output
+rlabel metal1 s 3174 506 3220 724 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 2729 563 2797 724 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 2327 514 2373 724 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 1938 584 1984 724 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 1256 501 1302 724 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 58 507 126 724 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 0 724 3360 844 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel nwell s 1550 352 3446 355 6 VNW
+port 6 nsew power bidirectional
+rlabel nwell s -86 352 952 355 6 VNW
+port 6 nsew power bidirectional
+rlabel nwell s -86 355 3446 870 6 VNW
+port 6 nsew power bidirectional
+rlabel pwell s -86 -86 3446 352 6 VPW
+port 7 nsew ground bidirectional
+rlabel pwell s 952 352 1550 355 6 VPW
+port 7 nsew ground bidirectional
+rlabel metal1 s 0 -60 3360 60 8 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 3177 60 3247 150 6 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 2740 60 2786 169 6 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 1964 60 2010 169 6 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 1213 60 1281 215 6 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 262 60 330 199 6 VSS
+port 8 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 3360 784
+string LEFclass core
+string LEFsite GF018hv5v_mcu_sc7
+string LEFsymmetry X Y
+string LEFview TRUE
+string GDS_END 465736
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu7t5v0/gds/gf180mcu_fd_sc_mcu7t5v0.gds
+string GDS_START 458070
+<< end >>

@@ -1,0 +1,40 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< obsm1 >>
+rect -32 13108 432 69957
+<< obsm2 >>
+rect 0 13275 400 69769
+<< metal3 >>
+rect 0 63600 400 65000
+rect 0 49200 400 50600
+<< metal4 >>
+rect 0 63600 400 65000
+rect 0 49200 400 50600
+<< metal5 >>
+rect 0 63600 400 65000
+rect 0 49200 400 50600
+<< labels >>
+rlabel metal3 s 0 63600 400 65000 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal4 s 0 63600 400 65000 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal5 s 0 63600 400 65000 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal5 s 0 49200 400 50600 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal4 s 0 49200 400 50600 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal3 s 0 49200 400 50600 6 VSS
+port 1 nsew ground bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 400 70000
+string LEFclass PAD
+string LEFsite GF_IO_Site
+string LEFsymmetry X Y R90
+string LEFview TRUE
+string GDS_END 3655274
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_io/gds/gf180mcu_fd_io.gds
+string GDS_START 3654472
+<< end >>

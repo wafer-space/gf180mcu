@@ -1,0 +1,51 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 453 310 1094
+<< pwell >>
+rect -86 -86 310 453
+<< mvpsubdiff >>
+rect 72 344 144 357
+rect 72 110 85 344
+rect 131 110 144 344
+rect 72 82 144 110
+<< mvnsubdiff >>
+rect 72 732 144 771
+rect 72 498 85 732
+rect 131 498 144 732
+rect 72 485 144 498
+<< mvpsubdiffcont >>
+rect 85 110 131 344
+<< mvnsubdiffcont >>
+rect 85 498 131 732
+<< metal1 >>
+rect 0 918 224 1098
+rect 66 732 142 918
+rect 66 498 85 732
+rect 131 498 142 732
+rect 66 468 142 498
+rect 66 344 142 382
+rect 66 110 85 344
+rect 131 110 142 344
+rect 66 90 142 110
+rect 0 -90 224 90
+<< labels >>
+flabel metal1 s 66 90 142 382 0 FreeSans 200 0 0 0 VSS
+port 2 nsew ground bidirectional abutment
+flabel metal1 s 0 918 224 1098 0 FreeSans 200 0 0 0 VDD
+port 1 nsew power bidirectional abutment
+rlabel metal1 s 66 468 142 918 1 VDD
+port 1 nsew power bidirectional abutment
+rlabel metal1 s 0 -90 224 90 1 VSS
+port 2 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 224 1008
+string GDS_END 816726
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu9t5v0/gds/gf180mcu_fd_sc_mcu9t5v0.gds
+string GDS_START 814948
+string LEFclass core WELLTAP
+string LEFsite GF018hv5v_green_sc9
+string LEFsymmetry X Y
+<< end >>

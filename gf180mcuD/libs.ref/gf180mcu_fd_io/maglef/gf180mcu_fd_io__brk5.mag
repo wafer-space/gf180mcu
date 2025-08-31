@@ -1,0 +1,70 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< obsm1 >>
+rect -32 13108 1032 69957
+<< obsm2 >>
+rect 0 13622 1000 69616
+<< metal3 >>
+rect 0 63600 200 65000
+rect 800 63600 1000 65000
+rect 0 49200 200 50600
+rect 800 49200 1000 50600
+<< obsm3 >>
+rect 260 63540 740 65000
+rect 200 50660 800 63540
+rect 260 49200 740 50660
+<< metal4 >>
+rect 0 63600 200 65000
+rect 800 63600 1000 65000
+rect 0 49200 200 50600
+rect 800 49200 1000 50600
+<< obsm4 >>
+rect 260 63540 740 65000
+rect 200 50660 800 63540
+rect 260 49200 740 50660
+<< metal5 >>
+rect 0 63600 200 65000
+rect 800 63600 1000 65000
+rect 0 49200 200 50600
+rect 800 49200 1000 50600
+<< obsm5 >>
+rect 300 63500 700 65000
+rect 200 50700 800 63500
+rect 300 49200 700 50700
+<< labels >>
+rlabel metal5 s 800 49200 1000 50600 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal5 s 800 63600 1000 65000 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal4 s 800 49200 1000 50600 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal4 s 800 63600 1000 65000 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal3 s 800 49200 1000 50600 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal3 s 800 63600 1000 65000 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal3 s 0 63600 200 65000 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal4 s 0 63600 200 65000 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal5 s 0 63600 200 65000 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal5 s 0 49200 200 50600 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal4 s 0 49200 200 50600 6 VSS
+port 1 nsew ground bidirectional
+rlabel metal3 s 0 49200 200 50600 6 VSS
+port 1 nsew ground bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 1000 70000
+string LEFclass PAD
+string LEFsite GF_IO_Site
+string LEFsymmetry X Y R90
+string LEFview TRUE
+string GDS_END 3675210
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_io/gds/gf180mcu_fd_io.gds
+string GDS_START 3674408
+<< end >>

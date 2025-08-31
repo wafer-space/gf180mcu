@@ -1,0 +1,150 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 377 3334 870
+rect -86 352 2159 377
+rect 2379 352 3334 377
+<< pwell >>
+rect 2159 352 2379 377
+rect -86 -86 3334 352
+<< metal1 >>
+rect 0 724 3248 844
+rect 545 547 613 724
+rect 215 491 455 532
+rect 1305 536 1362 724
+rect 215 445 813 491
+rect 215 298 261 445
+rect 767 419 813 445
+rect 767 353 1019 419
+rect 960 344 1019 353
+rect 410 253 907 307
+rect 960 297 1139 344
+rect 71 60 139 152
+rect 1755 559 1827 724
+rect 2398 656 2471 724
+rect 1623 365 2142 419
+rect 2658 536 2704 672
+rect 2862 603 2908 724
+rect 3048 536 3152 672
+rect 2658 472 3152 536
+rect 3092 312 3152 472
+rect 2658 248 3152 312
+rect 519 60 587 155
+rect 1151 60 1219 152
+rect 1707 60 1776 152
+rect 2658 131 2704 248
+rect 2882 60 2928 181
+rect 3106 131 3152 248
+rect 0 -60 3248 60
+<< obsm1 >>
+rect 102 244 148 606
+rect 747 632 1214 678
+rect 747 547 819 632
+rect 944 521 1111 567
+rect 1157 536 1214 632
+rect 1408 602 1689 648
+rect 1065 444 1111 521
+rect 1408 444 1454 602
+rect 307 353 712 399
+rect 1065 398 1454 444
+rect 307 244 363 353
+rect 1402 244 1454 398
+rect 102 198 363 244
+rect 295 106 363 198
+rect 1048 198 1454 244
+rect 1509 244 1577 556
+rect 1632 513 1689 602
+rect 1950 563 2471 610
+rect 1632 466 2267 513
+rect 2221 380 2267 466
+rect 2425 419 2471 563
+rect 2221 334 2352 380
+rect 2425 365 3042 419
+rect 1854 244 1922 311
+rect 2425 244 2471 365
+rect 1509 198 1922 244
+rect 2234 198 2471 244
+rect 1048 152 1094 198
+rect 1509 152 1577 198
+rect 725 106 1094 152
+rect 1297 106 1577 152
+rect 1959 106 2573 152
+<< labels >>
+rlabel metal1 s 410 253 907 307 6 A1
+port 1 nsew default input
+rlabel metal1 s 960 297 1139 344 6 A2
+port 2 nsew default input
+rlabel metal1 s 960 344 1019 353 6 A2
+port 2 nsew default input
+rlabel metal1 s 767 353 1019 419 6 A2
+port 2 nsew default input
+rlabel metal1 s 767 419 813 445 6 A2
+port 2 nsew default input
+rlabel metal1 s 215 298 261 445 6 A2
+port 2 nsew default input
+rlabel metal1 s 215 445 813 491 6 A2
+port 2 nsew default input
+rlabel metal1 s 215 491 455 532 6 A2
+port 2 nsew default input
+rlabel metal1 s 1623 365 2142 419 6 A3
+port 3 nsew default input
+rlabel metal1 s 3106 131 3152 248 6 Z
+port 4 nsew default output
+rlabel metal1 s 2658 131 2704 248 6 Z
+port 4 nsew default output
+rlabel metal1 s 2658 248 3152 312 6 Z
+port 4 nsew default output
+rlabel metal1 s 3092 312 3152 472 6 Z
+port 4 nsew default output
+rlabel metal1 s 2658 472 3152 536 6 Z
+port 4 nsew default output
+rlabel metal1 s 3048 536 3152 672 6 Z
+port 4 nsew default output
+rlabel metal1 s 2658 536 2704 672 6 Z
+port 4 nsew default output
+rlabel metal1 s 2862 603 2908 724 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 2398 656 2471 724 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 1755 559 1827 724 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 1305 536 1362 724 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 545 547 613 724 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 0 724 3248 844 6 VDD
+port 5 nsew power bidirectional abutment
+rlabel nwell s 2379 352 3334 377 6 VNW
+port 6 nsew power bidirectional
+rlabel nwell s -86 352 2159 377 6 VNW
+port 6 nsew power bidirectional
+rlabel nwell s -86 377 3334 870 6 VNW
+port 6 nsew power bidirectional
+rlabel pwell s -86 -86 3334 352 6 VPW
+port 7 nsew ground bidirectional
+rlabel pwell s 2159 352 2379 377 6 VPW
+port 7 nsew ground bidirectional
+rlabel metal1 s 0 -60 3248 60 8 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 2882 60 2928 181 6 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 1707 60 1776 152 6 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 1151 60 1219 152 6 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 519 60 587 155 6 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 71 60 139 152 6 VSS
+port 8 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 3248 784
+string LEFclass core
+string LEFsite GF018hv5v_mcu_sc7
+string LEFsymmetry X Y
+string LEFview TRUE
+string GDS_END 384562
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu7t5v0/gds/gf180mcu_fd_sc_mcu7t5v0.gds
+string GDS_START 377218
+<< end >>

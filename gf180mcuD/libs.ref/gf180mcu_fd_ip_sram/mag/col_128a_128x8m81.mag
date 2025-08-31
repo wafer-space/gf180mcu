@@ -1,0 +1,63 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< metal3 >>
+rect -36 13830 23889 14190
+rect -36 12810 23889 13170
+rect -36 12030 23889 12390
+rect -36 11010 23889 11370
+rect -36 10230 23889 10590
+rect -36 9210 23889 9570
+rect -36 8430 23889 8790
+rect -36 7410 23889 7770
+rect -36 6630 23889 6990
+rect -36 5610 23889 5970
+rect -36 4830 23889 5190
+rect -36 3810 23889 4170
+rect -36 3030 23889 3390
+rect -36 2010 23889 2370
+rect -36 1230 23889 1590
+rect -36 210 23889 570
+use Cell_array8x8x2_128x8m81  Cell_array8x8x2_128x8m81_0
+timestamp 1755724134
+transform 1 0 0 0 1 0
+box -68 -68 22268 14468
+<< labels >>
+rlabel metal3 s 351 3163 351 3163 4 WL[3]
+port 1 nsew
+rlabel metal3 s 351 2263 351 2263 4 WL[2]
+port 2 nsew
+rlabel metal3 s 351 1363 351 1363 4 WL[1]
+port 3 nsew
+rlabel metal3 s 351 11263 351 11263 4 WL[12]
+port 4 nsew
+rlabel metal3 s 351 10363 351 10363 4 WL[11]
+port 5 nsew
+rlabel metal3 s 351 9463 351 9463 4 WL[10]
+port 6 nsew
+rlabel metal3 s 351 8563 351 8563 4 WL[9]
+port 7 nsew
+rlabel metal3 s 351 7663 351 7663 4 WL[8]
+port 8 nsew
+rlabel metal3 s 351 6763 351 6763 4 WL[7]
+port 9 nsew
+rlabel metal3 s 351 5863 351 5863 4 WL[6]
+port 10 nsew
+rlabel metal3 s 351 4963 351 4963 4 WL[5]
+port 11 nsew
+rlabel metal3 s 351 4063 351 4063 4 WL[4]
+port 12 nsew
+rlabel metal3 s 351 13963 351 13963 4 WL[15]
+port 13 nsew
+rlabel metal3 s 351 13063 351 13063 4 WL[14]
+port 14 nsew
+rlabel metal3 s 351 12163 351 12163 4 WL[13]
+port 15 nsew
+rlabel metal3 s 351 463 351 463 4 WL[0]
+port 16 nsew
+<< properties >>
+string GDS_END 1683032
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_ip_sram/gds/gf180mcu_fd_ip_sram__sram128x8m8wm1.gds
+string GDS_START 1681156
+<< end >>

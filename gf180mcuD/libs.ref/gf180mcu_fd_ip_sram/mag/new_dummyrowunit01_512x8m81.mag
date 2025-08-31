@@ -1,0 +1,81 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_0
+timestamp 1755724134
+transform -1 0 6662 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_1
+timestamp 1755724134
+transform -1 0 7862 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_2
+timestamp 1755724134
+transform -1 0 7262 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_3
+timestamp 1755724134
+transform -1 0 8462 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_4
+timestamp 1755724134
+transform -1 0 9062 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_5
+timestamp 1755724134
+transform -1 0 9662 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_6
+timestamp 1755724134
+transform -1 0 10262 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_7
+timestamp 1755724134
+transform -1 0 4862 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_8
+timestamp 1755724134
+transform -1 0 4262 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_9
+timestamp 1755724134
+transform -1 0 3662 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_10
+timestamp 1755724134
+transform -1 0 3062 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_11
+timestamp 1755724134
+transform -1 0 1862 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_12
+timestamp 1755724134
+transform -1 0 2462 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_13
+timestamp 1755724134
+transform -1 0 1262 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_14
+timestamp 1755724134
+transform -1 0 662 0 1 177
+box -68 -68 668 968
+use 018SRAM_cell1_dummy_512x8m81  018SRAM_cell1_dummy_512x8m81_15
+timestamp 1755724134
+transform -1 0 6062 0 1 177
+box -68 -68 668 968
+use 018SRAM_strap1_512x8m81  018SRAM_strap1_512x8m81_0
+timestamp 1755724134
+transform -1 0 5462 0 1 177
+box -68 -68 668 968
+use 018SRAM_strap1_512x8m81  018SRAM_strap1_512x8m81_1
+timestamp 1755724134
+transform -1 0 10862 0 1 177
+box -68 -68 668 968
+<< properties >>
+string GDS_END 857260
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_ip_sram/gds/gf180mcu_fd_ip_sram__sram512x8m8wm1.gds
+string GDS_START 856004
+<< end >>

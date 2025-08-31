@@ -1,0 +1,78 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 459 1542 1094
+rect -86 453 86 459
+rect 1060 453 1542 459
+<< pwell >>
+rect 86 453 1060 459
+rect -86 -86 1542 453
+<< metal1 >>
+rect 0 918 1456 1098
+rect 253 804 299 918
+rect 947 808 993 918
+rect 130 354 198 512
+rect 1307 654 1373 868
+rect 1038 578 1373 654
+rect 273 90 319 193
+rect 967 90 1013 139
+rect 1327 136 1373 578
+rect 0 -90 1456 90
+<< obsm1 >>
+rect 38 604 95 872
+rect 311 660 548 728
+rect 38 558 456 604
+rect 38 182 84 558
+rect 388 372 456 558
+rect 502 326 548 660
+rect 946 664 993 732
+rect 831 326 877 523
+rect 300 280 877 326
+rect 946 418 992 664
+rect 1180 418 1248 512
+rect 946 372 1248 418
+rect 946 215 1013 372
+rect 38 136 106 182
+<< labels >>
+rlabel metal1 s 130 354 198 512 6 I
+port 1 nsew default input
+rlabel metal1 s 1327 136 1373 578 6 Z
+port 2 nsew default output
+rlabel metal1 s 1038 578 1373 654 6 Z
+port 2 nsew default output
+rlabel metal1 s 1307 654 1373 868 6 Z
+port 2 nsew default output
+rlabel metal1 s 947 808 993 918 6 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 253 804 299 918 6 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 0 918 1456 1098 6 VDD
+port 3 nsew power bidirectional abutment
+rlabel nwell s 1060 453 1542 459 6 VNW
+port 4 nsew power bidirectional
+rlabel nwell s -86 453 86 459 4 VNW
+port 4 nsew power bidirectional
+rlabel nwell s -86 459 1542 1094 6 VNW
+port 4 nsew power bidirectional
+rlabel pwell s -86 -86 1542 453 6 VPW
+port 5 nsew ground bidirectional
+rlabel pwell s 86 453 1060 459 6 VPW
+port 5 nsew ground bidirectional
+rlabel metal1 s 0 -90 1456 90 8 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 967 90 1013 139 6 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 273 90 319 193 6 VSS
+port 6 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 1456 1008
+string LEFclass core
+string LEFsite GF018hv5v_green_sc9
+string LEFsymmetry X Y
+string LEFview TRUE
+string GDS_END 711770
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu9t5v0/gds/gf180mcu_fd_sc_mcu9t5v0.gds
+string GDS_START 707588
+<< end >>

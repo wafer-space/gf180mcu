@@ -1,0 +1,73 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 453 1206 1094
+<< pwell >>
+rect -86 -86 1206 453
+<< metal1 >>
+rect 0 918 1120 1098
+rect 49 710 95 918
+rect 293 766 339 872
+rect 293 690 530 766
+rect 925 710 971 918
+rect 126 354 194 500
+rect 366 354 427 511
+rect 484 308 530 690
+rect 584 354 652 500
+rect 798 354 866 500
+rect 49 90 95 308
+rect 484 262 991 308
+rect 484 228 554 262
+rect 945 146 991 262
+rect 0 -90 1120 90
+<< obsm1 >>
+rect 273 182 319 308
+rect 721 182 767 214
+rect 273 136 767 182
+<< labels >>
+rlabel metal1 s 366 354 427 511 6 A1
+port 1 nsew default input
+rlabel metal1 s 584 354 652 500 6 A2
+port 2 nsew default input
+rlabel metal1 s 798 354 866 500 6 A3
+port 3 nsew default input
+rlabel metal1 s 126 354 194 500 6 B
+port 4 nsew default input
+rlabel metal1 s 945 146 991 262 6 ZN
+port 5 nsew default output
+rlabel metal1 s 484 228 554 262 6 ZN
+port 5 nsew default output
+rlabel metal1 s 484 262 991 308 6 ZN
+port 5 nsew default output
+rlabel metal1 s 484 308 530 690 6 ZN
+port 5 nsew default output
+rlabel metal1 s 293 690 530 766 6 ZN
+port 5 nsew default output
+rlabel metal1 s 293 766 339 872 6 ZN
+port 5 nsew default output
+rlabel metal1 s 925 710 971 918 6 VDD
+port 6 nsew power bidirectional abutment
+rlabel metal1 s 49 710 95 918 6 VDD
+port 6 nsew power bidirectional abutment
+rlabel metal1 s 0 918 1120 1098 6 VDD
+port 6 nsew power bidirectional abutment
+rlabel nwell s -86 453 1206 1094 6 VNW
+port 7 nsew power bidirectional
+rlabel pwell s -86 -86 1206 453 6 VPW
+port 8 nsew ground bidirectional
+rlabel metal1 s 0 -90 1120 90 8 VSS
+port 9 nsew ground bidirectional abutment
+rlabel metal1 s 49 90 95 308 6 VSS
+port 9 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 1120 1008
+string LEFclass core
+string LEFsite GF018hv5v_green_sc9
+string LEFsymmetry X Y
+string LEFview TRUE
+string GDS_END 148738
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu9t5v0/gds/gf180mcu_fd_sc_mcu9t5v0.gds
+string GDS_START 145042
+<< end >>

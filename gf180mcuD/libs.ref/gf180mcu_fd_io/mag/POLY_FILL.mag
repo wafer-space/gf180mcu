@@ -1,0 +1,25 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< polysilicon >>
+rect 73 65 157 84
+rect 73 19 92 65
+rect 138 19 157 65
+rect 73 -76 157 19
+<< polycontact >>
+rect 92 19 138 65
+<< metal1 >>
+rect 0 65 236 76
+rect 0 19 92 65
+rect 138 19 236 65
+rect 0 8 236 19
+use M1_POLY2_CDNS_4066195314539  M1_POLY2_CDNS_4066195314539_0
+timestamp 1755724134
+transform 1 0 115 0 1 42
+box 0 0 1 1
+<< properties >>
+string GDS_END 3637720
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_io/gds/gf180mcu_fd_io.gds
+string GDS_START 3637536
+<< end >>

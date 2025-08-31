@@ -1,0 +1,41 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 352 534 870
+<< pwell >>
+rect -86 -86 534 352
+<< metal1 >>
+rect 0 724 448 844
+rect 353 498 399 724
+rect 49 60 95 219
+rect 0 -60 448 60
+<< obsm1 >>
+rect 49 311 95 678
+rect 146 392 399 438
+rect 49 265 304 311
+rect 353 106 399 392
+<< labels >>
+rlabel metal1 s 353 498 399 724 6 VDD
+port 1 nsew power bidirectional abutment
+rlabel metal1 s 0 724 448 844 6 VDD
+port 1 nsew power bidirectional abutment
+rlabel nwell s -86 352 534 870 6 VNW
+port 2 nsew power bidirectional
+rlabel pwell s -86 -86 534 352 6 VPW
+port 3 nsew ground bidirectional
+rlabel metal1 s 0 -60 448 60 8 VSS
+port 4 nsew ground bidirectional abutment
+rlabel metal1 s 49 60 95 219 6 VSS
+port 4 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 448 784
+string LEFclass core SPACER
+string LEFsite GF018hv5v_mcu_sc7
+string LEFsymmetry X Y
+string LEFview TRUE
+string GDS_END 1156942
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu7t5v0/gds/gf180mcu_fd_sc_mcu7t5v0.gds
+string GDS_START 1154662
+<< end >>

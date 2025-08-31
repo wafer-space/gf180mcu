@@ -1,0 +1,65 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 352 310 870
+<< pwell >>
+rect -86 -86 310 352
+<< mvpsubdiff >>
+rect 56 226 160 256
+rect 56 79 85 226
+rect 131 79 160 226
+rect 56 56 160 79
+<< mvnsubdiff >>
+rect 72 699 144 712
+rect 72 653 85 699
+rect 131 653 144 699
+rect 72 571 144 653
+rect 72 525 85 571
+rect 131 525 144 571
+rect 72 443 144 525
+rect 72 397 85 443
+rect 131 397 144 443
+rect 72 384 144 397
+<< mvpsubdiffcont >>
+rect 85 79 131 226
+<< mvnsubdiffcont >>
+rect 85 653 131 699
+rect 85 525 131 571
+rect 85 397 131 443
+<< metal1 >>
+rect 0 724 224 844
+rect 74 699 142 724
+rect 74 653 85 699
+rect 131 653 142 699
+rect 74 571 142 653
+rect 74 525 85 571
+rect 131 525 142 571
+rect 74 443 142 525
+rect 74 397 85 443
+rect 131 397 142 443
+rect 74 384 142 397
+rect 74 226 142 238
+rect 74 79 85 226
+rect 131 79 142 226
+rect 74 60 142 79
+rect 0 -60 224 60
+<< labels >>
+flabel metal1 s 74 60 142 238 0 FreeSans 400 0 0 0 VSS
+port 4 nsew ground bidirectional abutment
+flabel metal1 s 0 724 224 844 0 FreeSans 400 0 0 0 VDD
+port 1 nsew power bidirectional abutment
+rlabel metal1 s 74 384 142 724 1 VDD
+port 1 nsew power bidirectional abutment
+rlabel metal1 s 0 -60 224 60 1 VSS
+port 2 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 224 784
+string GDS_END 1146028
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu7t5v0/gds/gf180mcu_fd_sc_mcu7t5v0.gds
+string GDS_START 1144316
+string LEFclass ENDCAP PRE
+string LEFsite GF018hv5v_mcu_sc7
+string LEFsymmetry X Y
+<< end >>

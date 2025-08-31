@@ -1,0 +1,91 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 453 534 1094
+<< pwell >>
+rect -86 -86 534 453
+<< mvnmos >>
+rect 124 69 244 333
+<< mvpmos >>
+rect 144 573 244 939
+<< mvndiff >>
+rect 36 287 124 333
+rect 36 147 49 287
+rect 95 147 124 287
+rect 36 69 124 147
+rect 244 287 332 333
+rect 244 147 273 287
+rect 319 147 332 287
+rect 244 69 332 147
+<< mvpdiff >>
+rect 56 861 144 939
+rect 56 721 69 861
+rect 115 721 144 861
+rect 56 573 144 721
+rect 244 861 332 939
+rect 244 721 273 861
+rect 319 721 332 861
+rect 244 573 332 721
+<< mvndiffc >>
+rect 49 147 95 287
+rect 273 147 319 287
+<< mvpdiffc >>
+rect 69 721 115 861
+rect 273 721 319 861
+<< polysilicon >>
+rect 144 939 244 983
+rect 144 506 244 573
+rect 144 377 157 506
+rect 124 366 157 377
+rect 203 366 244 506
+rect 124 333 244 366
+rect 124 25 244 69
+<< polycontact >>
+rect 157 366 203 506
+<< metal1 >>
+rect 0 918 448 1098
+rect 69 861 115 918
+rect 69 710 115 721
+rect 273 861 319 872
+rect 142 366 157 506
+rect 203 460 214 506
+rect 273 430 319 721
+rect 49 287 95 298
+rect 142 242 203 366
+rect 254 287 319 430
+rect 49 90 95 147
+rect 254 147 273 287
+rect 254 136 319 147
+rect 0 -90 448 90
+<< labels >>
+flabel metal1 s 142 460 214 506 0 FreeSans 200 0 0 0 I
+port 1 nsew default input
+flabel metal1 s 0 918 448 1098 0 FreeSans 200 0 0 0 VDD
+port 3 nsew power bidirectional abutment
+flabel metal1 s 49 90 95 298 0 FreeSans 200 0 0 0 VSS
+port 6 nsew ground bidirectional abutment
+flabel metal1 s 273 430 319 872 0 FreeSans 200 0 0 0 ZN
+port 2 nsew default output
+flabel nwell s 10 734 110 834 0 FreeSans 400 0 0 0 VNW
+port 4 nsew power bidirectional
+flabel pwell s 10 -50 110 50 0 FreeSans 400 0 0 0 VPW
+port 5 nsew ground bidirectional
+rlabel metal1 s 142 242 203 460 1 I
+port 1 nsew default input
+rlabel metal1 s 254 136 319 430 1 ZN
+port 2 nsew default output
+rlabel metal1 s 69 710 115 918 1 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 0 -90 448 90 1 VSS
+port 6 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 448 1008
+string GDS_END 871160
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu9t5v0/gds/gf180mcu_fd_sc_mcu9t5v0.gds
+string GDS_START 868802
+string LEFclass core
+string LEFsite GF018hv5v_green_sc9
+string LEFsymmetry X Y
+<< end >>

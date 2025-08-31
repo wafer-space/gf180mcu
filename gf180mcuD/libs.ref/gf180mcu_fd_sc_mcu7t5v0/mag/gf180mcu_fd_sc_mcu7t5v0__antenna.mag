@@ -1,0 +1,50 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 352 310 870
+<< pwell >>
+rect -86 -86 310 352
+<< mvpdiode >>
+rect 36 531 108 586
+rect 36 485 49 531
+rect 95 485 108 531
+rect 36 472 108 485
+<< mvndiode >>
+rect 36 219 108 232
+rect 36 173 49 219
+rect 95 173 108 219
+rect 36 118 108 173
+<< mvpdiodec >>
+rect 49 485 95 531
+<< mvndiodec >>
+rect 49 173 95 219
+<< metal1 >>
+rect 0 724 224 844
+rect 28 531 95 542
+rect 28 485 49 531
+rect 28 219 95 485
+rect 28 173 49 219
+rect 28 162 95 173
+rect 0 -60 224 60
+<< labels >>
+flabel metal1 s 0 -60 224 60 0 FreeSans 400 0 0 0 VSS
+port 5 nsew ground bidirectional abutment
+flabel metal1 s 28 162 95 542 0 FreeSans 400 0 0 0 I
+port 1 nsew default input
+flabel metal1 s 0 724 224 844 0 FreeSans 400 0 0 0 VDD
+port 2 nsew power bidirectional abutment
+flabel nwell s 10 734 110 834 0 FreeSans 400 0 0 0 VNW
+port 3 nsew power bidirectional
+flabel pwell s 10 -50 110 50 0 FreeSans 400 0 0 0 VPW
+port 4 nsew ground bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 224 784
+string GDS_END 1248338
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu7t5v0/gds/gf180mcu_fd_sc_mcu7t5v0.gds
+string GDS_START 1246732
+string LEFclass core ANTENNACELL
+string LEFsite GF018hv5v_mcu_sc7
+string LEFsymmetry X Y
+<< end >>

@@ -1,0 +1,39 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+use npn_00p54x04p00_0  npn_00p54x04p00_0_0
+timestamp 1755724134
+transform 1 0 1320 0 1 1320
+box -1264 -1264 1372 2064
+<< labels >>
+flabel metal1 s 1325 1325 1325 1325 0 FreeSans 200 0 0 0 I1_default_E
+port 3 nsew
+flabel metal1 s 2113 61 2113 61 0 FreeSans 200 0 0 0 I1_default_S
+port 4 nsew
+flabel metal1 s 2613 61 2613 61 0 FreeSans 200 0 0 0 I1_default_S
+port 4 nsew
+flabel metal1 s 61 3305 61 3305 0 FreeSans 200 0 0 0 I1_default_S
+port 4 nsew
+flabel metal1 s 61 61 61 61 0 FreeSans 200 0 0 0 I1_default_S
+port 4 nsew
+flabel metal1 s 61 61 61 61 0 FreeSans 200 0 0 0 I1_default_S
+port 4 nsew
+flabel metal1 s 1029 1030 1029 1030 0 FreeSans 200 0 0 0 I1_default_C
+port 1 nsew
+flabel metal1 s 1645 1029 1645 1029 0 FreeSans 200 0 0 0 I1_default_C
+port 1 nsew
+flabel metal1 s 1029 2337 1029 2337 0 FreeSans 200 0 0 0 I1_default_C
+port 1 nsew
+flabel metal1 s 1177 1177 1177 1177 0 FreeSans 200 0 0 0 I1_default_B
+port 2 nsew
+flabel metal1 s 1497 1177 1497 1177 0 FreeSans 200 0 0 0 I1_default_B
+port 2 nsew
+flabel metal1 s 1177 2189 1177 2189 0 FreeSans 200 0 0 0 I1_default_B
+port 2 nsew
+<< properties >>
+string GDS_END 14762
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_pr/gds/npn_00p54x04p00.gds
+string GDS_START 13852
+string device primitive
+<< end >>

@@ -1,0 +1,113 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+use M1_POLY24310589983234_64x8m81  M1_POLY24310589983234_64x8m81_0
+timestamp 1755724134
+transform 1 0 495 0 1 -2136
+box 0 0 1 1
+use M2_M1$$43375660_64x8m81  M2_M1$$43375660_64x8m81_0
+timestamp 1755724134
+transform 1 0 369 0 1 -3688
+box 0 0 1 1
+use M2_M1$$43375660_64x8m81  M2_M1$$43375660_64x8m81_1
+timestamp 1755724134
+transform 1 0 817 0 1 -3688
+box 0 0 1 1
+use M2_M1$$43378732_64x8m81  M2_M1$$43378732_64x8m81_0
+timestamp 1755724134
+transform 1 0 589 0 1 -2909
+box 0 0 1 1
+use M2_M1$$43378732_64x8m81  M2_M1$$43378732_64x8m81_1
+timestamp 1755724134
+transform 1 0 817 0 1 -5906
+box 0 0 1 1
+use M2_M1$$43379756_64x8m81  M2_M1$$43379756_64x8m81_0
+timestamp 1755724134
+transform 1 0 593 0 1 -186
+box 0 0 1 1
+use M2_M1$$43379756_64x8m81  M2_M1$$43379756_64x8m81_1
+timestamp 1755724134
+transform 1 0 145 0 1 -186
+box 0 0 1 1
+use M2_M1$$43380780_64x8m81  M2_M1$$43380780_64x8m81_0
+timestamp 1755724134
+transform 1 0 367 0 1 -428
+box 0 0 1 1
+use M2_M1$$43380780_64x8m81  M2_M1$$43380780_64x8m81_1
+timestamp 1755724134
+transform 1 0 593 0 1 -1582
+box 0 0 1 1
+use M2_M1$$43380780_64x8m81  M2_M1$$43380780_64x8m81_2
+timestamp 1755724134
+transform 1 0 145 0 1 -1582
+box 0 0 1 1
+use M2_M1$$47515692_64x8m81  M2_M1$$47515692_64x8m81_0
+timestamp 1755724134
+transform 1 0 145 0 1 -3126
+box 0 0 1 1
+use M3_M2$$47108140_64x8m81  M3_M2$$47108140_64x8m81_0
+timestamp 1755724134
+transform 1 0 593 0 1 -1582
+box 0 0 1 1
+use M3_M2$$47108140_64x8m81  M3_M2$$47108140_64x8m81_1
+timestamp 1755724134
+transform 1 0 145 0 1 -1582
+box 0 0 1 1
+use M3_M2$$47332396_64x8m81  M3_M2$$47332396_64x8m81_0
+timestamp 1755724134
+transform 1 0 145 0 1 -3126
+box 0 0 1 1
+use M3_M2$$47333420_64x8m81  M3_M2$$47333420_64x8m81_0
+timestamp 1755724134
+transform 1 0 145 0 1 -186
+box 0 0 1 1
+use M3_M2$$47333420_64x8m81  M3_M2$$47333420_64x8m81_1
+timestamp 1755724134
+transform 1 0 593 0 1 -186
+box 0 0 1 1
+use M3_M2$$47819820_64x8m81  M3_M2$$47819820_64x8m81_0
+timestamp 1755724134
+transform 1 0 589 0 1 -2909
+box 0 0 1 1
+use nmos_1p2$$46551084_64x8m81  nmos_1p2$$46551084_64x8m81_0
+timestamp 1755724134
+transform 1 0 676 0 -1 -136
+box -31 0 -30 1
+use nmos_1p2$$46551084_64x8m81  nmos_1p2$$46551084_64x8m81_1
+timestamp 1755724134
+transform 1 0 452 0 -1 -136
+box -31 0 -30 1
+use nmos_1p2$$46551084_64x8m81  nmos_1p2$$46551084_64x8m81_2
+timestamp 1755724134
+transform 1 0 228 0 -1 -136
+box -31 0 -30 1
+use pmos_1p2$$47820844_64x8m81  pmos_1p2$$47820844_64x8m81_0
+timestamp 1755724134
+transform 1 0 228 0 -1 -871
+box -31 0 -30 1
+use pmos_1p2$$47820844_64x8m81  pmos_1p2$$47820844_64x8m81_1
+timestamp 1755724134
+transform 1 0 676 0 -1 -871
+box -31 0 -30 1
+use pmos_1p2$$47820844_64x8m81  pmos_1p2$$47820844_64x8m81_2
+timestamp 1755724134
+transform 1 0 452 0 -1 -871
+box -31 0 -30 1
+use pmos_1p2$$47821868_64x8m81  pmos_1p2$$47821868_64x8m81_0
+timestamp 1755724134
+transform 1 0 228 0 1 -3872
+box -31 0 -30 1
+use pmos_1p2$$47821868_64x8m81  pmos_1p2$$47821868_64x8m81_1
+timestamp 1755724134
+transform 1 0 452 0 1 -3872
+box -31 0 -30 1
+use pmos_1p2$$47821868_64x8m81  pmos_1p2$$47821868_64x8m81_2
+timestamp 1755724134
+transform 1 0 676 0 1 -3872
+box -31 0 -30 1
+<< properties >>
+string GDS_END 392816
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_ip_sram/gds/gf180mcu_fd_ip_sram__sram64x8m8wm1.gds
+string GDS_START 387024
+<< end >>

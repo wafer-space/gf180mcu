@@ -1,0 +1,207 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 453 4902 1094
+<< pwell >>
+rect -86 -86 4902 453
+<< metal1 >>
+rect 0 918 4816 1098
+rect 69 684 115 872
+rect 487 730 533 918
+rect 935 746 981 872
+rect 1383 792 1429 918
+rect 1831 746 1877 872
+rect 2189 792 2235 918
+rect 2433 746 2479 872
+rect 2637 792 2683 918
+rect 2861 746 2907 872
+rect 3319 792 3365 918
+rect 3714 746 3813 872
+rect 4215 792 4261 918
+rect 4653 746 4699 872
+rect 935 700 4699 746
+rect 935 684 981 700
+rect 69 638 981 684
+rect 3006 608 4238 654
+rect 174 546 1416 592
+rect 174 454 242 546
+rect 612 454 726 500
+rect 814 454 882 546
+rect 1370 500 1416 546
+rect 928 454 1324 500
+rect 1370 454 1772 500
+rect 2198 454 2714 542
+rect 3006 454 3074 608
+rect 3828 578 4238 608
+rect 3454 454 3554 500
+rect 680 435 726 454
+rect 680 408 772 435
+rect 928 408 974 454
+rect 680 404 974 408
+rect 692 354 974 404
+rect 3502 397 3554 454
+rect 3828 443 3874 578
+rect 4192 500 4238 578
+rect 3920 454 4146 500
+rect 4192 454 4594 500
+rect 3920 397 3966 454
+rect 3502 351 3966 397
+rect 4640 394 4699 700
+rect 49 90 95 302
+rect 4012 348 4699 394
+rect 4012 304 4058 348
+rect 497 90 543 302
+rect 945 90 991 208
+rect 1393 90 1439 208
+rect 3105 258 4058 304
+rect 3105 228 3151 258
+rect 3542 228 3610 258
+rect 4001 228 4058 258
+rect 1841 90 1887 208
+rect 4449 228 4495 348
+rect 0 -90 4816 90
+<< obsm1 >>
+rect 273 348 635 394
+rect 273 140 319 348
+rect 589 302 635 348
+rect 589 256 2703 302
+rect 721 140 767 256
+rect 1169 140 1215 256
+rect 1617 140 1663 256
+rect 2198 228 2266 256
+rect 2657 228 2703 256
+rect 1985 182 2031 208
+rect 2422 182 2490 197
+rect 2870 182 2938 197
+rect 3318 182 3386 197
+rect 3766 182 3834 197
+rect 4225 182 4271 302
+rect 4673 182 4719 302
+rect 1985 136 4719 182
+<< labels >>
+rlabel metal1 s 4192 454 4594 500 6 A1
+port 1 nsew default input
+rlabel metal1 s 4192 500 4238 578 6 A1
+port 1 nsew default input
+rlabel metal1 s 3828 443 3874 578 6 A1
+port 1 nsew default input
+rlabel metal1 s 3828 578 4238 608 6 A1
+port 1 nsew default input
+rlabel metal1 s 3006 454 3074 608 6 A1
+port 1 nsew default input
+rlabel metal1 s 3006 608 4238 654 6 A1
+port 1 nsew default input
+rlabel metal1 s 3502 351 3966 397 6 A2
+port 2 nsew default input
+rlabel metal1 s 3920 397 3966 454 6 A2
+port 2 nsew default input
+rlabel metal1 s 3920 454 4146 500 6 A2
+port 2 nsew default input
+rlabel metal1 s 3502 397 3554 454 6 A2
+port 2 nsew default input
+rlabel metal1 s 3454 454 3554 500 6 A2
+port 2 nsew default input
+rlabel metal1 s 1370 454 1772 500 6 B1
+port 3 nsew default input
+rlabel metal1 s 1370 500 1416 546 6 B1
+port 3 nsew default input
+rlabel metal1 s 814 454 882 546 6 B1
+port 3 nsew default input
+rlabel metal1 s 174 454 242 546 6 B1
+port 3 nsew default input
+rlabel metal1 s 174 546 1416 592 6 B1
+port 3 nsew default input
+rlabel metal1 s 692 354 974 404 6 B2
+port 4 nsew default input
+rlabel metal1 s 680 404 974 408 6 B2
+port 4 nsew default input
+rlabel metal1 s 928 408 974 454 6 B2
+port 4 nsew default input
+rlabel metal1 s 680 408 772 435 6 B2
+port 4 nsew default input
+rlabel metal1 s 928 454 1324 500 6 B2
+port 4 nsew default input
+rlabel metal1 s 680 435 726 454 6 B2
+port 4 nsew default input
+rlabel metal1 s 612 454 726 500 6 B2
+port 4 nsew default input
+rlabel metal1 s 2198 454 2714 542 6 C
+port 5 nsew default input
+rlabel metal1 s 4449 228 4495 348 6 ZN
+port 6 nsew default output
+rlabel metal1 s 4001 228 4058 258 6 ZN
+port 6 nsew default output
+rlabel metal1 s 3542 228 3610 258 6 ZN
+port 6 nsew default output
+rlabel metal1 s 3105 228 3151 258 6 ZN
+port 6 nsew default output
+rlabel metal1 s 3105 258 4058 304 6 ZN
+port 6 nsew default output
+rlabel metal1 s 4012 304 4058 348 6 ZN
+port 6 nsew default output
+rlabel metal1 s 4012 348 4699 394 6 ZN
+port 6 nsew default output
+rlabel metal1 s 4640 394 4699 700 6 ZN
+port 6 nsew default output
+rlabel metal1 s 69 638 981 684 6 ZN
+port 6 nsew default output
+rlabel metal1 s 935 684 981 700 6 ZN
+port 6 nsew default output
+rlabel metal1 s 935 700 4699 746 6 ZN
+port 6 nsew default output
+rlabel metal1 s 4653 746 4699 872 6 ZN
+port 6 nsew default output
+rlabel metal1 s 3714 746 3813 872 6 ZN
+port 6 nsew default output
+rlabel metal1 s 2861 746 2907 872 6 ZN
+port 6 nsew default output
+rlabel metal1 s 2433 746 2479 872 6 ZN
+port 6 nsew default output
+rlabel metal1 s 1831 746 1877 872 6 ZN
+port 6 nsew default output
+rlabel metal1 s 935 746 981 872 6 ZN
+port 6 nsew default output
+rlabel metal1 s 69 684 115 872 6 ZN
+port 6 nsew default output
+rlabel metal1 s 4215 792 4261 918 6 VDD
+port 7 nsew power bidirectional abutment
+rlabel metal1 s 3319 792 3365 918 6 VDD
+port 7 nsew power bidirectional abutment
+rlabel metal1 s 2637 792 2683 918 6 VDD
+port 7 nsew power bidirectional abutment
+rlabel metal1 s 2189 792 2235 918 6 VDD
+port 7 nsew power bidirectional abutment
+rlabel metal1 s 1383 792 1429 918 6 VDD
+port 7 nsew power bidirectional abutment
+rlabel metal1 s 487 730 533 918 6 VDD
+port 7 nsew power bidirectional abutment
+rlabel metal1 s 0 918 4816 1098 6 VDD
+port 7 nsew power bidirectional abutment
+rlabel nwell s -86 453 4902 1094 6 VNW
+port 8 nsew power bidirectional
+rlabel pwell s -86 -86 4902 453 6 VPW
+port 9 nsew ground bidirectional
+rlabel metal1 s 0 -90 4816 90 8 VSS
+port 10 nsew ground bidirectional abutment
+rlabel metal1 s 1841 90 1887 208 6 VSS
+port 10 nsew ground bidirectional abutment
+rlabel metal1 s 1393 90 1439 208 6 VSS
+port 10 nsew ground bidirectional abutment
+rlabel metal1 s 945 90 991 208 6 VSS
+port 10 nsew ground bidirectional abutment
+rlabel metal1 s 497 90 543 302 6 VSS
+port 10 nsew ground bidirectional abutment
+rlabel metal1 s 49 90 95 302 6 VSS
+port 10 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 4816 1008
+string LEFclass core
+string LEFsite GF018hv5v_green_sc9
+string LEFsymmetry X Y
+string LEFview TRUE
+string GDS_END 240406
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu9t5v0/gds/gf180mcu_fd_sc_mcu9t5v0.gds
+string GDS_START 231064
+<< end >>

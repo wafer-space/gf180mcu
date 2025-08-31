@@ -1,0 +1,246 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 352 1542 870
+<< pwell >>
+rect -86 -86 1542 352
+<< mvnmos >>
+rect 137 69 257 182
+rect 361 69 481 182
+rect 621 69 741 224
+rect 789 69 909 224
+rect 1013 69 1133 224
+rect 1181 69 1301 224
+<< mvpmos >>
+rect 137 472 237 715
+rect 361 472 461 715
+rect 565 472 665 715
+rect 789 472 889 715
+rect 997 472 1097 715
+rect 1201 472 1301 715
+<< mvndiff >>
+rect 541 182 621 224
+rect 49 142 137 182
+rect 49 96 62 142
+rect 108 96 137 142
+rect 49 69 137 96
+rect 257 169 361 182
+rect 257 123 286 169
+rect 332 123 361 169
+rect 257 69 361 123
+rect 481 128 621 182
+rect 481 82 510 128
+rect 556 82 621 128
+rect 481 69 621 82
+rect 741 69 789 224
+rect 909 161 1013 224
+rect 909 115 938 161
+rect 984 115 1013 161
+rect 909 69 1013 115
+rect 1133 69 1181 224
+rect 1301 142 1389 224
+rect 1301 96 1330 142
+rect 1376 96 1389 142
+rect 1301 69 1389 96
+<< mvpdiff >>
+rect 49 665 137 715
+rect 49 525 62 665
+rect 108 525 137 665
+rect 49 472 137 525
+rect 237 665 361 715
+rect 237 619 266 665
+rect 312 619 361 665
+rect 237 472 361 619
+rect 461 665 565 715
+rect 461 619 490 665
+rect 536 619 565 665
+rect 461 472 565 619
+rect 665 531 789 715
+rect 665 485 704 531
+rect 750 485 789 531
+rect 665 472 789 485
+rect 889 665 997 715
+rect 889 619 922 665
+rect 968 619 997 665
+rect 889 472 997 619
+rect 1097 531 1201 715
+rect 1097 485 1126 531
+rect 1172 485 1201 531
+rect 1097 472 1201 485
+rect 1301 646 1389 715
+rect 1301 506 1330 646
+rect 1376 506 1389 646
+rect 1301 472 1389 506
+<< mvndiffc >>
+rect 62 96 108 142
+rect 286 123 332 169
+rect 510 82 556 128
+rect 938 115 984 161
+rect 1330 96 1376 142
+<< mvpdiffc >>
+rect 62 525 108 665
+rect 266 619 312 665
+rect 490 619 536 665
+rect 704 485 750 531
+rect 922 619 968 665
+rect 1126 485 1172 531
+rect 1330 506 1376 646
+<< polysilicon >>
+rect 137 715 237 760
+rect 361 715 461 760
+rect 565 715 665 760
+rect 789 715 889 760
+rect 997 715 1097 760
+rect 1201 715 1301 760
+rect 137 415 237 472
+rect 137 369 165 415
+rect 211 369 237 415
+rect 137 294 237 369
+rect 361 294 461 472
+rect 565 416 665 472
+rect 137 248 461 294
+rect 137 182 257 248
+rect 361 226 461 248
+rect 621 377 665 416
+rect 621 346 741 377
+rect 621 300 669 346
+rect 715 300 741 346
+rect 361 182 481 226
+rect 621 224 741 300
+rect 789 357 889 472
+rect 997 357 1097 472
+rect 789 311 1097 357
+rect 789 303 909 311
+rect 789 257 830 303
+rect 876 257 909 303
+rect 789 224 909 257
+rect 1013 303 1097 311
+rect 1013 257 1029 303
+rect 1075 268 1097 303
+rect 1201 414 1301 472
+rect 1201 368 1226 414
+rect 1272 368 1301 414
+rect 1201 268 1301 368
+rect 1075 257 1133 268
+rect 1013 224 1133 257
+rect 1181 224 1301 268
+rect 137 24 257 69
+rect 361 24 481 69
+rect 621 24 741 69
+rect 789 24 909 69
+rect 1013 24 1133 69
+rect 1181 24 1301 69
+<< polycontact >>
+rect 165 369 211 415
+rect 669 300 715 346
+rect 830 257 876 303
+rect 1029 257 1075 303
+rect 1226 368 1272 414
+<< metal1 >>
+rect 0 724 1456 844
+rect 62 665 108 676
+rect 266 665 312 724
+rect 266 608 312 619
+rect 360 619 490 665
+rect 536 619 922 665
+rect 968 646 1376 665
+rect 968 619 1330 646
+rect 360 552 407 619
+rect 108 525 407 552
+rect 62 506 407 525
+rect 530 531 1191 540
+rect 530 485 704 531
+rect 750 485 1126 531
+rect 1172 485 1191 531
+rect 1330 487 1376 506
+rect 530 472 1191 485
+rect 116 415 456 425
+rect 116 369 165 415
+rect 211 369 456 415
+rect 116 360 456 369
+rect 530 220 594 472
+rect 658 414 1345 424
+rect 658 368 1226 414
+rect 1272 368 1345 414
+rect 658 360 1345 368
+rect 658 346 726 360
+rect 658 300 669 346
+rect 715 300 726 346
+rect 658 280 726 300
+rect 800 303 1345 312
+rect 800 257 830 303
+rect 876 257 1029 303
+rect 1075 257 1345 303
+rect 800 248 1345 257
+rect 194 174 665 220
+rect 194 169 449 174
+rect 62 142 108 153
+rect 194 123 286 169
+rect 332 123 449 169
+rect 619 161 665 174
+rect 194 112 449 123
+rect 62 60 108 96
+rect 499 82 510 128
+rect 556 82 567 128
+rect 619 115 938 161
+rect 984 115 995 161
+rect 1330 142 1376 153
+rect 499 60 567 82
+rect 1330 60 1376 96
+rect 0 -60 1456 60
+<< labels >>
+flabel metal1 s 116 360 456 425 0 FreeSans 400 0 0 0 B
+port 3 nsew default input
+flabel metal1 s 0 724 1456 844 0 FreeSans 400 0 0 0 VDD
+port 5 nsew power bidirectional abutment
+flabel metal1 s 1330 128 1376 153 0 FreeSans 400 0 0 0 VSS
+port 8 nsew ground bidirectional abutment
+flabel metal1 s 530 472 1191 540 0 FreeSans 400 0 0 0 ZN
+port 4 nsew default output
+flabel metal1 s 800 248 1345 312 0 FreeSans 400 0 0 0 A1
+port 1 nsew default input
+flabel metal1 s 658 360 1345 424 0 FreeSans 400 0 0 0 A2
+port 2 nsew default input
+flabel nwell s 10 734 110 834 0 FreeSans 400 0 0 0 VNW
+port 6 nsew power bidirectional
+flabel pwell s 10 -50 110 50 0 FreeSans 400 0 0 0 VPW
+port 7 nsew ground bidirectional
+rlabel metal1 s 658 280 726 360 1 A2
+port 2 nsew default input
+rlabel metal1 s 530 220 594 472 1 ZN
+port 4 nsew default output
+rlabel metal1 s 194 174 665 220 1 ZN
+port 4 nsew default output
+rlabel metal1 s 619 161 665 174 1 ZN
+port 4 nsew default output
+rlabel metal1 s 194 161 449 174 1 ZN
+port 4 nsew default output
+rlabel metal1 s 619 115 995 161 1 ZN
+port 4 nsew default output
+rlabel metal1 s 194 115 449 161 1 ZN
+port 4 nsew default output
+rlabel metal1 s 194 112 449 115 1 ZN
+port 4 nsew default output
+rlabel metal1 s 266 608 312 724 1 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 62 128 108 153 1 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 1330 60 1376 128 1 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 499 60 567 128 1 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 62 60 108 128 1 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 0 -60 1456 60 1 VSS
+port 8 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 1456 784
+string GDS_END 1255458
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu7t5v0/gds/gf180mcu_fd_sc_mcu7t5v0.gds
+string GDS_START 1251602
+string LEFclass core
+string LEFsite GF018hv5v_mcu_sc7
+string LEFsymmetry X Y
+<< end >>

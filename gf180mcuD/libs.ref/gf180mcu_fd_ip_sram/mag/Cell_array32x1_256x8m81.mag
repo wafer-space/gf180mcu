@@ -1,0 +1,73 @@
+magic
+tech gf180mcuD
+magscale 1 5
+timestamp 1755724134
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_0
+timestamp 1755724134
+transform 1 0 0 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_1
+timestamp 1755724134
+transform 1 0 0 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_2
+timestamp 1755724134
+transform 1 0 0 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_3
+timestamp 1755724134
+transform 1 0 0 0 1 3600
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_4
+timestamp 1755724134
+transform 1 0 0 0 1 4500
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_5
+timestamp 1755724134
+transform 1 0 0 0 1 5400
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_6
+timestamp 1755724134
+transform 1 0 0 0 1 6300
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_7
+timestamp 1755724134
+transform 1 0 0 0 1 7200
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_8
+timestamp 1755724134
+transform 1 0 0 0 1 8100
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_9
+timestamp 1755724134
+transform 1 0 0 0 1 9000
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_10
+timestamp 1755724134
+transform 1 0 0 0 1 9900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_11
+timestamp 1755724134
+transform 1 0 0 0 1 10800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_12
+timestamp 1755724134
+transform 1 0 0 0 1 11700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_13
+timestamp 1755724134
+transform 1 0 0 0 1 12600
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_14
+timestamp 1755724134
+transform 1 0 0 0 1 13500
+box -34 -34 334 934
+use 018SRAM_cell1_2x_256x8m81  018SRAM_cell1_2x_256x8m81_15
+timestamp 1755724134
+transform 1 0 0 0 1 900
+box -34 -34 334 934
+<< properties >>
+string GDS_END 1052164
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_ip_sram/gds/gf180mcu_fd_ip_sram__sram256x8m8wm1.gds
+string GDS_START 1051360
+<< end >>

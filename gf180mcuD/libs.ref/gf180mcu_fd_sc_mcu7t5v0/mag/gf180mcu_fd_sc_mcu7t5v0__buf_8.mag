@@ -1,0 +1,394 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 352 2998 870
+<< pwell >>
+rect -86 -86 2998 352
+<< mvnmos >>
+rect 124 68 244 232
+rect 348 68 468 232
+rect 572 68 692 232
+rect 796 68 916 232
+rect 1020 68 1140 232
+rect 1244 68 1364 232
+rect 1468 68 1588 232
+rect 1692 68 1812 232
+rect 1916 68 2036 232
+rect 2140 68 2260 232
+rect 2364 68 2484 232
+rect 2588 68 2708 232
+<< mvpmos >>
+rect 124 472 224 716
+rect 348 472 448 716
+rect 572 472 672 716
+rect 796 472 896 716
+rect 1020 472 1120 716
+rect 1244 472 1344 716
+rect 1468 472 1568 716
+rect 1692 472 1792 716
+rect 1916 472 2016 716
+rect 2140 472 2240 716
+rect 2364 472 2464 716
+rect 2588 472 2688 716
+<< mvndiff >>
+rect 36 142 124 232
+rect 36 96 49 142
+rect 95 96 124 142
+rect 36 68 124 96
+rect 244 192 348 232
+rect 244 146 273 192
+rect 319 146 348 192
+rect 244 68 348 146
+rect 468 142 572 232
+rect 468 96 497 142
+rect 543 96 572 142
+rect 468 68 572 96
+rect 692 192 796 232
+rect 692 146 721 192
+rect 767 146 796 192
+rect 692 68 796 146
+rect 916 142 1020 232
+rect 916 96 945 142
+rect 991 96 1020 142
+rect 916 68 1020 96
+rect 1140 192 1244 232
+rect 1140 146 1169 192
+rect 1215 146 1244 192
+rect 1140 68 1244 146
+rect 1364 142 1468 232
+rect 1364 96 1393 142
+rect 1439 96 1468 142
+rect 1364 68 1468 96
+rect 1588 192 1692 232
+rect 1588 146 1617 192
+rect 1663 146 1692 192
+rect 1588 68 1692 146
+rect 1812 142 1916 232
+rect 1812 96 1841 142
+rect 1887 96 1916 142
+rect 1812 68 1916 96
+rect 2036 192 2140 232
+rect 2036 146 2065 192
+rect 2111 146 2140 192
+rect 2036 68 2140 146
+rect 2260 142 2364 232
+rect 2260 96 2289 142
+rect 2335 96 2364 142
+rect 2260 68 2364 96
+rect 2484 192 2588 232
+rect 2484 146 2513 192
+rect 2559 146 2588 192
+rect 2484 68 2588 146
+rect 2708 142 2796 232
+rect 2708 96 2737 142
+rect 2783 96 2796 142
+rect 2708 68 2796 96
+<< mvpdiff >>
+rect 36 665 124 716
+rect 36 525 49 665
+rect 95 525 124 665
+rect 36 472 124 525
+rect 224 665 348 716
+rect 224 525 253 665
+rect 299 525 348 665
+rect 224 472 348 525
+rect 448 665 572 716
+rect 448 619 477 665
+rect 523 619 572 665
+rect 448 472 572 619
+rect 672 665 796 716
+rect 672 525 701 665
+rect 747 525 796 665
+rect 672 472 796 525
+rect 896 665 1020 716
+rect 896 525 925 665
+rect 971 525 1020 665
+rect 896 472 1020 525
+rect 1120 665 1244 716
+rect 1120 525 1169 665
+rect 1215 525 1244 665
+rect 1120 472 1244 525
+rect 1344 665 1468 716
+rect 1344 619 1373 665
+rect 1419 619 1468 665
+rect 1344 472 1468 619
+rect 1568 665 1692 716
+rect 1568 525 1597 665
+rect 1643 525 1692 665
+rect 1568 472 1692 525
+rect 1792 665 1916 716
+rect 1792 619 1821 665
+rect 1867 619 1916 665
+rect 1792 472 1916 619
+rect 2016 665 2140 716
+rect 2016 525 2045 665
+rect 2091 525 2140 665
+rect 2016 472 2140 525
+rect 2240 665 2364 716
+rect 2240 619 2269 665
+rect 2315 619 2364 665
+rect 2240 472 2364 619
+rect 2464 665 2588 716
+rect 2464 525 2493 665
+rect 2539 525 2588 665
+rect 2464 472 2588 525
+rect 2688 665 2776 716
+rect 2688 525 2717 665
+rect 2763 525 2776 665
+rect 2688 472 2776 525
+<< mvndiffc >>
+rect 49 96 95 142
+rect 273 146 319 192
+rect 497 96 543 142
+rect 721 146 767 192
+rect 945 96 991 142
+rect 1169 146 1215 192
+rect 1393 96 1439 142
+rect 1617 146 1663 192
+rect 1841 96 1887 142
+rect 2065 146 2111 192
+rect 2289 96 2335 142
+rect 2513 146 2559 192
+rect 2737 96 2783 142
+<< mvpdiffc >>
+rect 49 525 95 665
+rect 253 525 299 665
+rect 477 619 523 665
+rect 701 525 747 665
+rect 925 525 971 665
+rect 1169 525 1215 665
+rect 1373 619 1419 665
+rect 1597 525 1643 665
+rect 1821 619 1867 665
+rect 2045 525 2091 665
+rect 2269 619 2315 665
+rect 2493 525 2539 665
+rect 2717 525 2763 665
+<< polysilicon >>
+rect 124 716 224 760
+rect 348 716 448 760
+rect 572 716 672 760
+rect 796 716 896 760
+rect 1020 716 1120 760
+rect 1244 716 1344 760
+rect 1468 716 1568 760
+rect 1692 716 1792 760
+rect 1916 716 2016 760
+rect 2140 716 2240 760
+rect 2364 716 2464 760
+rect 2588 716 2688 760
+rect 124 402 224 472
+rect 348 402 448 472
+rect 572 402 672 472
+rect 796 402 896 472
+rect 1020 407 1120 472
+rect 1244 407 1344 472
+rect 1468 407 1568 472
+rect 1692 407 1792 472
+rect 1916 407 2016 472
+rect 2140 407 2240 472
+rect 2364 407 2464 472
+rect 2588 407 2688 472
+rect 124 389 916 402
+rect 124 343 175 389
+rect 691 343 916 389
+rect 124 330 916 343
+rect 124 232 244 330
+rect 348 232 468 330
+rect 572 300 916 330
+rect 572 232 692 300
+rect 796 232 916 300
+rect 1020 394 2708 407
+rect 1020 348 1033 394
+rect 1643 348 2079 394
+rect 2689 348 2708 394
+rect 1020 335 2708 348
+rect 1020 232 1140 335
+rect 1244 232 1364 335
+rect 1468 232 1588 335
+rect 1692 232 1812 335
+rect 1916 232 2036 335
+rect 2140 232 2260 335
+rect 2364 232 2484 335
+rect 2588 232 2708 335
+rect 124 24 244 68
+rect 348 24 468 68
+rect 572 24 692 68
+rect 796 24 916 68
+rect 1020 24 1140 68
+rect 1244 24 1364 68
+rect 1468 24 1588 68
+rect 1692 24 1812 68
+rect 1916 24 2036 68
+rect 2140 24 2260 68
+rect 2364 24 2484 68
+rect 2588 24 2708 68
+<< polycontact >>
+rect 175 343 691 389
+rect 1033 348 1643 394
+rect 2079 348 2689 394
+<< metal1 >>
+rect 0 724 2912 844
+rect 49 665 95 724
+rect 49 514 95 525
+rect 253 665 299 676
+rect 477 665 523 724
+rect 477 608 523 619
+rect 701 665 747 676
+rect 299 525 701 552
+rect 925 665 971 724
+rect 747 525 863 552
+rect 253 506 863 525
+rect 925 514 971 525
+rect 1169 665 1215 676
+rect 1373 665 1419 724
+rect 1373 608 1419 619
+rect 1597 665 1643 676
+rect 1215 525 1597 542
+rect 1821 665 1867 724
+rect 1821 608 1867 619
+rect 2045 665 2091 676
+rect 1643 525 2045 542
+rect 2269 665 2315 724
+rect 2269 608 2315 619
+rect 2493 665 2539 676
+rect 2091 525 2493 542
+rect 130 389 702 430
+rect 130 343 175 389
+rect 691 343 702 389
+rect 796 405 863 506
+rect 1169 466 2539 525
+rect 2717 665 2763 724
+rect 2717 514 2763 525
+rect 796 394 1654 405
+rect 796 348 1033 394
+rect 1643 348 1654 394
+rect 796 337 1654 348
+rect 796 250 863 337
+rect 1768 284 1928 466
+rect 2068 394 2708 406
+rect 2068 348 2079 394
+rect 2689 348 2708 394
+rect 2068 337 2708 348
+rect 273 203 863 250
+rect 1169 208 2559 284
+rect 273 192 319 203
+rect 38 142 106 153
+rect 38 96 49 142
+rect 95 96 106 142
+rect 721 192 767 203
+rect 273 135 319 146
+rect 486 142 554 153
+rect 38 60 106 96
+rect 486 96 497 142
+rect 543 96 554 142
+rect 1169 192 1221 208
+rect 721 135 767 146
+rect 934 142 1002 153
+rect 486 60 554 96
+rect 934 96 945 142
+rect 991 96 1002 142
+rect 1215 146 1221 192
+rect 1617 192 1663 208
+rect 1169 135 1221 146
+rect 1382 142 1450 153
+rect 934 60 1002 96
+rect 1382 96 1393 142
+rect 1439 96 1450 142
+rect 2065 192 2111 208
+rect 1617 135 1663 146
+rect 1830 142 1898 153
+rect 1382 60 1450 96
+rect 1830 96 1841 142
+rect 1887 96 1898 142
+rect 2513 192 2559 208
+rect 2065 135 2111 146
+rect 2278 142 2346 153
+rect 1830 60 1898 96
+rect 2278 96 2289 142
+rect 2335 96 2346 142
+rect 2513 135 2559 146
+rect 2726 142 2794 153
+rect 2278 60 2346 96
+rect 2726 96 2737 142
+rect 2783 96 2794 142
+rect 2726 60 2794 96
+rect 0 -60 2912 60
+<< labels >>
+flabel metal1 s 2493 542 2539 676 0 FreeSans 600 0 0 0 Z
+port 2 nsew default output
+flabel metal1 s 130 343 702 430 0 FreeSans 600 0 0 0 I
+port 1 nsew default input
+flabel metal1 s 0 724 2912 844 0 FreeSans 400 0 0 0 VDD
+port 3 nsew power bidirectional abutment
+flabel metal1 s 2726 60 2794 153 0 FreeSans 400 0 0 0 VSS
+port 6 nsew ground bidirectional abutment
+flabel nwell s 10 734 110 834 0 FreeSans 400 0 0 0 VNW
+port 4 nsew power bidirectional
+flabel pwell s 10 -50 110 50 0 FreeSans 400 0 0 0 VPW
+port 5 nsew ground bidirectional
+rlabel metal1 s 2045 542 2091 676 1 Z
+port 2 nsew default output
+rlabel metal1 s 1597 542 1643 676 1 Z
+port 2 nsew default output
+rlabel metal1 s 1169 542 1215 676 1 Z
+port 2 nsew default output
+rlabel metal1 s 1169 466 2539 542 1 Z
+port 2 nsew default output
+rlabel metal1 s 1768 284 1928 466 1 Z
+port 2 nsew default output
+rlabel metal1 s 1169 208 2559 284 1 Z
+port 2 nsew default output
+rlabel metal1 s 2513 135 2559 208 1 Z
+port 2 nsew default output
+rlabel metal1 s 2065 135 2111 208 1 Z
+port 2 nsew default output
+rlabel metal1 s 1617 135 1663 208 1 Z
+port 2 nsew default output
+rlabel metal1 s 1169 135 1221 208 1 Z
+port 2 nsew default output
+rlabel metal1 s 2717 608 2763 724 1 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 2269 608 2315 724 1 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 1821 608 1867 724 1 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 1373 608 1419 724 1 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 925 608 971 724 1 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 477 608 523 724 1 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 49 608 95 724 1 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 2717 514 2763 608 1 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 925 514 971 608 1 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 49 514 95 608 1 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 2278 60 2346 153 1 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 1830 60 1898 153 1 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 1382 60 1450 153 1 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 934 60 1002 153 1 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 486 60 554 153 1 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 38 60 106 153 1 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 0 -60 2912 60 1 VSS
+port 6 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 2912 784
+string GDS_END 1351028
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu7t5v0/gds/gf180mcu_fd_sc_mcu7t5v0.gds
+string GDS_START 1344176
+string LEFclass core
+string LEFsite GF018hv5v_mcu_sc7
+string LEFsymmetry X Y
+<< end >>

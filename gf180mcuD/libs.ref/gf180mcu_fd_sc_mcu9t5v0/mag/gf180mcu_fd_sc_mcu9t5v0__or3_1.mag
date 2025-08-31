@@ -1,0 +1,173 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 453 1318 1094
+<< pwell >>
+rect -86 -86 1318 453
+<< mvnmos >>
+rect 124 101 244 206
+rect 348 101 468 206
+rect 608 100 728 205
+rect 880 69 1000 333
+<< mvpmos >>
+rect 144 756 244 939
+rect 358 756 458 939
+rect 608 756 708 939
+rect 880 573 980 939
+<< mvndiff >>
+rect 36 193 124 206
+rect 36 147 49 193
+rect 95 147 124 193
+rect 36 101 124 147
+rect 244 161 348 206
+rect 244 115 273 161
+rect 319 115 348 161
+rect 244 101 348 115
+rect 468 205 548 206
+rect 800 205 880 333
+rect 468 193 608 205
+rect 468 147 497 193
+rect 543 147 608 193
+rect 468 101 608 147
+rect 528 100 608 101
+rect 728 161 880 205
+rect 728 115 757 161
+rect 803 115 880 161
+rect 728 100 880 115
+rect 800 69 880 100
+rect 1000 287 1088 333
+rect 1000 147 1029 287
+rect 1075 147 1088 287
+rect 1000 69 1088 147
+<< mvpdiff >>
+rect 56 815 144 939
+rect 56 769 69 815
+rect 115 769 144 815
+rect 56 756 144 769
+rect 244 756 358 939
+rect 458 756 608 939
+rect 708 909 880 939
+rect 708 769 805 909
+rect 851 769 880 909
+rect 708 756 880 769
+rect 800 573 880 756
+rect 980 861 1068 939
+rect 980 721 1009 861
+rect 1055 721 1068 861
+rect 980 573 1068 721
+<< mvndiffc >>
+rect 49 147 95 193
+rect 273 115 319 161
+rect 497 147 543 193
+rect 757 115 803 161
+rect 1029 147 1075 287
+<< mvpdiffc >>
+rect 69 769 115 815
+rect 805 769 851 909
+rect 1009 721 1055 861
+<< polysilicon >>
+rect 144 939 244 983
+rect 358 939 458 983
+rect 608 939 708 983
+rect 880 939 980 983
+rect 144 500 244 756
+rect 144 454 157 500
+rect 203 454 244 500
+rect 144 250 244 454
+rect 358 500 458 756
+rect 358 454 371 500
+rect 417 454 458 500
+rect 358 250 458 454
+rect 608 500 708 756
+rect 608 454 621 500
+rect 667 454 708 500
+rect 124 206 244 250
+rect 348 206 468 250
+rect 608 249 708 454
+rect 880 500 980 573
+rect 880 454 893 500
+rect 939 454 980 500
+rect 880 377 980 454
+rect 880 333 1000 377
+rect 608 205 728 249
+rect 124 57 244 101
+rect 348 57 468 101
+rect 608 56 728 100
+rect 880 25 1000 69
+<< polycontact >>
+rect 157 454 203 500
+rect 371 454 417 500
+rect 621 454 667 500
+rect 893 454 939 500
+<< metal1 >>
+rect 0 918 1232 1098
+rect 805 909 851 918
+rect 58 769 69 815
+rect 115 769 759 815
+rect 157 500 203 511
+rect 157 430 203 454
+rect 30 354 203 430
+rect 366 500 418 511
+rect 366 454 371 500
+rect 417 454 418 500
+rect 366 354 418 454
+rect 590 500 667 542
+rect 590 454 621 500
+rect 590 443 667 454
+rect 713 500 759 769
+rect 805 758 851 769
+rect 1009 861 1090 872
+rect 1055 721 1090 861
+rect 713 454 893 500
+rect 939 454 950 500
+rect 713 264 759 454
+rect 49 218 759 264
+rect 1009 287 1090 721
+rect 49 193 95 218
+rect 497 193 543 218
+rect 49 136 95 147
+rect 273 161 319 172
+rect 497 136 543 147
+rect 757 161 803 172
+rect 273 90 319 115
+rect 1009 147 1029 287
+rect 1075 147 1090 287
+rect 1009 136 1090 147
+rect 757 90 803 115
+rect 0 -90 1232 90
+<< labels >>
+flabel metal1 s 157 430 203 511 0 FreeSans 200 0 0 0 A1
+port 1 nsew default input
+flabel metal1 s 366 354 418 511 0 FreeSans 200 0 0 0 A2
+port 2 nsew default input
+flabel metal1 s 590 443 667 542 0 FreeSans 200 0 0 0 A3
+port 3 nsew default input
+flabel metal1 s 0 918 1232 1098 0 FreeSans 200 0 0 0 VDD
+port 5 nsew power bidirectional abutment
+flabel metal1 s 757 90 803 172 0 FreeSans 200 0 0 0 VSS
+port 8 nsew ground bidirectional abutment
+flabel metal1 s 1009 136 1090 872 0 FreeSans 200 0 0 0 Z
+port 4 nsew default output
+flabel nwell s 10 734 110 834 0 FreeSans 400 0 0 0 VNW
+port 6 nsew power bidirectional
+flabel pwell s 10 -50 110 50 0 FreeSans 400 0 0 0 VPW
+port 7 nsew ground bidirectional
+rlabel metal1 s 30 354 203 430 1 A1
+port 1 nsew default input
+rlabel metal1 s 805 758 851 918 1 VDD
+port 5 nsew power bidirectional abutment
+rlabel metal1 s 273 90 319 172 1 VSS
+port 8 nsew ground bidirectional abutment
+rlabel metal1 s 0 -90 1232 90 1 VSS
+port 8 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 1232 1008
+string GDS_END 278678
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu9t5v0/gds/gf180mcu_fd_sc_mcu9t5v0.gds
+string GDS_START 275220
+string LEFclass core
+string LEFsite GF018hv5v_green_sc9
+string LEFsymmetry X Y
+<< end >>

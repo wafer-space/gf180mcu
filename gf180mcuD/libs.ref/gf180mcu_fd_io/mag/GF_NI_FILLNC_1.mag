@@ -1,0 +1,97 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< psubdiff >>
+rect 0 13097 20 69968
+<< metal1 >>
+rect -32 13108 52 69957
+<< metal2 >>
+rect 0 63600 20 65000
+rect 0 49200 20 50600
+<< metal3 >>
+rect 0 68400 20 69678
+rect 0 66800 20 68200
+rect 0 65200 20 66600
+rect 0 63600 20 65000
+rect 0 62000 20 63400
+rect 0 60400 20 61800
+rect 0 58800 20 60200
+rect 0 57200 20 58600
+rect 0 55600 20 57000
+rect 0 54000 20 55400
+rect 0 52400 20 53800
+rect 0 50800 20 52200
+rect 0 49200 20 50600
+rect 0 46000 20 49000
+rect 0 42800 20 45800
+rect 0 41200 20 42600
+rect 0 39600 20 41000
+rect 0 36400 20 39400
+rect 0 33200 20 36200
+rect 0 30000 20 33000
+rect 0 26800 20 29800
+rect 0 25200 20 26600
+rect 0 23600 20 25000
+rect 0 20400 20 23400
+rect 0 17200 20 20200
+rect 0 14000 20 17000
+<< labels >>
+rlabel metal3 s 9 64258 9 64258 4 VSS
+port 1 nsew
+rlabel metal3 s 9 50023 9 50023 4 VSS
+port 1 nsew
+rlabel metal3 s 9 51458 9 51458 4 VDD
+port 2 nsew
+rlabel metal3 s 9 62823 9 62823 4 VDD
+port 2 nsew
+rlabel metal3 s 9 18921 9 18921 4 DVSS
+port 3 nsew
+rlabel metal3 s 9 15750 9 15750 4 DVSS
+port 3 nsew
+rlabel metal3 s 9 21907 9 21907 4 DVSS
+port 3 nsew
+rlabel metal3 s 9 26100 9 26100 4 DVSS
+port 3 nsew
+rlabel metal3 s 9 40342 9 40342 4 DVSS
+port 3 nsew
+rlabel metal3 s 9 47595 9 47595 4 DVSS
+port 3 nsew
+rlabel metal3 s 9 57858 9 57858 4 DVSS
+port 3 nsew
+rlabel metal3 s 9 61058 9 61058 4 DVSS
+port 3 nsew
+rlabel metal3 s 9 66023 9 66023 4 DVSS
+port 3 nsew
+rlabel metal3 s 9 69049 9 69049 4 DVSS
+port 3 nsew
+rlabel metal3 s 9 67458 9 67458 4 DVDD
+port 4 nsew
+rlabel metal3 s 9 59623 9 59623 4 DVDD
+port 4 nsew
+rlabel metal3 s 9 56423 9 56423 4 DVDD
+port 4 nsew
+rlabel metal3 s 9 54658 9 54658 4 DVDD
+port 4 nsew
+rlabel metal3 s 9 53223 9 53223 4 DVDD
+port 4 nsew
+rlabel metal3 s 9 44368 9 44368 4 DVDD
+port 4 nsew
+rlabel metal3 s 9 41977 9 41977 4 DVDD
+port 4 nsew
+rlabel metal3 s 9 37959 9 37959 4 DVDD
+port 4 nsew
+rlabel metal3 s 9 34723 9 34723 4 DVDD
+port 4 nsew
+rlabel metal3 s 9 31609 9 31609 4 DVDD
+port 4 nsew
+rlabel metal3 s 9 28394 9 28394 4 DVDD
+port 4 nsew
+rlabel metal3 s 9 24284 9 24284 4 DVDD
+port 4 nsew
+<< properties >>
+string FIXED_BBOX 0 0 20 70000
+string GDS_END 17622592
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_io/gds/gf180mcu_fd_io.gds
+string GDS_START 17619500
+<< end >>

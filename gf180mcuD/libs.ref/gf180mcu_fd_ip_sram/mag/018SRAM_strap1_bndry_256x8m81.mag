@@ -1,0 +1,109 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -68 622 668 968
+<< pwell >>
+rect -68 -68 668 622
+<< mvpsubdiff >>
+rect 238 173 362 212
+rect 238 27 277 173
+rect 323 27 362 173
+rect 238 -56 362 27
+<< mvnsubdiff >>
+rect 138 923 462 960
+rect 138 877 177 923
+rect 423 877 462 923
+rect 138 840 462 877
+<< mvpsubdiffcont >>
+rect 277 27 323 173
+<< mvnsubdiffcont >>
+rect 177 877 423 923
+<< polysilicon >>
+rect 36 533 564 570
+rect 36 487 177 533
+rect 423 487 564 533
+rect 36 450 564 487
+rect 36 52 156 450
+<< polycontact >>
+rect 177 487 423 533
+<< metal1 >>
+rect -36 926 636 950
+rect -36 874 94 926
+rect 146 923 636 926
+rect 146 877 177 923
+rect 423 877 636 923
+rect 146 874 636 877
+rect -36 850 636 874
+rect 228 644 372 692
+rect 228 592 274 644
+rect 326 592 372 644
+rect 228 582 372 592
+rect 118 536 482 582
+rect 118 533 274 536
+rect 326 533 482 536
+rect 118 487 177 533
+rect 423 487 482 533
+rect 118 484 274 487
+rect 326 484 482 487
+rect 118 438 482 484
+rect 228 428 372 438
+rect 228 376 274 428
+rect 326 376 372 428
+rect 228 328 372 376
+rect -36 224 636 258
+rect -36 173 454 224
+rect -36 138 277 173
+rect 218 27 277 138
+rect 323 172 454 173
+rect 506 172 636 224
+rect 323 138 636 172
+rect 323 27 382 138
+rect 218 -56 382 27
+<< via1 >>
+rect 94 874 146 926
+rect 274 592 326 644
+rect 274 533 326 536
+rect 274 487 326 533
+rect 274 484 326 487
+rect 274 376 326 428
+rect 454 172 506 224
+<< metal2 >>
+rect 70 926 170 950
+rect 70 874 94 926
+rect 146 874 170 926
+rect 70 -50 170 874
+rect 250 646 350 692
+rect 250 374 272 646
+rect 328 374 350 646
+rect 250 328 350 374
+rect 430 224 530 950
+rect 430 172 454 224
+rect 506 172 530 224
+rect 430 -50 530 172
+<< via2 >>
+rect 272 644 328 646
+rect 272 592 274 644
+rect 274 592 326 644
+rect 326 592 328 644
+rect 272 536 328 592
+rect 272 484 274 536
+rect 274 484 326 536
+rect 326 484 328 536
+rect 272 428 328 484
+rect 272 376 274 428
+rect 274 376 326 428
+rect 326 376 328 428
+rect 272 374 328 376
+<< metal3 >>
+rect -36 646 636 690
+rect -36 374 272 646
+rect 328 374 636 646
+rect -36 330 636 374
+<< properties >>
+string FIXED_BBOX -68 -68 668 968
+string GDS_END 251042
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_ip_sram/gds/gf180mcu_fd_ip_sram__sram256x8m8wm1.gds
+string GDS_START 248574
+<< end >>

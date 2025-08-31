@@ -1,0 +1,83 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 352 3110 870
+<< pwell >>
+rect -86 -86 3110 352
+<< metal1 >>
+rect 0 724 3024 844
+rect 297 657 365 724
+rect 1293 657 1361 724
+rect 2349 635 2417 724
+rect 186 240 670 320
+rect 317 60 385 127
+rect 1333 60 1401 127
+rect 2385 60 2431 138
+rect 2679 135 2782 639
+rect 2893 541 2961 724
+rect 2904 60 2950 138
+rect 0 -60 3024 60
+<< obsm1 >>
+rect 49 481 117 621
+rect 49 413 653 481
+rect 49 180 95 413
+rect 744 361 790 632
+rect 877 575 1158 621
+rect 744 293 1066 361
+rect 1112 350 1158 575
+rect 1780 564 1857 632
+rect 1780 375 1826 564
+rect 1944 493 1990 632
+rect 1944 447 2338 493
+rect 1112 304 1623 350
+rect 1780 307 2216 375
+rect 2274 346 2338 447
+rect 49 134 117 180
+rect 744 154 821 293
+rect 1112 200 1158 304
+rect 897 154 1158 200
+rect 1780 143 1826 307
+rect 2274 300 2562 346
+rect 2274 211 2338 300
+rect 1944 143 2338 211
+<< labels >>
+rlabel metal1 s 186 240 670 320 6 I
+port 1 nsew default input
+rlabel metal1 s 2679 135 2782 639 6 Z
+port 2 nsew default output
+rlabel metal1 s 2893 541 2961 724 6 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 2349 635 2417 724 6 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 1293 657 1361 724 6 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 297 657 365 724 6 VDD
+port 3 nsew power bidirectional abutment
+rlabel metal1 s 0 724 3024 844 6 VDD
+port 3 nsew power bidirectional abutment
+rlabel nwell s -86 352 3110 870 6 VNW
+port 4 nsew power bidirectional
+rlabel pwell s -86 -86 3110 352 6 VPW
+port 5 nsew ground bidirectional
+rlabel metal1 s 0 -60 3024 60 8 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 2904 60 2950 138 6 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 2385 60 2431 138 6 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 1333 60 1401 127 6 VSS
+port 6 nsew ground bidirectional abutment
+rlabel metal1 s 317 60 385 127 6 VSS
+port 6 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 3024 784
+string LEFclass core
+string LEFsite GF018hv5v_mcu_sc7
+string LEFsymmetry X Y
+string LEFview TRUE
+string GDS_END 1115308
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu7t5v0/gds/gf180mcu_fd_sc_mcu7t5v0.gds
+string GDS_START 1109608
+<< end >>

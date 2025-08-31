@@ -1,0 +1,36 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect 0 12 1196 12252
+<< mvpmos >>
+rect 278 132 418 12132
+<< mvpdiff >>
+rect 120 12119 222 12132
+rect 120 145 133 12119
+rect 179 145 222 12119
+rect 120 132 222 145
+rect 974 12119 1076 12132
+rect 974 145 1017 12119
+rect 1063 145 1076 12119
+rect 974 132 1076 145
+<< mvpdiffc >>
+rect 133 145 179 12119
+rect 1017 145 1063 12119
+<< polysilicon >>
+rect 278 12132 418 12238
+rect 278 44 418 132
+<< mvpdiffres >>
+rect 222 132 278 12132
+rect 418 132 974 12132
+<< metal1 >>
+rect 133 12119 179 12132
+rect 133 132 179 145
+rect 1017 12119 1063 12132
+rect 1017 132 1063 145
+<< properties >>
+string GDS_END 2575194
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_io/gds/gf180mcu_fd_io.gds
+string GDS_START 2558422
+<< end >>

@@ -1,0 +1,169 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 453 1206 1094
+<< pwell >>
+rect -86 -86 1206 453
+<< mvnmos >>
+rect 124 69 244 333
+rect 348 69 468 333
+rect 572 69 692 333
+rect 796 69 916 333
+<< mvpmos >>
+rect 144 573 244 939
+rect 358 573 458 939
+rect 582 573 682 939
+rect 796 573 896 939
+<< mvndiff >>
+rect 36 287 124 333
+rect 36 147 49 287
+rect 95 147 124 287
+rect 36 69 124 147
+rect 244 287 348 333
+rect 244 147 273 287
+rect 319 147 348 287
+rect 244 69 348 147
+rect 468 287 572 333
+rect 468 147 497 287
+rect 543 147 572 287
+rect 468 69 572 147
+rect 692 287 796 333
+rect 692 147 721 287
+rect 767 147 796 287
+rect 692 69 796 147
+rect 916 287 1004 333
+rect 916 147 945 287
+rect 991 147 1004 287
+rect 916 69 1004 147
+<< mvpdiff >>
+rect 56 861 144 939
+rect 56 721 69 861
+rect 115 721 144 861
+rect 56 573 144 721
+rect 244 573 358 939
+rect 458 861 582 939
+rect 458 721 487 861
+rect 533 721 582 861
+rect 458 573 582 721
+rect 682 861 796 939
+rect 682 721 711 861
+rect 757 721 796 861
+rect 682 573 796 721
+rect 896 861 984 939
+rect 896 721 925 861
+rect 971 721 984 861
+rect 896 573 984 721
+<< mvndiffc >>
+rect 49 147 95 287
+rect 273 147 319 287
+rect 497 147 543 287
+rect 721 147 767 287
+rect 945 147 991 287
+<< mvpdiffc >>
+rect 69 721 115 861
+rect 487 721 533 861
+rect 711 721 757 861
+rect 925 721 971 861
+<< polysilicon >>
+rect 144 939 244 983
+rect 358 939 458 983
+rect 582 939 682 983
+rect 796 939 896 983
+rect 144 500 244 573
+rect 144 454 157 500
+rect 203 454 244 500
+rect 144 377 244 454
+rect 358 500 458 573
+rect 358 454 371 500
+rect 417 454 458 500
+rect 358 377 458 454
+rect 582 513 682 573
+rect 796 513 896 573
+rect 582 500 896 513
+rect 582 454 595 500
+rect 641 454 896 500
+rect 582 441 896 454
+rect 582 377 692 441
+rect 124 333 244 377
+rect 348 333 468 377
+rect 572 333 692 377
+rect 796 377 896 441
+rect 796 333 916 377
+rect 124 25 244 69
+rect 348 25 468 69
+rect 572 25 692 69
+rect 796 25 916 69
+<< polycontact >>
+rect 157 454 203 500
+rect 371 454 417 500
+rect 595 454 641 500
+<< metal1 >>
+rect 0 918 1120 1098
+rect 69 861 115 872
+rect 69 664 115 721
+rect 487 861 533 918
+rect 487 710 533 721
+rect 702 861 767 872
+rect 702 721 711 861
+rect 757 721 767 861
+rect 69 618 641 664
+rect 142 500 214 542
+rect 142 454 157 500
+rect 203 454 214 500
+rect 359 500 418 542
+rect 359 454 371 500
+rect 417 454 418 500
+rect 359 443 418 454
+rect 595 500 641 618
+rect 595 390 641 454
+rect 273 344 641 390
+rect 49 287 95 298
+rect 49 90 95 147
+rect 273 287 319 344
+rect 273 136 319 147
+rect 497 287 543 298
+rect 497 90 543 147
+rect 702 287 767 721
+rect 925 861 971 918
+rect 925 710 971 721
+rect 702 147 721 287
+rect 702 136 767 147
+rect 945 287 991 298
+rect 945 90 991 147
+rect 0 -90 1120 90
+<< labels >>
+flabel metal1 s 142 454 214 542 0 FreeSans 200 0 0 0 A1
+port 1 nsew default input
+flabel metal1 s 359 443 418 542 0 FreeSans 200 0 0 0 A2
+port 2 nsew default input
+flabel metal1 s 0 918 1120 1098 0 FreeSans 200 0 0 0 VDD
+port 4 nsew power bidirectional abutment
+flabel metal1 s 945 90 991 298 0 FreeSans 200 0 0 0 VSS
+port 7 nsew ground bidirectional abutment
+flabel metal1 s 702 136 767 872 0 FreeSans 200 0 0 0 Z
+port 3 nsew default output
+flabel nwell s 10 734 110 834 0 FreeSans 400 0 0 0 VNW
+port 5 nsew power bidirectional
+flabel pwell s 10 -50 110 50 0 FreeSans 400 0 0 0 VPW
+port 6 nsew ground bidirectional
+rlabel metal1 s 925 710 971 918 1 VDD
+port 4 nsew power bidirectional abutment
+rlabel metal1 s 487 710 533 918 1 VDD
+port 4 nsew power bidirectional abutment
+rlabel metal1 s 497 90 543 298 1 VSS
+port 7 nsew ground bidirectional abutment
+rlabel metal1 s 49 90 95 298 1 VSS
+port 7 nsew ground bidirectional abutment
+rlabel metal1 s 0 -90 1120 90 1 VSS
+port 7 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 1120 1008
+string GDS_END 269876
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu9t5v0/gds/gf180mcu_fd_sc_mcu9t5v0.gds
+string GDS_START 266240
+string LEFclass core
+string LEFsite GF018hv5v_green_sc9
+string LEFsymmetry X Y
+<< end >>

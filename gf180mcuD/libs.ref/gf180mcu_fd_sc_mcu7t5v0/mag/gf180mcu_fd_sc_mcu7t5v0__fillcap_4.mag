@@ -1,0 +1,87 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 352 534 870
+<< pwell >>
+rect -86 -86 534 352
+<< mvnmos >>
+rect 124 68 324 232
+<< mvpmos >>
+rect 124 472 324 716
+<< mvndiff >>
+rect 36 192 124 232
+rect 36 146 49 192
+rect 95 146 124 192
+rect 36 68 124 146
+rect 324 192 412 232
+rect 324 146 353 192
+rect 399 146 412 192
+rect 324 68 412 146
+<< mvpdiff >>
+rect 36 657 124 716
+rect 36 517 49 657
+rect 95 517 124 657
+rect 36 472 124 517
+rect 324 657 412 716
+rect 324 517 353 657
+rect 399 517 412 657
+rect 324 472 412 517
+<< mvndiffc >>
+rect 49 146 95 192
+rect 353 146 399 192
+<< mvpdiffc >>
+rect 49 517 95 657
+rect 353 517 399 657
+<< polysilicon >>
+rect 124 716 324 760
+rect 124 438 324 472
+rect 124 392 160 438
+rect 300 392 324 438
+rect 124 375 324 392
+rect 124 311 324 324
+rect 124 265 152 311
+rect 292 265 324 311
+rect 124 232 324 265
+rect 124 24 324 68
+<< polycontact >>
+rect 160 392 300 438
+rect 152 265 292 311
+<< metal1 >>
+rect 0 724 448 844
+rect 49 657 95 678
+rect 49 311 95 517
+rect 353 657 399 724
+rect 353 498 399 517
+rect 146 392 160 438
+rect 300 392 399 438
+rect 49 265 152 311
+rect 292 265 304 311
+rect 49 192 95 219
+rect 49 60 95 146
+rect 353 192 399 392
+rect 353 106 399 146
+rect 0 -60 448 60
+<< labels >>
+flabel metal1 s 0 724 448 844 0 FreeSans 400 0 0 0 VDD
+port 1 nsew power bidirectional abutment
+flabel metal1 s 49 60 95 219 0 FreeSans 400 0 0 0 VSS
+port 4 nsew ground bidirectional abutment
+flabel nwell s 10 734 110 834 0 FreeSans 400 0 0 0 VNW
+port 2 nsew power bidirectional
+flabel pwell s 10 -50 110 50 0 FreeSans 400 0 0 0 VPW
+port 3 nsew ground bidirectional
+rlabel metal1 s 353 498 399 724 1 VDD
+port 1 nsew power bidirectional abutment
+rlabel metal1 s 0 -60 448 60 1 VSS
+port 4 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 448 784
+string GDS_END 1156942
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu7t5v0/gds/gf180mcu_fd_sc_mcu7t5v0.gds
+string GDS_START 1154662
+string LEFclass core SPACER
+string LEFsite GF018hv5v_mcu_sc7
+string LEFsymmetry X Y
+<< end >>

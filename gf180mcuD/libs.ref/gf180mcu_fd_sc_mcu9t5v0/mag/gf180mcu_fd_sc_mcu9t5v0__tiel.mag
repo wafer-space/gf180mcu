@@ -1,0 +1,84 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 453 534 1094
+<< pwell >>
+rect -86 -86 534 453
+<< mvnmos >>
+rect 124 201 244 333
+<< mvpmos >>
+rect 144 573 244 753
+<< mvndiff >>
+rect 36 260 124 333
+rect 36 214 49 260
+rect 95 214 124 260
+rect 36 201 124 214
+rect 244 299 332 333
+rect 244 253 273 299
+rect 319 253 332 299
+rect 244 201 332 253
+<< mvpdiff >>
+rect 56 740 144 753
+rect 56 600 69 740
+rect 115 600 144 740
+rect 56 573 144 600
+rect 244 726 332 753
+rect 244 586 273 726
+rect 319 586 332 726
+rect 244 573 332 586
+<< mvndiffc >>
+rect 49 214 95 260
+rect 273 253 319 299
+<< mvpdiffc >>
+rect 69 600 115 740
+rect 273 586 319 726
+<< polysilicon >>
+rect 144 753 244 797
+rect 144 540 244 573
+rect 144 494 185 540
+rect 231 494 244 540
+rect 144 377 244 494
+rect 124 333 244 377
+rect 124 157 244 201
+<< polycontact >>
+rect 185 494 231 540
+<< metal1 >>
+rect 0 918 448 1098
+rect 69 740 115 918
+rect 69 589 115 600
+rect 273 726 319 737
+rect 273 540 319 586
+rect 174 494 185 540
+rect 231 494 319 540
+rect 243 299 319 318
+rect 49 260 95 271
+rect 243 253 273 299
+rect 243 242 319 253
+rect 49 90 95 214
+rect 0 -90 448 90
+<< labels >>
+flabel metal1 s 0 918 448 1098 0 FreeSans 200 0 0 0 VDD
+port 2 nsew power bidirectional abutment
+flabel metal1 s 49 90 95 271 0 FreeSans 200 0 0 0 VSS
+port 5 nsew ground bidirectional abutment
+flabel metal1 s 243 242 319 318 0 FreeSans 200 0 0 0 ZN
+port 1 nsew default output
+flabel nwell s 10 734 110 834 0 FreeSans 400 0 0 0 VNW
+port 3 nsew power bidirectional
+flabel pwell s 10 -50 110 50 0 FreeSans 400 0 0 0 VPW
+port 4 nsew ground bidirectional
+rlabel metal1 s 69 589 115 918 1 VDD
+port 2 nsew power bidirectional abutment
+rlabel metal1 s 0 -90 448 90 1 VSS
+port 5 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 448 1008
+string GDS_END 445456
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu9t5v0/gds/gf180mcu_fd_sc_mcu9t5v0.gds
+string GDS_START 443368
+string LEFclass core TIELOW
+string LEFsite GF018hv5v_green_sc9
+string LEFsymmetry X Y
+<< end >>

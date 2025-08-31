@@ -1,0 +1,109 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+use alatch_128x8m81  alatch_128x8m81_0
+timestamp 1755724134
+transform 1 0 70 0 1 -632
+box -90 -1 1692 2968
+use M1_NWELL$$47505452_128x8m81  M1_NWELL$$47505452_128x8m81_0
+timestamp 1755724134
+transform 1 0 334 0 1 4985
+box 0 0 1 1
+use M1_POLY2$$46559276_128x8m81_0  M1_POLY2$$46559276_128x8m81_0_0
+timestamp 1755724134
+transform 1 0 1151 0 1 6982
+box 0 0 1 1
+use M1_POLY2$$46559276_128x8m81_0  M1_POLY2$$46559276_128x8m81_0_1
+timestamp 1755724134
+transform 1 0 641 0 1 6982
+box 0 0 1 1
+use M1_PSUB$$47335468_128x8m81  M1_PSUB$$47335468_128x8m81_0
+timestamp 1755724134
+transform 1 0 395 0 1 7819
+box 0 0 1 1
+use M2_M1$$34864172_128x8m81  M2_M1$$34864172_128x8m81_0
+timestamp 1755724134
+transform 1 0 591 0 1 6982
+box 0 0 1 1
+use M2_M1$$43375660_128x8m81  M2_M1$$43375660_128x8m81_0
+timestamp 1755724134
+transform 1 0 485 0 1 1489
+box 0 0 1 1
+use M2_M1$$43375660_128x8m81  M2_M1$$43375660_128x8m81_1
+timestamp 1755724134
+transform 1 0 922 0 1 3448
+box 0 0 1 1
+use M2_M1$$43375660_128x8m81  M2_M1$$43375660_128x8m81_2
+timestamp 1755724134
+transform 1 0 1436 0 1 4355
+box 0 0 1 1
+use M2_M1$$43376684_128x8m81  M2_M1$$43376684_128x8m81_0
+timestamp 1755724134
+transform 1 0 1219 0 1 5810
+box 0 0 1 1
+use M2_M1$$43379756_128x8m81  M2_M1$$43379756_128x8m81_0
+timestamp 1755724134
+transform 1 0 485 0 1 7948
+box 0 0 1 1
+use M2_M1$$43379756_128x8m81  M2_M1$$43379756_128x8m81_1
+timestamp 1755724134
+transform 1 0 692 0 1 7948
+box 0 0 1 1
+use M2_M1$$43379756_128x8m81  M2_M1$$43379756_128x8m81_2
+timestamp 1755724134
+transform 1 0 1212 0 1 7925
+box 0 0 1 1
+use M2_M1$$47500332_128x8m81  M2_M1$$47500332_128x8m81_0
+timestamp 1755724134
+transform 1 0 705 0 1 5584
+box 0 0 1 1
+use M3_M2$$43368492_128x8m81_0  M3_M2$$43368492_128x8m81_0_0
+timestamp 1755724134
+transform 1 0 1698 0 1 3693
+box 0 0 1 1
+use M3_M2$$43368492_128x8m81_0  M3_M2$$43368492_128x8m81_0_1
+timestamp 1755724134
+transform 1 0 1208 0 1 3217
+box 0 0 1 1
+use M3_M2$$47333420_128x8m81  M3_M2$$47333420_128x8m81_0
+timestamp 1755724134
+transform 1 0 485 0 1 7948
+box 0 0 1 1
+use M3_M2$$47333420_128x8m81  M3_M2$$47333420_128x8m81_1
+timestamp 1755724134
+transform 1 0 692 0 1 7948
+box 0 0 1 1
+use M3_M2$$47333420_128x8m81  M3_M2$$47333420_128x8m81_2
+timestamp 1755724134
+transform 1 0 1212 0 1 7925
+box 0 0 1 1
+use M3_M2$$47644716_128x8m81  M3_M2$$47644716_128x8m81_0
+timestamp 1755724134
+transform 1 0 705 0 1 5584
+box 0 0 1 1
+use M3_M2$$47645740_128x8m81  M3_M2$$47645740_128x8m81_0
+timestamp 1755724134
+transform 1 0 1219 0 1 5810
+box 0 0 1 1
+use nmos_1p2$$47502380_128x8m81  nmos_1p2$$47502380_128x8m81_0
+timestamp 1755724134
+transform 1 0 1296 0 1 7202
+box -31 0 -30 1
+use nmos_5p04310590548770_128x8m81  nmos_5p04310590548770_128x8m81_0
+timestamp 1755724134
+transform 1 0 751 0 1 7123
+box 0 0 1 1
+use pmos_1p2$$47503404_128x8m81  pmos_1p2$$47503404_128x8m81_0
+timestamp 1755724134
+transform 1 0 782 0 1 3264
+box -31 0 -30 1
+use pmos_1p2$$47504428_128x8m81  pmos_1p2$$47504428_128x8m81_0
+timestamp 1755724134
+transform 1 0 1296 0 1 4171
+box -31 0 -30 1
+<< properties >>
+string GDS_END 554686
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_ip_sram/gds/gf180mcu_fd_ip_sram__sram128x8m8wm1.gds
+string GDS_START 552122
+<< end >>

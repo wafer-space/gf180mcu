@@ -1,0 +1,77 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 377 1318 870
+rect -86 352 439 377
+rect 688 352 1318 377
+<< pwell >>
+rect -86 -86 1318 352
+<< metal1 >>
+rect 0 724 1232 844
+rect 49 506 95 724
+rect 141 232 200 664
+rect 266 536 334 676
+rect 266 476 536 536
+rect 246 350 426 430
+rect 358 232 426 350
+rect 472 244 536 476
+rect 694 294 762 664
+rect 918 294 987 664
+rect 1033 506 1079 724
+rect 472 198 1079 244
+rect 49 60 95 189
+rect 1033 121 1079 198
+rect 0 -60 1232 60
+<< obsm1 >>
+rect 262 106 866 152
+<< labels >>
+rlabel metal1 s 358 232 426 350 6 A1
+port 1 nsew default input
+rlabel metal1 s 246 350 426 430 6 A1
+port 1 nsew default input
+rlabel metal1 s 694 294 762 664 6 A2
+port 2 nsew default input
+rlabel metal1 s 918 294 987 664 6 A3
+port 3 nsew default input
+rlabel metal1 s 141 232 200 664 6 B
+port 4 nsew default input
+rlabel metal1 s 1033 121 1079 198 6 ZN
+port 5 nsew default output
+rlabel metal1 s 472 198 1079 244 6 ZN
+port 5 nsew default output
+rlabel metal1 s 472 244 536 476 6 ZN
+port 5 nsew default output
+rlabel metal1 s 266 476 536 536 6 ZN
+port 5 nsew default output
+rlabel metal1 s 266 536 334 676 6 ZN
+port 5 nsew default output
+rlabel metal1 s 1033 506 1079 724 6 VDD
+port 6 nsew power bidirectional abutment
+rlabel metal1 s 49 506 95 724 6 VDD
+port 6 nsew power bidirectional abutment
+rlabel metal1 s 0 724 1232 844 6 VDD
+port 6 nsew power bidirectional abutment
+rlabel nwell s 688 352 1318 377 6 VNW
+port 7 nsew power bidirectional
+rlabel nwell s -86 352 439 377 6 VNW
+port 7 nsew power bidirectional
+rlabel nwell s -86 377 1318 870 6 VNW
+port 7 nsew power bidirectional
+rlabel pwell s -86 -86 1318 352 6 VPW
+port 8 nsew ground bidirectional
+rlabel metal1 s 0 -60 1232 60 8 VSS
+port 9 nsew ground bidirectional abutment
+rlabel metal1 s 49 60 95 189 6 VSS
+port 9 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 1232 784
+string LEFclass core
+string LEFsite GF018hv5v_mcu_sc7
+string LEFsymmetry X Y
+string LEFview TRUE
+string GDS_END 39416
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu7t5v0/gds/gf180mcu_fd_sc_mcu7t5v0.gds
+string GDS_START 35898
+<< end >>

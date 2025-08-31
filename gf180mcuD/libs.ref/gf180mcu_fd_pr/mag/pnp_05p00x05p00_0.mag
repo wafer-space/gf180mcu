@@ -1,0 +1,112 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nbase >>
+rect -680 -680 680 680
+<< pdiff >>
+rect -500 473 500 500
+rect -500 -473 -473 473
+rect 473 -473 500 473
+rect -500 -500 500 -473
+<< pdiffc >>
+rect -473 -473 473 473
+<< psubdiff >>
+rect -796 777 796 796
+rect -796 775 -634 777
+rect -796 -775 -777 775
+rect -731 731 -634 775
+rect 634 775 796 777
+rect 634 731 731 775
+rect -731 712 731 731
+rect -731 -712 -712 712
+rect 712 -712 731 712
+rect -731 -731 731 -712
+rect -731 -775 -634 -731
+rect -796 -777 -634 -775
+rect 634 -775 731 -731
+rect 777 -775 796 775
+rect 634 -777 796 -775
+rect -796 -796 796 -777
+<< nsubdiff >>
+rect -648 629 648 648
+rect -648 587 -493 629
+rect -648 -587 -629 587
+rect -583 583 -493 587
+rect 493 587 648 629
+rect 493 583 583 587
+rect -583 564 583 583
+rect -583 -564 -564 564
+rect 564 -564 583 564
+rect -583 -583 583 -564
+rect -583 -587 -493 -583
+rect -648 -629 -493 -587
+rect 493 -587 583 -583
+rect 629 -587 648 587
+rect 493 -629 648 -587
+rect -648 -648 648 -629
+<< psubdiffcont >>
+rect -777 -775 -731 775
+rect -634 731 634 777
+rect -634 -777 634 -731
+rect 731 -775 777 775
+<< nsubdiffcont >>
+rect -629 -587 -583 587
+rect -493 583 493 629
+rect -493 -629 493 -583
+rect 583 -587 629 587
+<< metal1 >>
+rect -796 777 796 796
+rect -796 775 -634 777
+rect -796 -775 -777 775
+rect -731 731 -634 775
+rect 634 775 796 777
+rect 634 731 731 775
+rect -731 712 731 731
+rect -731 -712 -712 712
+rect -648 629 648 648
+rect -648 587 -493 629
+rect -648 -587 -629 587
+rect -583 583 -493 587
+rect 493 587 648 629
+rect 493 583 583 587
+rect -583 564 583 583
+rect -583 -564 -564 564
+rect -500 473 500 500
+rect -500 -473 -473 473
+rect 473 -473 500 473
+rect -500 -500 500 -473
+rect 564 -564 583 564
+rect -583 -583 583 -564
+rect -583 -587 -493 -583
+rect -648 -629 -493 -587
+rect 493 -587 583 -583
+rect 629 -587 648 587
+rect 493 -629 648 -587
+rect -648 -648 648 -629
+rect 712 -712 731 712
+rect -731 -731 731 -712
+rect -731 -775 -634 -731
+rect -796 -777 -634 -775
+rect 634 -775 731 -731
+rect 777 -775 796 775
+rect 634 -777 796 -775
+rect -796 -796 796 -777
+<< labels >>
+flabel pdiffc 3 -8 3 -8 0 FreeSans 400 0 0 0 E
+flabel nsubdiffcont -3 603 -3 603 0 FreeSans 400 0 0 0 B
+flabel nsubdiffcont 607 -2 607 -2 0 FreeSans 400 0 0 0 B
+flabel nsubdiffcont -3 -600 -3 -600 0 FreeSans 400 0 0 0 B
+flabel nsubdiffcont -598 -2 -598 -2 0 FreeSans 400 0 0 0 B
+flabel psubdiffcont 3 -752 3 -752 0 FreeSans 400 0 0 0 C
+flabel psubdiffcont 757 2 757 2 0 FreeSans 400 0 0 0 C
+flabel psubdiffcont -3 752 -3 752 0 FreeSans 400 0 0 0 C
+flabel psubdiffcont -751 -2 -751 -2 0 FreeSans 400 0 0 0 C
+<< properties >>
+string GDS_END 15746
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_pr/gds/pnp_05p00x05p00.gds
+string GDS_START 112
+string gencell pnp_05p00x05p00
+string library gf180mcu
+string parameter m=1
+<< end >>

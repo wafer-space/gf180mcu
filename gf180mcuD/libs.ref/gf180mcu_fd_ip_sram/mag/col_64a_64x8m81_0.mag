@@ -1,0 +1,601 @@
+magic
+tech gf180mcuD
+magscale 1 5
+timestamp 1755724134
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_0
+timestamp 1755724134
+transform 1 0 7500 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_1
+timestamp 1755724134
+transform -1 0 9600 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_2
+timestamp 1755724134
+transform -1 0 10800 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_3
+timestamp 1755724134
+transform -1 0 9900 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_4
+timestamp 1755724134
+transform -1 0 10200 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_5
+timestamp 1755724134
+transform -1 0 10500 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_6
+timestamp 1755724134
+transform 1 0 7800 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_7
+timestamp 1755724134
+transform -1 0 8700 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_8
+timestamp 1755724134
+transform -1 0 9000 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_9
+timestamp 1755724134
+transform -1 0 9300 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_10
+timestamp 1755724134
+transform 1 0 5700 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_11
+timestamp 1755724134
+transform 1 0 6000 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_12
+timestamp 1755724134
+transform 1 0 6300 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_13
+timestamp 1755724134
+transform 1 0 6600 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_14
+timestamp 1755724134
+transform 1 0 6900 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_15
+timestamp 1755724134
+transform 1 0 7200 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_16
+timestamp 1755724134
+transform 1 0 300 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_17
+timestamp 1755724134
+transform 1 0 600 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_18
+timestamp 1755724134
+transform 1 0 900 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_19
+timestamp 1755724134
+transform 1 0 1200 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_20
+timestamp 1755724134
+transform 1 0 1500 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_21
+timestamp 1755724134
+transform 1 0 1800 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_22
+timestamp 1755724134
+transform 1 0 2100 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_23
+timestamp 1755724134
+transform 1 0 2400 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_24
+timestamp 1755724134
+transform -1 0 5100 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_25
+timestamp 1755724134
+transform -1 0 4800 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_26
+timestamp 1755724134
+transform -1 0 4500 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_27
+timestamp 1755724134
+transform -1 0 4200 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_28
+timestamp 1755724134
+transform -1 0 3900 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_29
+timestamp 1755724134
+transform -1 0 3600 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_30
+timestamp 1755724134
+transform -1 0 3300 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_31
+timestamp 1755724134
+transform -1 0 5400 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_32
+timestamp 1755724134
+transform 1 0 900 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_33
+timestamp 1755724134
+transform 1 0 1200 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_34
+timestamp 1755724134
+transform 1 0 1500 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_35
+timestamp 1755724134
+transform 1 0 1800 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_36
+timestamp 1755724134
+transform 1 0 2100 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_37
+timestamp 1755724134
+transform -1 0 5400 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_38
+timestamp 1755724134
+transform -1 0 5100 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_39
+timestamp 1755724134
+transform -1 0 4800 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_40
+timestamp 1755724134
+transform -1 0 4500 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_41
+timestamp 1755724134
+transform -1 0 4200 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_42
+timestamp 1755724134
+transform -1 0 3900 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_43
+timestamp 1755724134
+transform -1 0 3600 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_44
+timestamp 1755724134
+transform -1 0 3300 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_45
+timestamp 1755724134
+transform 1 0 2400 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_46
+timestamp 1755724134
+transform 1 0 300 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_47
+timestamp 1755724134
+transform 1 0 600 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_48
+timestamp 1755724134
+transform -1 0 9300 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_49
+timestamp 1755724134
+transform -1 0 9000 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_50
+timestamp 1755724134
+transform -1 0 8700 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_51
+timestamp 1755724134
+transform 1 0 7800 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_52
+timestamp 1755724134
+transform 1 0 5700 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_53
+timestamp 1755724134
+transform 1 0 6000 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_54
+timestamp 1755724134
+transform 1 0 6300 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_55
+timestamp 1755724134
+transform 1 0 6600 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_56
+timestamp 1755724134
+transform 1 0 6900 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_57
+timestamp 1755724134
+transform 1 0 7200 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_58
+timestamp 1755724134
+transform 1 0 7500 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_59
+timestamp 1755724134
+transform -1 0 10800 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_60
+timestamp 1755724134
+transform -1 0 10500 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_61
+timestamp 1755724134
+transform -1 0 10200 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_62
+timestamp 1755724134
+transform -1 0 9900 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_63
+timestamp 1755724134
+transform -1 0 9600 0 1 2700
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_64
+timestamp 1755724134
+transform -1 0 8700 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_65
+timestamp 1755724134
+transform -1 0 9300 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_66
+timestamp 1755724134
+transform -1 0 9600 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_67
+timestamp 1755724134
+transform -1 0 10800 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_68
+timestamp 1755724134
+transform -1 0 9900 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_69
+timestamp 1755724134
+transform -1 0 10200 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_70
+timestamp 1755724134
+transform -1 0 10500 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_71
+timestamp 1755724134
+transform -1 0 9600 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_72
+timestamp 1755724134
+transform -1 0 10800 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_73
+timestamp 1755724134
+transform -1 0 9900 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_74
+timestamp 1755724134
+transform -1 0 10200 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_75
+timestamp 1755724134
+transform -1 0 10500 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_76
+timestamp 1755724134
+transform -1 0 8700 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_77
+timestamp 1755724134
+transform -1 0 9000 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_78
+timestamp 1755724134
+transform -1 0 9300 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_79
+timestamp 1755724134
+transform -1 0 5400 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_80
+timestamp 1755724134
+transform -1 0 5100 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_81
+timestamp 1755724134
+transform -1 0 4800 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_82
+timestamp 1755724134
+transform -1 0 4500 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_83
+timestamp 1755724134
+transform -1 0 4200 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_84
+timestamp 1755724134
+transform -1 0 3900 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_85
+timestamp 1755724134
+transform -1 0 3600 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_86
+timestamp 1755724134
+transform -1 0 3300 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_87
+timestamp 1755724134
+transform -1 0 5400 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_88
+timestamp 1755724134
+transform -1 0 5100 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_89
+timestamp 1755724134
+transform -1 0 4800 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_90
+timestamp 1755724134
+transform -1 0 4500 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_91
+timestamp 1755724134
+transform -1 0 4200 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_92
+timestamp 1755724134
+transform -1 0 3900 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_93
+timestamp 1755724134
+transform -1 0 3600 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_94
+timestamp 1755724134
+transform -1 0 3300 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_95
+timestamp 1755724134
+transform -1 0 9000 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_96
+timestamp 1755724134
+transform 1 0 5700 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_97
+timestamp 1755724134
+transform 1 0 6000 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_98
+timestamp 1755724134
+transform 1 0 6300 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_99
+timestamp 1755724134
+transform 1 0 6600 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_100
+timestamp 1755724134
+transform 1 0 6900 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_101
+timestamp 1755724134
+transform 1 0 7200 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_102
+timestamp 1755724134
+transform 1 0 7500 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_103
+timestamp 1755724134
+transform 1 0 7800 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_104
+timestamp 1755724134
+transform 1 0 5700 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_105
+timestamp 1755724134
+transform 1 0 6000 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_106
+timestamp 1755724134
+transform 1 0 6300 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_107
+timestamp 1755724134
+transform 1 0 6600 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_108
+timestamp 1755724134
+transform 1 0 6900 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_109
+timestamp 1755724134
+transform 1 0 7200 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_110
+timestamp 1755724134
+transform 1 0 7500 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_111
+timestamp 1755724134
+transform 1 0 7800 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_112
+timestamp 1755724134
+transform 1 0 300 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_113
+timestamp 1755724134
+transform 1 0 600 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_114
+timestamp 1755724134
+transform 1 0 900 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_115
+timestamp 1755724134
+transform 1 0 1200 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_116
+timestamp 1755724134
+transform 1 0 1500 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_117
+timestamp 1755724134
+transform 1 0 1800 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_118
+timestamp 1755724134
+transform 1 0 2100 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_119
+timestamp 1755724134
+transform 1 0 2400 0 1 900
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_120
+timestamp 1755724134
+transform 1 0 300 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_121
+timestamp 1755724134
+transform 1 0 600 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_122
+timestamp 1755724134
+transform 1 0 900 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_123
+timestamp 1755724134
+transform 1 0 1200 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_124
+timestamp 1755724134
+transform 1 0 1500 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_125
+timestamp 1755724134
+transform 1 0 1800 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_126
+timestamp 1755724134
+transform 1 0 2100 0 1 1800
+box -34 -34 334 934
+use 018SRAM_cell1_2x_64x8m81  018SRAM_cell1_2x_64x8m81_127
+timestamp 1755724134
+transform 1 0 2400 0 1 1800
+box -34 -34 334 934
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_0
+timestamp 1755724134
+transform -1 0 8400 0 1 450
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_1
+timestamp 1755724134
+transform -1 0 3000 0 1 450
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_2
+timestamp 1755724134
+transform -1 0 300 0 1 450
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_3
+timestamp 1755724134
+transform -1 0 3000 0 1 3150
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_4
+timestamp 1755724134
+transform -1 0 300 0 1 3150
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_5
+timestamp 1755724134
+transform -1 0 8400 0 1 3150
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_6
+timestamp 1755724134
+transform -1 0 8400 0 1 1350
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_7
+timestamp 1755724134
+transform -1 0 8400 0 1 2250
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_8
+timestamp 1755724134
+transform -1 0 5700 0 1 1350
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_9
+timestamp 1755724134
+transform -1 0 5700 0 1 2250
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_10
+timestamp 1755724134
+transform -1 0 5700 0 1 3150
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_11
+timestamp 1755724134
+transform -1 0 3000 0 1 1350
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_12
+timestamp 1755724134
+transform -1 0 3000 0 1 2250
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_13
+timestamp 1755724134
+transform -1 0 300 0 1 1350
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_14
+timestamp 1755724134
+transform -1 0 300 0 1 2250
+box -34 -484 334 484
+use 018SRAM_strap1_2x_64x8m81  018SRAM_strap1_2x_64x8m81_15
+timestamp 1755724134
+transform -1 0 5700 0 1 450
+box -34 -484 334 484
+use 018SRAM_strap1_2x_bndry_64x8m81  018SRAM_strap1_2x_bndry_64x8m81_0
+timestamp 1755724134
+transform 1 0 10800 0 1 450
+box -34 -484 334 484
+use 018SRAM_strap1_2x_bndry_64x8m81  018SRAM_strap1_2x_bndry_64x8m81_1
+timestamp 1755724134
+transform 1 0 10800 0 1 3150
+box -34 -484 334 484
+use 018SRAM_strap1_2x_bndry_64x8m81  018SRAM_strap1_2x_bndry_64x8m81_2
+timestamp 1755724134
+transform 1 0 10800 0 1 1350
+box -34 -484 334 484
+use 018SRAM_strap1_2x_bndry_64x8m81  018SRAM_strap1_2x_bndry_64x8m81_3
+timestamp 1755724134
+transform 1 0 10800 0 1 2250
+box -34 -484 334 484
+<< properties >>
+string GDS_END 1255144
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_ip_sram/gds/gf180mcu_fd_ip_sram__sram64x8m8wm1.gds
+string GDS_START 1246532
+<< end >>

@@ -1,0 +1,38 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< polysilicon >>
+rect 66333 46498 66701 46560
+rect 65595 46404 66081 46440
+rect 65595 46264 65911 46404
+rect 66051 46264 66081 46404
+rect 65595 46228 66081 46264
+rect 66333 46170 66363 46498
+rect 66409 46170 66701 46498
+rect 66333 46108 66701 46170
+<< polycontact >>
+rect 65911 46264 66051 46404
+rect 66363 46170 66409 46498
+<< efuse >>
+rect 66081 46316 66333 46352
+<< metal1 >>
+rect 66352 46498 67259 46509
+rect 65003 46404 66062 46415
+rect 65003 46264 65911 46404
+rect 66051 46264 66062 46404
+rect 65003 46253 66062 46264
+rect 66352 46170 66363 46498
+rect 66409 46170 67259 46498
+rect 66352 46159 67259 46170
+<< labels >>
+flabel metal1 s 66438 46337 66438 46337 2 FreeSans 73 0 0 0 out
+port 1 nsew
+flabel metal1 s 65984 46330 65984 46330 2 FreeSans 73 0 0 0 in
+port 2 nsew
+<< properties >>
+string GDS_END 1414
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_pr/gds/efuse.gds
+string GDS_START 104
+string gencell efuse
+<< end >>

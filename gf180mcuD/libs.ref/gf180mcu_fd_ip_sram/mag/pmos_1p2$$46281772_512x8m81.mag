@@ -1,0 +1,13 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+use pmos_5p04310591302025_512x8m81  pmos_5p04310591302025_512x8m81_0
+timestamp 1755724134
+transform 1 0 -31 0 1 0
+box 0 0 1 1
+<< properties >>
+string GDS_END 254798
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_ip_sram/gds/gf180mcu_fd_ip_sram__sram512x8m8wm1.gds
+string GDS_START 254228
+<< end >>

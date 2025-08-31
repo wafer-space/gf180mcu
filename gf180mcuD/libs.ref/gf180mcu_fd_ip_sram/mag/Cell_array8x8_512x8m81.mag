@@ -1,0 +1,54 @@
+magic
+tech gf180mcuD
+magscale 1 5
+timestamp 1755724134
+use 018SRAM_cell1_2x_512x8m81  018SRAM_cell1_2x_512x8m81_0
+array 0 7 300 0 31 900
+timestamp 1755724134
+transform -1 0 10800 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_512x8m81  018SRAM_cell1_2x_512x8m81_1
+array 0 7 300 0 31 900
+timestamp 1755724134
+transform -1 0 5400 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_512x8m81  018SRAM_cell1_2x_512x8m81_2
+array 0 7 300 0 31 900
+timestamp 1755724134
+transform 1 0 300 0 1 0
+box -34 -34 334 934
+use 018SRAM_cell1_2x_512x8m81  018SRAM_cell1_2x_512x8m81_3
+array 0 7 300 0 31 900
+timestamp 1755724134
+transform 1 0 5700 0 1 0
+box -34 -34 334 934
+use 018SRAM_strap1_2x_512x8m81  018SRAM_strap1_2x_512x8m81_0
+array 0 0 0 0 31 900
+timestamp 1755724134
+transform -1 0 8400 0 1 450
+box -34 -484 334 484
+use 018SRAM_strap1_2x_512x8m81  018SRAM_strap1_2x_512x8m81_1
+array 0 0 0 0 31 900
+timestamp 1755724134
+transform -1 0 300 0 1 450
+box -34 -484 334 484
+use 018SRAM_strap1_2x_512x8m81  018SRAM_strap1_2x_512x8m81_2
+array 0 0 0 0 31 900
+timestamp 1755724134
+transform -1 0 3000 0 1 450
+box -34 -484 334 484
+use 018SRAM_strap1_2x_512x8m81  018SRAM_strap1_2x_512x8m81_3
+array 0 0 0 0 31 900
+timestamp 1755724134
+transform -1 0 5700 0 1 450
+box -34 -484 334 484
+use 018SRAM_strap1_2x_bndry_512x8m81  018SRAM_strap1_2x_bndry_512x8m81_0
+array 0 0 0 0 31 900
+timestamp 1755724134
+transform 1 0 10800 0 1 450
+box -34 -484 334 484
+<< properties >>
+string GDS_END 798788
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_ip_sram/gds/gf180mcu_fd_ip_sram__sram512x8m8wm1.gds
+string GDS_START 798004
+<< end >>

@@ -1,0 +1,8 @@
+magic
+tech gf180mcuD
+timestamp 1755724134
+<< properties >>
+string GDS_END 53382
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_ip_sram/gds/gf180mcu_fd_ip_sram__sram128x8m8wm1.gds
+string GDS_START 53042
+<< end >>

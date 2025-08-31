@@ -1,0 +1,69 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< psubdiff >>
+rect 28 213 588 235
+rect 28 167 50 213
+rect 566 167 588 213
+rect 28 145 588 167
+<< psubdiffcont >>
+rect 50 167 566 213
+<< polysilicon >>
+rect 25 497 599 615
+rect 25 451 44 497
+rect 90 451 534 497
+rect 580 451 599 497
+rect 25 339 599 451
+rect 25 -77 599 41
+rect 25 -123 44 -77
+rect 90 -123 534 -77
+rect 580 -123 599 -77
+rect 25 -235 599 -123
+<< polycontact >>
+rect 44 451 90 497
+rect 534 451 580 497
+rect 44 -123 90 -77
+rect 534 -123 580 -77
+<< metal1 >>
+rect -127 497 772 514
+rect -127 451 44 497
+rect 90 451 534 497
+rect 580 451 772 497
+rect -127 213 772 451
+rect -127 167 50 213
+rect 566 167 772 213
+rect -127 -77 772 167
+rect -127 -123 44 -77
+rect 90 -123 534 -77
+rect 580 -123 772 -77
+rect -127 -134 772 -123
+use M1_POLY2_CDNS_4066195314539  M1_POLY2_CDNS_4066195314539_0
+timestamp 1755724134
+transform 1 0 557 0 -1 -100
+box 0 0 1 1
+use M1_POLY2_CDNS_4066195314539  M1_POLY2_CDNS_4066195314539_1
+timestamp 1755724134
+transform 1 0 67 0 -1 -100
+box 0 0 1 1
+use M1_POLY2_CDNS_4066195314539  M1_POLY2_CDNS_4066195314539_2
+timestamp 1755724134
+transform 1 0 67 0 1 474
+box 0 0 1 1
+use M1_POLY2_CDNS_4066195314539  M1_POLY2_CDNS_4066195314539_3
+timestamp 1755724134
+transform 1 0 557 0 1 474
+box 0 0 1 1
+use M1_PSUB_CDNS_4066195314544  M1_PSUB_CDNS_4066195314544_0
+timestamp 1755724134
+transform 1 0 308 0 -1 190
+box 0 0 1 1
+use M1_PSUB_CDNS_4066195314544  M1_PSUB_CDNS_4066195314544_1
+timestamp 1755724134
+transform 1 0 308 0 1 190
+box 0 0 1 1
+<< properties >>
+string GDS_END 3657760
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_io/gds/gf180mcu_fd_io.gds
+string GDS_START 3657110
+<< end >>

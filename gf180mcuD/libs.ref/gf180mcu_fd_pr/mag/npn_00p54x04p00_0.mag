@@ -1,0 +1,141 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< deepnwell >>
+rect -680 -680 788 1480
+<< pbase >>
+rect -180 -180 288 980
+<< ndiff >>
+rect 0 752 108 800
+rect 0 48 31 752
+rect 77 48 108 752
+rect 0 0 108 48
+<< ndiffc >>
+rect 31 48 77 752
+<< psubdiff >>
+rect -1264 2045 1372 2064
+rect -1264 1999 -1097 2045
+rect 1205 1999 1372 2045
+rect -1264 1980 1372 1999
+rect -1264 1927 -1180 1980
+rect -1264 -1127 -1245 1927
+rect -1199 -1127 -1180 1927
+rect 1288 1927 1372 1980
+rect -148 929 256 948
+rect -148 883 -109 929
+rect 219 883 256 929
+rect -148 864 256 883
+rect -148 795 -64 864
+rect -148 -97 -129 795
+rect -83 -64 -64 795
+rect 172 795 256 864
+rect 172 -64 191 795
+rect -83 -97 191 -64
+rect 237 -97 256 795
+rect -148 -148 256 -97
+rect -1264 -1180 -1180 -1127
+rect 1288 -1127 1307 1927
+rect 1353 -1127 1372 1927
+rect 1288 -1180 1372 -1127
+rect -1264 -1199 1372 -1180
+rect -1264 -1245 -1097 -1199
+rect -769 -1245 877 -1199
+rect 1205 -1245 1372 -1199
+rect -1264 -1264 1372 -1245
+<< nsubdiff >>
+rect -296 1077 404 1096
+rect -296 1031 -251 1077
+rect 359 1031 404 1077
+rect -296 1012 404 1031
+rect -296 933 -212 1012
+rect -296 -241 -277 933
+rect -231 -212 -212 933
+rect 320 933 404 1012
+rect 320 -212 339 933
+rect -231 -241 339 -212
+rect 385 -241 404 933
+rect -296 -296 404 -241
+<< psubdiffcont >>
+rect -1097 1999 1205 2045
+rect -1245 -1127 -1199 1927
+rect -109 883 219 929
+rect -129 -97 -83 795
+rect 191 -97 237 795
+rect 1307 -1127 1353 1927
+rect -1097 -1245 -769 -1199
+rect 877 -1245 1205 -1199
+<< nsubdiffcont >>
+rect -251 1031 359 1077
+rect -277 -241 -231 933
+rect 339 -241 385 933
+<< metal1 >>
+rect -1264 2045 1372 2064
+rect -1264 1999 -1097 2045
+rect 1205 1999 1372 2045
+rect -1264 1980 1372 1999
+rect -1264 1927 -1180 1980
+rect -1264 -1127 -1245 1927
+rect -1199 -1127 -1180 1927
+rect 1288 1927 1372 1980
+rect -296 1077 404 1096
+rect -296 1031 -251 1077
+rect 359 1031 404 1077
+rect -296 1012 404 1031
+rect -296 933 -212 1012
+rect -296 -241 -277 933
+rect -231 -241 -212 933
+rect -148 929 256 948
+rect -148 883 -109 929
+rect 219 883 256 929
+rect -148 864 256 883
+rect -148 795 -64 864
+rect -148 -97 -129 795
+rect -83 -97 -64 795
+rect 0 752 108 800
+rect 0 48 31 752
+rect 77 48 108 752
+rect 0 0 108 48
+rect 172 795 256 864
+rect -148 -148 -64 -97
+rect 172 -97 191 795
+rect 237 -97 256 795
+rect 172 -148 256 -97
+rect 320 933 404 1012
+rect -296 -296 -212 -241
+rect 320 -241 339 933
+rect 385 -241 404 933
+rect 320 -296 404 -241
+rect -1264 -1180 -1180 -1127
+rect 1288 -1127 1307 1927
+rect 1353 -1127 1372 1927
+rect 1288 -1180 1372 -1127
+rect -1264 -1199 -680 -1180
+rect -1264 -1245 -1097 -1199
+rect -769 -1245 -680 -1199
+rect -1264 -1264 -680 -1245
+rect 788 -1199 1372 -1180
+rect 788 -1245 877 -1199
+rect 1205 -1245 1372 -1199
+rect 788 -1264 1372 -1245
+<< labels >>
+flabel ndiffc 52 398 52 398 0 FreeSans 400 0 0 0 E
+flabel psubdiffcont -98 911 -98 911 0 FreeSans 400 0 0 0 B
+flabel metal1 212 -107 212 -107 0 FreeSans 400 0 0 0 B
+flabel psubdiffcont 214 904 214 904 0 FreeSans 400 0 0 0 B
+flabel metal1 -248 -253 -248 -253 0 FreeSans 400 0 0 0 C
+flabel metal1 367 -242 367 -242 0 FreeSans 400 0 0 0 C
+flabel metal1 361 1055 361 1055 0 FreeSans 400 0 0 0 C
+flabel metal1 1328 -1218 1328 -1218 0 FreeSans 400 0 0 0 S
+flabel metal1 1328 -1218 1328 -1218 0 FreeSans 400 0 0 0 S
+flabel metal1 1331 2021 1331 2021 0 FreeSans 400 0 0 0 S
+flabel metal1 -1218 -1215 -1218 -1215 0 FreeSans 400 0 0 0 S
+flabel metal1 -1218 -1215 -1218 -1215 0 FreeSans 400 0 0 0 S
+<< properties >>
+string GDS_END 13804
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_pr/gds/npn_00p54x04p00.gds
+string GDS_START 112
+string gencell npn_00p54x04p00
+string library gf180mcu
+string parameter m=1
+<< end >>

@@ -1,0 +1,85 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< nwell >>
+rect -86 453 534 1094
+<< pwell >>
+rect -86 -86 534 453
+<< mvnmos >>
+rect 125 201 245 333
+<< mvpmos >>
+rect 125 573 225 753
+<< mvndiff >>
+rect 37 260 125 333
+rect 37 214 50 260
+rect 96 214 125 260
+rect 37 201 125 214
+rect 245 320 333 333
+rect 245 274 274 320
+rect 320 274 333 320
+rect 245 201 333 274
+<< mvpdiff >>
+rect 37 740 125 753
+rect 37 600 50 740
+rect 96 600 125 740
+rect 37 573 125 600
+rect 225 729 313 753
+rect 225 589 254 729
+rect 300 589 313 729
+rect 225 573 313 589
+<< mvndiffc >>
+rect 50 214 96 260
+rect 274 274 320 320
+<< mvpdiffc >>
+rect 50 600 96 740
+rect 254 589 300 729
+<< polysilicon >>
+rect 125 753 225 797
+rect 125 529 225 573
+rect 125 425 165 529
+rect 125 412 245 425
+rect 125 366 186 412
+rect 232 366 245 412
+rect 125 333 245 366
+rect 125 157 245 201
+<< polycontact >>
+rect 186 366 232 412
+<< metal1 >>
+rect 0 918 448 1098
+rect 50 740 96 918
+rect 50 589 96 600
+rect 254 729 306 740
+rect 300 589 306 729
+rect 254 578 306 589
+rect 175 366 186 412
+rect 232 366 320 412
+rect 274 320 320 366
+rect 50 260 96 271
+rect 274 263 320 274
+rect 50 90 96 214
+rect 0 -90 448 90
+<< labels >>
+flabel metal1 s 0 918 448 1098 0 FreeSans 200 0 0 0 VDD
+port 2 nsew power bidirectional abutment
+flabel metal1 s 50 90 96 271 0 FreeSans 200 0 0 0 VSS
+port 5 nsew ground bidirectional abutment
+flabel metal1 s 254 578 306 740 0 FreeSans 200 0 0 0 Z
+port 1 nsew default output
+flabel nwell s 10 734 110 834 0 FreeSans 400 0 0 0 VNW
+port 3 nsew power bidirectional
+flabel pwell s 10 -50 110 50 0 FreeSans 400 0 0 0 VPW
+port 4 nsew ground bidirectional
+rlabel metal1 s 50 589 96 918 1 VDD
+port 2 nsew power bidirectional abutment
+rlabel metal1 s 0 -90 448 90 1 VSS
+port 5 nsew ground bidirectional abutment
+<< properties >>
+string FIXED_BBOX 0 0 448 1008
+string GDS_END 443306
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_sc_mcu9t5v0/gds/gf180mcu_fd_sc_mcu9t5v0.gds
+string GDS_START 441202
+string LEFclass core TIEHIGH
+string LEFsite GF018hv5v_green_sc9
+string LEFsymmetry X Y
+<< end >>

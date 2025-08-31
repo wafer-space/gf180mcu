@@ -1,0 +1,2277 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< metal3 >>
+rect -1997 13830 23144 14190
+rect -1997 12810 23144 13170
+rect -1997 12030 23144 12390
+rect -1997 11010 23144 11370
+rect -1997 10230 23144 10590
+rect -1997 9210 23144 9570
+rect -1997 8430 23144 8790
+rect -1997 7410 23144 7770
+rect -1997 6630 23144 6990
+rect -1997 5610 23144 5970
+rect -1997 4830 23144 5190
+rect -1997 3810 23144 4170
+rect -1997 3030 23144 3390
+rect -1997 2010 23144 2370
+rect -1997 1230 23144 1590
+rect -1997 210 23144 570
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_0
+timestamp 1755724134
+transform -1 0 20400 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_1
+timestamp 1755724134
+transform -1 0 17400 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_2
+timestamp 1755724134
+transform -1 0 18000 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_3
+timestamp 1755724134
+transform -1 0 19200 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_4
+timestamp 1755724134
+transform -1 0 18600 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_5
+timestamp 1755724134
+transform -1 0 21000 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_6
+timestamp 1755724134
+transform -1 0 19800 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_7
+timestamp 1755724134
+transform -1 0 21600 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_8
+timestamp 1755724134
+transform -1 0 18600 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_9
+timestamp 1755724134
+transform -1 0 18600 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_10
+timestamp 1755724134
+transform -1 0 20400 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_11
+timestamp 1755724134
+transform 1 0 11400 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_12
+timestamp 1755724134
+transform 1 0 15600 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_13
+timestamp 1755724134
+transform -1 0 21600 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_14
+timestamp 1755724134
+transform 1 0 12000 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_15
+timestamp 1755724134
+transform -1 0 17400 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_16
+timestamp 1755724134
+transform -1 0 19200 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_17
+timestamp 1755724134
+transform -1 0 19200 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_18
+timestamp 1755724134
+transform -1 0 17400 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_19
+timestamp 1755724134
+transform 1 0 12600 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_20
+timestamp 1755724134
+transform 1 0 13200 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_21
+timestamp 1755724134
+transform -1 0 21600 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_22
+timestamp 1755724134
+transform 1 0 13800 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_23
+timestamp 1755724134
+transform 1 0 14400 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_24
+timestamp 1755724134
+transform -1 0 19800 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_25
+timestamp 1755724134
+transform -1 0 19800 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_26
+timestamp 1755724134
+transform 1 0 15000 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_27
+timestamp 1755724134
+transform 1 0 15600 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_28
+timestamp 1755724134
+transform 1 0 15600 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_29
+timestamp 1755724134
+transform 1 0 11400 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_30
+timestamp 1755724134
+transform 1 0 12600 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_31
+timestamp 1755724134
+transform 1 0 13200 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_32
+timestamp 1755724134
+transform 1 0 13200 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_33
+timestamp 1755724134
+transform 1 0 12600 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_34
+timestamp 1755724134
+transform 1 0 15000 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_35
+timestamp 1755724134
+transform 1 0 15000 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_36
+timestamp 1755724134
+transform 1 0 13800 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_37
+timestamp 1755724134
+transform -1 0 20400 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_38
+timestamp 1755724134
+transform 1 0 13800 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_39
+timestamp 1755724134
+transform -1 0 21000 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_40
+timestamp 1755724134
+transform -1 0 21000 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_41
+timestamp 1755724134
+transform 1 0 11400 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_42
+timestamp 1755724134
+transform 1 0 12000 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_43
+timestamp 1755724134
+transform 1 0 12000 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_44
+timestamp 1755724134
+transform 1 0 14400 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_45
+timestamp 1755724134
+transform 1 0 14400 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_46
+timestamp 1755724134
+transform -1 0 18000 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_47
+timestamp 1755724134
+transform -1 0 18000 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_48
+timestamp 1755724134
+transform -1 0 6600 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_49
+timestamp 1755724134
+transform -1 0 9600 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_50
+timestamp 1755724134
+transform -1 0 9600 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_51
+timestamp 1755724134
+transform -1 0 6600 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_52
+timestamp 1755724134
+transform 1 0 1200 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_53
+timestamp 1755724134
+transform 1 0 3000 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_54
+timestamp 1755724134
+transform 1 0 4800 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_55
+timestamp 1755724134
+transform 1 0 4800 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_56
+timestamp 1755724134
+transform -1 0 9000 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_57
+timestamp 1755724134
+transform -1 0 9000 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_58
+timestamp 1755724134
+transform 1 0 3000 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_59
+timestamp 1755724134
+transform 1 0 600 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_60
+timestamp 1755724134
+transform 1 0 1200 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_61
+timestamp 1755724134
+transform 1 0 1800 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_62
+timestamp 1755724134
+transform -1 0 6600 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_63
+timestamp 1755724134
+transform -1 0 7200 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_64
+timestamp 1755724134
+transform -1 0 7800 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_65
+timestamp 1755724134
+transform -1 0 8400 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_66
+timestamp 1755724134
+transform -1 0 9000 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_67
+timestamp 1755724134
+transform -1 0 9600 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_68
+timestamp 1755724134
+transform -1 0 10200 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_69
+timestamp 1755724134
+transform 1 0 2400 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_70
+timestamp 1755724134
+transform -1 0 8400 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_71
+timestamp 1755724134
+transform -1 0 8400 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_72
+timestamp 1755724134
+transform 1 0 3000 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_73
+timestamp 1755724134
+transform 1 0 4800 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_74
+timestamp 1755724134
+transform 1 0 3600 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_75
+timestamp 1755724134
+transform 1 0 4200 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_76
+timestamp 1755724134
+transform 1 0 600 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_77
+timestamp 1755724134
+transform -1 0 10800 0 1 1800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_78
+timestamp 1755724134
+transform -1 0 7800 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_79
+timestamp 1755724134
+transform -1 0 7800 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_80
+timestamp 1755724134
+transform 1 0 600 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_81
+timestamp 1755724134
+transform 1 0 1800 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_82
+timestamp 1755724134
+transform 1 0 3600 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_83
+timestamp 1755724134
+transform -1 0 10800 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_84
+timestamp 1755724134
+transform -1 0 10800 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_85
+timestamp 1755724134
+transform 1 0 3600 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_86
+timestamp 1755724134
+transform 1 0 1800 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_87
+timestamp 1755724134
+transform -1 0 7200 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_88
+timestamp 1755724134
+transform -1 0 7200 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_89
+timestamp 1755724134
+transform 1 0 4200 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_90
+timestamp 1755724134
+transform -1 0 10200 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_91
+timestamp 1755724134
+transform -1 0 10200 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_92
+timestamp 1755724134
+transform 1 0 4200 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_93
+timestamp 1755724134
+transform 1 0 2400 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_94
+timestamp 1755724134
+transform 1 0 2400 0 1 3600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_95
+timestamp 1755724134
+transform 1 0 1200 0 1 0
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_96
+timestamp 1755724134
+transform -1 0 7800 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_97
+timestamp 1755724134
+transform -1 0 7800 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_98
+timestamp 1755724134
+transform -1 0 7800 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_99
+timestamp 1755724134
+transform 1 0 4200 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_100
+timestamp 1755724134
+transform 1 0 4200 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_101
+timestamp 1755724134
+transform -1 0 7200 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_102
+timestamp 1755724134
+transform -1 0 7200 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_103
+timestamp 1755724134
+transform -1 0 7200 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_104
+timestamp 1755724134
+transform 1 0 600 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_105
+timestamp 1755724134
+transform 1 0 1800 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_106
+timestamp 1755724134
+transform -1 0 6600 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_107
+timestamp 1755724134
+transform -1 0 6600 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_108
+timestamp 1755724134
+transform -1 0 6600 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_109
+timestamp 1755724134
+transform 1 0 4800 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_110
+timestamp 1755724134
+transform 1 0 4800 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_111
+timestamp 1755724134
+transform 1 0 4800 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_112
+timestamp 1755724134
+transform 1 0 1800 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_113
+timestamp 1755724134
+transform 1 0 1800 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_114
+timestamp 1755724134
+transform 1 0 3600 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_115
+timestamp 1755724134
+transform 1 0 3600 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_116
+timestamp 1755724134
+transform 1 0 3600 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_117
+timestamp 1755724134
+transform 1 0 600 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_118
+timestamp 1755724134
+transform 1 0 600 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_119
+timestamp 1755724134
+transform -1 0 10800 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_120
+timestamp 1755724134
+transform -1 0 10800 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_121
+timestamp 1755724134
+transform -1 0 10800 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_122
+timestamp 1755724134
+transform 1 0 3000 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_123
+timestamp 1755724134
+transform 1 0 3000 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_124
+timestamp 1755724134
+transform -1 0 10200 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_125
+timestamp 1755724134
+transform -1 0 10200 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_126
+timestamp 1755724134
+transform -1 0 10200 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_127
+timestamp 1755724134
+transform 1 0 3000 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_128
+timestamp 1755724134
+transform 1 0 1200 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_129
+timestamp 1755724134
+transform -1 0 9600 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_130
+timestamp 1755724134
+transform -1 0 9600 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_131
+timestamp 1755724134
+transform -1 0 9600 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_132
+timestamp 1755724134
+transform 1 0 1200 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_133
+timestamp 1755724134
+transform 1 0 2400 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_134
+timestamp 1755724134
+transform -1 0 9000 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_135
+timestamp 1755724134
+transform -1 0 9000 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_136
+timestamp 1755724134
+transform -1 0 9000 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_137
+timestamp 1755724134
+transform 1 0 2400 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_138
+timestamp 1755724134
+transform 1 0 2400 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_139
+timestamp 1755724134
+transform -1 0 8400 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_140
+timestamp 1755724134
+transform -1 0 8400 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_141
+timestamp 1755724134
+transform -1 0 8400 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_142
+timestamp 1755724134
+transform 1 0 1200 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_143
+timestamp 1755724134
+transform 1 0 4200 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_144
+timestamp 1755724134
+transform -1 0 21000 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_145
+timestamp 1755724134
+transform 1 0 15600 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_146
+timestamp 1755724134
+transform 1 0 15600 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_147
+timestamp 1755724134
+transform -1 0 21600 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_148
+timestamp 1755724134
+transform -1 0 21600 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_149
+timestamp 1755724134
+transform -1 0 21600 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_150
+timestamp 1755724134
+transform 1 0 15600 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_151
+timestamp 1755724134
+transform 1 0 11400 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_152
+timestamp 1755724134
+transform -1 0 20400 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_153
+timestamp 1755724134
+transform -1 0 20400 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_154
+timestamp 1755724134
+transform 1 0 12600 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_155
+timestamp 1755724134
+transform 1 0 15000 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_156
+timestamp 1755724134
+transform -1 0 17400 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_157
+timestamp 1755724134
+transform -1 0 17400 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_158
+timestamp 1755724134
+transform -1 0 17400 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_159
+timestamp 1755724134
+transform 1 0 15000 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_160
+timestamp 1755724134
+transform 1 0 15000 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_161
+timestamp 1755724134
+transform 1 0 12600 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_162
+timestamp 1755724134
+transform 1 0 12600 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_163
+timestamp 1755724134
+transform 1 0 14400 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_164
+timestamp 1755724134
+transform 1 0 14400 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_165
+timestamp 1755724134
+transform 1 0 14400 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_166
+timestamp 1755724134
+transform 1 0 11400 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_167
+timestamp 1755724134
+transform 1 0 11400 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_168
+timestamp 1755724134
+transform -1 0 18000 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_169
+timestamp 1755724134
+transform -1 0 18000 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_170
+timestamp 1755724134
+transform 1 0 13800 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_171
+timestamp 1755724134
+transform 1 0 13800 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_172
+timestamp 1755724134
+transform -1 0 20400 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_173
+timestamp 1755724134
+transform -1 0 18600 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_174
+timestamp 1755724134
+transform 1 0 13800 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_175
+timestamp 1755724134
+transform -1 0 18600 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_176
+timestamp 1755724134
+transform -1 0 18600 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_177
+timestamp 1755724134
+transform 1 0 12000 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_178
+timestamp 1755724134
+transform 1 0 12000 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_179
+timestamp 1755724134
+transform 1 0 13200 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_180
+timestamp 1755724134
+transform -1 0 19200 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_181
+timestamp 1755724134
+transform -1 0 19200 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_182
+timestamp 1755724134
+transform -1 0 19200 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_183
+timestamp 1755724134
+transform 1 0 13200 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_184
+timestamp 1755724134
+transform -1 0 18000 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_185
+timestamp 1755724134
+transform -1 0 19800 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_186
+timestamp 1755724134
+transform -1 0 19800 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_187
+timestamp 1755724134
+transform -1 0 19800 0 1 9000
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_188
+timestamp 1755724134
+transform 1 0 13200 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_189
+timestamp 1755724134
+transform 1 0 12000 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_190
+timestamp 1755724134
+transform -1 0 21000 0 1 12600
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_191
+timestamp 1755724134
+transform -1 0 21000 0 1 10800
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_192
+timestamp 1755724134
+transform -1 0 18000 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_193
+timestamp 1755724134
+transform -1 0 18000 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_194
+timestamp 1755724134
+transform -1 0 20400 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_195
+timestamp 1755724134
+transform -1 0 18600 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_196
+timestamp 1755724134
+transform -1 0 18600 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_197
+timestamp 1755724134
+transform -1 0 20400 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_198
+timestamp 1755724134
+transform -1 0 19200 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_199
+timestamp 1755724134
+transform -1 0 19200 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_200
+timestamp 1755724134
+transform -1 0 19800 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_201
+timestamp 1755724134
+transform -1 0 19800 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_202
+timestamp 1755724134
+transform -1 0 21000 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_203
+timestamp 1755724134
+transform -1 0 21000 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_204
+timestamp 1755724134
+transform -1 0 21600 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_205
+timestamp 1755724134
+transform -1 0 21600 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_206
+timestamp 1755724134
+transform -1 0 17400 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_207
+timestamp 1755724134
+transform -1 0 17400 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_208
+timestamp 1755724134
+transform -1 0 10800 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_209
+timestamp 1755724134
+transform -1 0 10800 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_210
+timestamp 1755724134
+transform -1 0 10200 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_211
+timestamp 1755724134
+transform -1 0 10200 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_212
+timestamp 1755724134
+transform -1 0 9600 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_213
+timestamp 1755724134
+transform -1 0 9600 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_214
+timestamp 1755724134
+transform -1 0 9000 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_215
+timestamp 1755724134
+transform -1 0 9000 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_216
+timestamp 1755724134
+transform -1 0 8400 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_217
+timestamp 1755724134
+transform -1 0 8400 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_218
+timestamp 1755724134
+transform -1 0 7800 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_219
+timestamp 1755724134
+transform -1 0 7800 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_220
+timestamp 1755724134
+transform -1 0 7200 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_221
+timestamp 1755724134
+transform -1 0 7200 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_222
+timestamp 1755724134
+transform -1 0 6600 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_223
+timestamp 1755724134
+transform -1 0 6600 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_224
+timestamp 1755724134
+transform 1 0 15600 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_225
+timestamp 1755724134
+transform 1 0 15600 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_226
+timestamp 1755724134
+transform 1 0 15000 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_227
+timestamp 1755724134
+transform 1 0 15000 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_228
+timestamp 1755724134
+transform 1 0 14400 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_229
+timestamp 1755724134
+transform 1 0 14400 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_230
+timestamp 1755724134
+transform 1 0 13800 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_231
+timestamp 1755724134
+transform 1 0 13800 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_232
+timestamp 1755724134
+transform 1 0 13200 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_233
+timestamp 1755724134
+transform 1 0 13200 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_234
+timestamp 1755724134
+transform 1 0 12600 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_235
+timestamp 1755724134
+transform 1 0 12600 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_236
+timestamp 1755724134
+transform 1 0 12000 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_237
+timestamp 1755724134
+transform 1 0 12000 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_238
+timestamp 1755724134
+transform 1 0 11400 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_239
+timestamp 1755724134
+transform 1 0 11400 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_240
+timestamp 1755724134
+transform 1 0 4200 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_241
+timestamp 1755724134
+transform 1 0 4200 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_242
+timestamp 1755724134
+transform 1 0 4800 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_243
+timestamp 1755724134
+transform 1 0 4800 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_244
+timestamp 1755724134
+transform 1 0 3600 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_245
+timestamp 1755724134
+transform 1 0 3600 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_246
+timestamp 1755724134
+transform 1 0 3000 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_247
+timestamp 1755724134
+transform 1 0 3000 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_248
+timestamp 1755724134
+transform 1 0 2400 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_249
+timestamp 1755724134
+transform 1 0 2400 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_250
+timestamp 1755724134
+transform 1 0 1800 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_251
+timestamp 1755724134
+transform 1 0 1800 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_252
+timestamp 1755724134
+transform 1 0 1200 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_253
+timestamp 1755724134
+transform 1 0 1200 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_254
+timestamp 1755724134
+transform 1 0 600 0 1 5400
+box -68 -68 668 1868
+use 018SRAM_cell1_2x_128x8m81  018SRAM_cell1_2x_128x8m81_255
+timestamp 1755724134
+transform 1 0 600 0 1 7200
+box -68 -68 668 1868
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_0
+timestamp 1755724134
+transform -1 0 16800 0 1 4500
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_1
+timestamp 1755724134
+transform -1 0 16800 0 1 900
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_2
+timestamp 1755724134
+transform -1 0 16800 0 1 2700
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_3
+timestamp 1755724134
+transform -1 0 6000 0 1 900
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_4
+timestamp 1755724134
+transform -1 0 6000 0 1 2700
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_5
+timestamp 1755724134
+transform -1 0 6000 0 1 4500
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_6
+timestamp 1755724134
+transform -1 0 6000 0 1 9900
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_7
+timestamp 1755724134
+transform -1 0 6000 0 1 11700
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_8
+timestamp 1755724134
+transform -1 0 6000 0 1 13500
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_9
+timestamp 1755724134
+transform -1 0 16800 0 1 13500
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_10
+timestamp 1755724134
+transform -1 0 16800 0 1 9900
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_11
+timestamp 1755724134
+transform -1 0 16800 0 1 11700
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_12
+timestamp 1755724134
+transform -1 0 16800 0 1 6300
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_13
+timestamp 1755724134
+transform -1 0 16800 0 1 8100
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_14
+timestamp 1755724134
+transform -1 0 6000 0 1 6300
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_15
+timestamp 1755724134
+transform -1 0 6000 0 1 8100
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_16
+timestamp 1755724134
+transform -1 0 11400 0 1 2700
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_17
+timestamp 1755724134
+transform -1 0 11400 0 1 8100
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_18
+timestamp 1755724134
+transform -1 0 11400 0 1 9900
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_19
+timestamp 1755724134
+transform -1 0 11400 0 1 11700
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_20
+timestamp 1755724134
+transform -1 0 11400 0 1 13500
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_21
+timestamp 1755724134
+transform -1 0 11400 0 1 4500
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_22
+timestamp 1755724134
+transform -1 0 11400 0 1 6300
+box -68 -968 668 968
+use 018SRAM_strap1_2x_128x8m81  018SRAM_strap1_2x_128x8m81_23
+timestamp 1755724134
+transform -1 0 11400 0 1 900
+box -68 -968 668 968
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_0
+timestamp 1755724134
+transform 1 0 21600 0 1 1780
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_1
+timestamp 1755724134
+transform 1 0 21600 0 1 3580
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_2
+timestamp 1755724134
+transform 1 0 21600 0 1 -20
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_3
+timestamp 1755724134
+transform -1 0 600 0 1 1780
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_4
+timestamp 1755724134
+transform -1 0 600 0 1 3580
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_5
+timestamp 1755724134
+transform -1 0 600 0 1 -20
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_6
+timestamp 1755724134
+transform -1 0 600 0 1 8980
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_7
+timestamp 1755724134
+transform -1 0 600 0 1 10780
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_8
+timestamp 1755724134
+transform -1 0 600 0 1 12580
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_9
+timestamp 1755724134
+transform 1 0 21600 0 1 8980
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_10
+timestamp 1755724134
+transform 1 0 21600 0 1 10780
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_11
+timestamp 1755724134
+transform 1 0 21600 0 1 12580
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_12
+timestamp 1755724134
+transform -1 0 600 0 1 5380
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_13
+timestamp 1755724134
+transform -1 0 600 0 1 7180
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_14
+timestamp 1755724134
+transform 1 0 21600 0 1 5380
+box -68 -48 668 1888
+use strapx2b_bndry_128x8m81  strapx2b_bndry_128x8m81_15
+timestamp 1755724134
+transform 1 0 21600 0 1 7180
+box -68 -48 668 1888
+<< labels >>
+rlabel metal2 s 11793 231 11793 231 4 bb[7]
+rlabel metal2 s 12381 231 12381 231 4 bb[6]
+rlabel metal2 s 12187 231 12187 231 4 b[6]
+rlabel metal2 s 12785 231 12785 231 4 b[5]
+rlabel metal2 s 12978 231 12978 231 4 bb[5]
+rlabel metal2 s 13595 231 13595 231 4 bb[4]
+rlabel metal2 s 13402 231 13402 231 4 b[4]
+rlabel metal2 s 14181 231 14181 231 4 bb[3]
+rlabel metal2 s 13987 231 13987 231 4 b[3]
+rlabel metal2 s 14787 231 14787 231 4 bb[2]
+rlabel metal2 s 14593 231 14593 231 4 b[2]
+rlabel metal2 s 15385 231 15385 231 4 bb[1]
+rlabel metal2 s 15191 231 15191 231 4 b[1]
+rlabel metal2 s 15983 231 15983 231 4 bb[0]
+rlabel metal2 s 15789 231 15789 231 4 b[0]
+rlabel metal2 s 11600 231 11600 231 4 b[7]
+rlabel metal2 s 302 -20 302 -20 4 VDD
+rlabel metal2 s 21898 -20 21898 -20 4 VDD
+rlabel metal3 18079 12160 18079 12160 4 WL[13]
+rlabel metal3 16879 13060 16879 13060 4 WL[14]
+rlabel metal3 18079 13060 18079 13060 4 WL[14]
+rlabel metal3 18079 11260 18079 11260 4 WL[12]
+rlabel metal3 16879 12160 16879 12160 4 WL[13]
+rlabel metal3 16879 11260 16879 11260 4 WL[12]
+rlabel metal3 19279 11260 19279 11260 4 WL[12]
+rlabel metal3 21519 11260 21519 11260 4 WL[12]
+rlabel metal3 21519 12160 21519 12160 4 WL[13]
+rlabel metal3 21519 13060 21519 13060 4 WL[14]
+rlabel metal3 19279 12160 19279 12160 4 WL[13]
+rlabel metal3 19279 13060 19279 13060 4 WL[14]
+rlabel metal3 20479 13060 20479 13060 4 WL[14]
+rlabel metal3 20479 12160 20479 12160 4 WL[13]
+rlabel metal3 20479 11260 20479 11260 4 WL[12]
+rlabel metal3 17977 13060 17977 13060 4 WL[14]
+rlabel metal3 17977 12160 17977 12160 4 WL[13]
+rlabel metal3 17977 11260 17977 11260 4 WL[12]
+rlabel metal3 17377 13060 17377 13060 4 WL[14]
+rlabel metal3 17377 12160 17377 12160 4 WL[13]
+rlabel metal3 17377 11260 17377 11260 4 WL[12]
+rlabel metal3 18577 13060 18577 13060 4 WL[14]
+rlabel metal3 18577 12160 18577 12160 4 WL[13]
+rlabel metal3 18577 11260 18577 11260 4 WL[12]
+rlabel metal3 19777 13060 19777 13060 4 WL[14]
+rlabel metal3 19777 12160 19777 12160 4 WL[13]
+rlabel metal3 19777 11260 19777 11260 4 WL[12]
+rlabel metal3 19177 13060 19177 13060 4 WL[14]
+rlabel metal3 19177 12160 19177 12160 4 WL[13]
+rlabel metal3 19177 11260 19177 11260 4 WL[12]
+rlabel metal3 21577 13060 21577 13060 4 WL[14]
+rlabel metal3 21577 12160 21577 12160 4 WL[13]
+rlabel metal3 21577 11260 21577 11260 4 WL[12]
+rlabel metal3 20977 13060 20977 13060 4 WL[14]
+rlabel metal3 20977 12160 20977 12160 4 WL[13]
+rlabel metal3 20977 11260 20977 11260 4 WL[12]
+rlabel metal3 20377 13060 20377 13060 4 WL[14]
+rlabel metal3 20377 12160 20377 12160 4 WL[13]
+rlabel metal3 20377 11260 20377 11260 4 WL[12]
+rlabel metal3 12521 11260 12521 11260 4 WL[12]
+rlabel metal3 12521 12160 12521 12160 4 WL[13]
+rlabel metal3 12521 13060 12521 13060 4 WL[14]
+rlabel metal3 12521 13960 12521 13960 4 WL[15]
+rlabel metal3 13721 11260 13721 11260 4 WL[12]
+rlabel metal3 13721 12160 13721 12160 4 WL[13]
+rlabel metal3 13721 13060 13721 13060 4 WL[14]
+rlabel metal3 13721 13960 13721 13960 4 WL[15]
+rlabel metal3 16121 11260 16121 11260 4 WL[12]
+rlabel metal3 16121 12160 16121 12160 4 WL[13]
+rlabel metal3 16121 13060 16121 13060 4 WL[14]
+rlabel metal3 16121 13960 16121 13960 4 WL[15]
+rlabel metal3 14921 11260 14921 11260 4 WL[12]
+rlabel metal3 14921 12160 14921 12160 4 WL[13]
+rlabel metal3 14921 13060 14921 13060 4 WL[14]
+rlabel metal3 14921 13960 14921 13960 4 WL[15]
+rlabel metal3 11481 12160 11481 12160 4 WL[13]
+rlabel metal3 11481 13060 11481 13060 4 WL[14]
+rlabel metal3 11481 13960 11481 13960 4 WL[15]
+rlabel metal3 11481 11260 11481 11260 4 WL[12]
+rlabel metal3 11423 13960 11423 13960 4 WL[15]
+rlabel metal3 11423 13060 11423 13060 4 WL[14]
+rlabel metal3 11423 12160 11423 12160 4 WL[13]
+rlabel metal3 11423 11260 11423 11260 4 WL[12]
+rlabel metal3 12623 13960 12623 13960 4 WL[15]
+rlabel metal3 12623 13060 12623 13060 4 WL[14]
+rlabel metal3 12623 12160 12623 12160 4 WL[13]
+rlabel metal3 12623 11260 12623 11260 4 WL[12]
+rlabel metal3 13223 13960 13223 13960 4 WL[15]
+rlabel metal3 13223 13060 13223 13060 4 WL[14]
+rlabel metal3 13223 12160 13223 12160 4 WL[13]
+rlabel metal3 13223 11260 13223 11260 4 WL[12]
+rlabel metal3 13823 13960 13823 13960 4 WL[15]
+rlabel metal3 13823 13060 13823 13060 4 WL[14]
+rlabel metal3 13823 12160 13823 12160 4 WL[13]
+rlabel metal3 13823 11260 13823 11260 4 WL[12]
+rlabel metal3 14423 13960 14423 13960 4 WL[15]
+rlabel metal3 14423 13060 14423 13060 4 WL[14]
+rlabel metal3 14423 12160 14423 12160 4 WL[13]
+rlabel metal3 14423 11260 14423 11260 4 WL[12]
+rlabel metal3 15023 13960 15023 13960 4 WL[15]
+rlabel metal3 15023 13060 15023 13060 4 WL[14]
+rlabel metal3 15023 12160 15023 12160 4 WL[13]
+rlabel metal3 15023 11260 15023 11260 4 WL[12]
+rlabel metal3 15623 13960 15623 13960 4 WL[15]
+rlabel metal3 15623 13060 15623 13060 4 WL[14]
+rlabel metal3 15623 12160 15623 12160 4 WL[13]
+rlabel metal3 15623 11260 15623 11260 4 WL[12]
+rlabel metal3 12023 13960 12023 13960 4 WL[15]
+rlabel metal3 12023 13060 12023 13060 4 WL[14]
+rlabel metal3 12023 12160 12023 12160 4 WL[13]
+rlabel metal3 12023 11260 12023 11260 4 WL[12]
+rlabel metal3 12623 10360 12623 10360 4 WL[11]
+rlabel metal3 12623 9460 12623 9460 4 WL[10]
+rlabel metal3 12623 8560 12623 8560 4 WL[9]
+rlabel metal3 12623 7660 12623 7660 4 WL[8]
+rlabel metal3 14921 7660 14921 7660 4 WL[8]
+rlabel metal3 14921 8560 14921 8560 4 WL[9]
+rlabel metal3 14921 9460 14921 9460 4 WL[10]
+rlabel metal3 14921 10360 14921 10360 4 WL[11]
+rlabel metal3 13223 10360 13223 10360 4 WL[11]
+rlabel metal3 13223 9460 13223 9460 4 WL[10]
+rlabel metal3 13223 8560 13223 8560 4 WL[9]
+rlabel metal3 13223 7660 13223 7660 4 WL[8]
+rlabel metal3 13721 7660 13721 7660 4 WL[8]
+rlabel metal3 13721 8560 13721 8560 4 WL[9]
+rlabel metal3 13721 9460 13721 9460 4 WL[10]
+rlabel metal3 13721 10360 13721 10360 4 WL[11]
+rlabel metal3 13823 10360 13823 10360 4 WL[11]
+rlabel metal3 13823 9460 13823 9460 4 WL[10]
+rlabel metal3 13823 8560 13823 8560 4 WL[9]
+rlabel metal3 13823 7660 13823 7660 4 WL[8]
+rlabel metal3 12521 7660 12521 7660 4 WL[8]
+rlabel metal3 12521 8560 12521 8560 4 WL[9]
+rlabel metal3 12521 9460 12521 9460 4 WL[10]
+rlabel metal3 12521 10360 12521 10360 4 WL[11]
+rlabel metal3 14423 10360 14423 10360 4 WL[11]
+rlabel metal3 14423 9460 14423 9460 4 WL[10]
+rlabel metal3 14423 8560 14423 8560 4 WL[9]
+rlabel metal3 14423 7660 14423 7660 4 WL[8]
+rlabel metal3 16121 7660 16121 7660 4 WL[8]
+rlabel metal3 16121 8560 16121 8560 4 WL[9]
+rlabel metal3 16121 9460 16121 9460 4 WL[10]
+rlabel metal3 16121 10360 16121 10360 4 WL[11]
+rlabel metal3 15023 10360 15023 10360 4 WL[11]
+rlabel metal3 15023 9460 15023 9460 4 WL[10]
+rlabel metal3 15023 8560 15023 8560 4 WL[9]
+rlabel metal3 15023 7660 15023 7660 4 WL[8]
+rlabel metal3 11423 10360 11423 10360 4 WL[11]
+rlabel metal3 11423 9460 11423 9460 4 WL[10]
+rlabel metal3 11423 8560 11423 8560 4 WL[9]
+rlabel metal3 11423 7660 11423 7660 4 WL[8]
+rlabel metal3 15623 10360 15623 10360 4 WL[11]
+rlabel metal3 15623 9460 15623 9460 4 WL[10]
+rlabel metal3 15623 8560 15623 8560 4 WL[9]
+rlabel metal3 15623 7660 15623 7660 4 WL[8]
+rlabel metal3 11481 8560 11481 8560 4 WL[9]
+rlabel metal3 11481 9460 11481 9460 4 WL[10]
+rlabel metal3 11481 10360 11481 10360 4 WL[11]
+rlabel metal3 11481 7660 11481 7660 4 WL[8]
+rlabel metal3 12023 10360 12023 10360 4 WL[11]
+rlabel metal3 12023 9460 12023 9460 4 WL[10]
+rlabel metal3 12023 8560 12023 8560 4 WL[9]
+rlabel metal3 12023 7660 12023 7660 4 WL[8]
+rlabel metal3 19279 8560 19279 8560 4 WL[9]
+rlabel metal3 18577 10360 18577 10360 4 WL[11]
+rlabel metal3 18577 9460 18577 9460 4 WL[10]
+rlabel metal3 18577 8560 18577 8560 4 WL[9]
+rlabel metal3 18577 7660 18577 7660 4 WL[8]
+rlabel metal3 19279 7660 19279 7660 4 WL[8]
+rlabel metal3 18079 7660 18079 7660 4 WL[8]
+rlabel metal3 19279 10360 19279 10360 4 WL[11]
+rlabel metal3 19777 10360 19777 10360 4 WL[11]
+rlabel metal3 19777 9460 19777 9460 4 WL[10]
+rlabel metal3 19777 8560 19777 8560 4 WL[9]
+rlabel metal3 19777 7660 19777 7660 4 WL[8]
+rlabel metal3 21519 7660 21519 7660 4 WL[8]
+rlabel metal3 21519 10360 21519 10360 4 WL[11]
+rlabel metal3 18079 10360 18079 10360 4 WL[11]
+rlabel metal3 19177 10360 19177 10360 4 WL[11]
+rlabel metal3 19177 9460 19177 9460 4 WL[10]
+rlabel metal3 19177 8560 19177 8560 4 WL[9]
+rlabel metal3 19177 7660 19177 7660 4 WL[8]
+rlabel metal3 18079 8560 18079 8560 4 WL[9]
+rlabel metal3 16879 9460 16879 9460 4 WL[10]
+rlabel metal3 21519 8560 21519 8560 4 WL[9]
+rlabel metal3 21577 10360 21577 10360 4 WL[11]
+rlabel metal3 21577 9460 21577 9460 4 WL[10]
+rlabel metal3 21577 8560 21577 8560 4 WL[9]
+rlabel metal3 21577 7660 21577 7660 4 WL[8]
+rlabel metal3 21519 9460 21519 9460 4 WL[10]
+rlabel metal3 16879 8560 16879 8560 4 WL[9]
+rlabel metal3 16879 7660 16879 7660 4 WL[8]
+rlabel metal3 20977 10360 20977 10360 4 WL[11]
+rlabel metal3 20977 9460 20977 9460 4 WL[10]
+rlabel metal3 20977 8560 20977 8560 4 WL[9]
+rlabel metal3 20977 7660 20977 7660 4 WL[8]
+rlabel metal3 18079 9460 18079 9460 4 WL[10]
+rlabel metal3 16879 10360 16879 10360 4 WL[11]
+rlabel metal3 17977 10360 17977 10360 4 WL[11]
+rlabel metal3 20377 10360 20377 10360 4 WL[11]
+rlabel metal3 20377 9460 20377 9460 4 WL[10]
+rlabel metal3 20377 8560 20377 8560 4 WL[9]
+rlabel metal3 20377 7660 20377 7660 4 WL[8]
+rlabel metal3 17977 9460 17977 9460 4 WL[10]
+rlabel metal3 17977 8560 17977 8560 4 WL[9]
+rlabel metal3 17977 7660 17977 7660 4 WL[8]
+rlabel metal3 19279 9460 19279 9460 4 WL[10]
+rlabel metal3 20479 10360 20479 10360 4 WL[11]
+rlabel metal3 20479 9460 20479 9460 4 WL[10]
+rlabel metal3 17377 10360 17377 10360 4 WL[11]
+rlabel metal3 17377 9460 17377 9460 4 WL[10]
+rlabel metal3 17377 8560 17377 8560 4 WL[9]
+rlabel metal3 17377 7660 17377 7660 4 WL[8]
+rlabel metal3 20479 8560 20479 8560 4 WL[9]
+rlabel metal3 20479 7660 20479 7660 4 WL[8]
+rlabel metal3 6577 13960 6577 13960 4 WL[15]
+rlabel metal3 6577 13060 6577 13060 4 WL[14]
+rlabel metal3 6577 12160 6577 12160 4 WL[13]
+rlabel metal3 6577 11260 6577 11260 4 WL[12]
+rlabel metal3 7777 13960 7777 13960 4 WL[15]
+rlabel metal3 7777 13060 7777 13060 4 WL[14]
+rlabel metal3 7777 12160 7777 12160 4 WL[13]
+rlabel metal3 7777 11260 7777 11260 4 WL[12]
+rlabel metal3 8377 13960 8377 13960 4 WL[15]
+rlabel metal3 8377 13060 8377 13060 4 WL[14]
+rlabel metal3 8377 12160 8377 12160 4 WL[13]
+rlabel metal3 8377 11260 8377 11260 4 WL[12]
+rlabel metal3 8977 13960 8977 13960 4 WL[15]
+rlabel metal3 8977 13060 8977 13060 4 WL[14]
+rlabel metal3 8977 12160 8977 12160 4 WL[13]
+rlabel metal3 8977 11260 8977 11260 4 WL[12]
+rlabel metal3 9577 13960 9577 13960 4 WL[15]
+rlabel metal3 9577 13060 9577 13060 4 WL[14]
+rlabel metal3 9577 12160 9577 12160 4 WL[13]
+rlabel metal3 9577 11260 9577 11260 4 WL[12]
+rlabel metal3 10177 13960 10177 13960 4 WL[15]
+rlabel metal3 10177 13060 10177 13060 4 WL[14]
+rlabel metal3 10177 12160 10177 12160 4 WL[13]
+rlabel metal3 10177 11260 10177 11260 4 WL[12]
+rlabel metal3 10777 13960 10777 13960 4 WL[15]
+rlabel metal3 10777 13060 10777 13060 4 WL[14]
+rlabel metal3 10777 12160 10777 12160 4 WL[13]
+rlabel metal3 10777 11260 10777 11260 4 WL[12]
+rlabel metal3 10719 12160 10719 12160 4 WL[13]
+rlabel metal3 10719 11260 10719 11260 4 WL[12]
+rlabel metal3 10719 13060 10719 13060 4 WL[14]
+rlabel metal3 10719 13960 10719 13960 4 WL[15]
+rlabel metal3 9679 11260 9679 11260 4 WL[12]
+rlabel metal3 9679 12160 9679 12160 4 WL[13]
+rlabel metal3 9679 13060 9679 13060 4 WL[14]
+rlabel metal3 9679 13960 9679 13960 4 WL[15]
+rlabel metal3 8479 11260 8479 11260 4 WL[12]
+rlabel metal3 8479 12160 8479 12160 4 WL[13]
+rlabel metal3 8479 13060 8479 13060 4 WL[14]
+rlabel metal3 8479 13960 8479 13960 4 WL[15]
+rlabel metal3 7279 11260 7279 11260 4 WL[12]
+rlabel metal3 7279 12160 7279 12160 4 WL[13]
+rlabel metal3 7279 13060 7279 13060 4 WL[14]
+rlabel metal3 7279 13960 7279 13960 4 WL[15]
+rlabel metal3 6079 11260 6079 11260 4 WL[12]
+rlabel metal3 6079 12160 6079 12160 4 WL[13]
+rlabel metal3 6079 13060 6079 13060 4 WL[14]
+rlabel metal3 6079 13960 6079 13960 4 WL[15]
+rlabel metal3 7177 13960 7177 13960 4 WL[15]
+rlabel metal3 7177 13060 7177 13060 4 WL[14]
+rlabel metal3 7177 12160 7177 12160 4 WL[13]
+rlabel metal3 7177 11260 7177 11260 4 WL[12]
+rlabel metal3 5321 11260 5321 11260 4 WL[12]
+rlabel metal3 5321 12160 5321 12160 4 WL[13]
+rlabel metal3 5321 13060 5321 13060 4 WL[14]
+rlabel metal3 5321 13960 5321 13960 4 WL[15]
+rlabel metal3 4121 11260 4121 11260 4 WL[12]
+rlabel metal3 4121 12160 4121 12160 4 WL[13]
+rlabel metal3 4121 13060 4121 13060 4 WL[14]
+rlabel metal3 4121 13960 4121 13960 4 WL[15]
+rlabel metal3 2921 11260 2921 11260 4 WL[12]
+rlabel metal3 2921 12160 2921 12160 4 WL[13]
+rlabel metal3 2921 13060 2921 13060 4 WL[14]
+rlabel metal3 2921 13960 2921 13960 4 WL[15]
+rlabel metal3 1721 11260 1721 11260 4 WL[12]
+rlabel metal3 1721 12160 1721 12160 4 WL[13]
+rlabel metal3 1721 13060 1721 13060 4 WL[14]
+rlabel metal3 1721 13960 1721 13960 4 WL[15]
+rlabel metal3 623 13960 623 13960 4 WL[15]
+rlabel metal3 623 13060 623 13060 4 WL[14]
+rlabel metal3 623 12160 623 12160 4 WL[13]
+rlabel metal3 623 11260 623 11260 4 WL[12]
+rlabel metal3 1223 13960 1223 13960 4 WL[15]
+rlabel metal3 1223 13060 1223 13060 4 WL[14]
+rlabel metal3 1223 12160 1223 12160 4 WL[13]
+rlabel metal3 1223 11260 1223 11260 4 WL[12]
+rlabel metal3 1823 13960 1823 13960 4 WL[15]
+rlabel metal3 1823 13060 1823 13060 4 WL[14]
+rlabel metal3 1823 12160 1823 12160 4 WL[13]
+rlabel metal3 1823 11260 1823 11260 4 WL[12]
+rlabel metal3 2423 13960 2423 13960 4 WL[15]
+rlabel metal3 2423 13060 2423 13060 4 WL[14]
+rlabel metal3 2423 12160 2423 12160 4 WL[13]
+rlabel metal3 2423 11260 2423 11260 4 WL[12]
+rlabel metal3 3023 13960 3023 13960 4 WL[15]
+rlabel metal3 3023 13060 3023 13060 4 WL[14]
+rlabel metal3 3023 12160 3023 12160 4 WL[13]
+rlabel metal3 3023 11260 3023 11260 4 WL[12]
+rlabel metal3 3623 13960 3623 13960 4 WL[15]
+rlabel metal3 3623 13060 3623 13060 4 WL[14]
+rlabel metal3 3623 12160 3623 12160 4 WL[13]
+rlabel metal3 3623 11260 3623 11260 4 WL[12]
+rlabel metal3 4223 13960 4223 13960 4 WL[15]
+rlabel metal3 4223 13060 4223 13060 4 WL[14]
+rlabel metal3 4223 12160 4223 12160 4 WL[13]
+rlabel metal3 4223 11260 4223 11260 4 WL[12]
+rlabel metal3 4823 13960 4823 13960 4 WL[15]
+rlabel metal3 4823 13060 4823 13060 4 WL[14]
+rlabel metal3 4823 12160 4823 12160 4 WL[13]
+rlabel metal3 4823 11260 4823 11260 4 WL[12]
+rlabel metal3 681 11260 681 11260 4 WL[12]
+rlabel metal3 681 12160 681 12160 4 WL[13]
+rlabel metal3 681 13960 681 13960 4 WL[15]
+rlabel metal3 681 13060 681 13060 4 WL[14]
+rlabel metal3 681 9460 681 9460 4 WL[10]
+rlabel metal3 681 10360 681 10360 4 WL[11]
+rlabel metal3 681 7660 681 7660 4 WL[8]
+rlabel metal3 681 8560 681 8560 4 WL[9]
+rlabel metal3 1823 10360 1823 10360 4 WL[11]
+rlabel metal3 1823 9460 1823 9460 4 WL[10]
+rlabel metal3 1823 8560 1823 8560 4 WL[9]
+rlabel metal3 1823 7660 1823 7660 4 WL[8]
+rlabel metal3 1721 7660 1721 7660 4 WL[8]
+rlabel metal3 1721 8560 1721 8560 4 WL[9]
+rlabel metal3 1721 9460 1721 9460 4 WL[10]
+rlabel metal3 1721 10360 1721 10360 4 WL[11]
+rlabel metal3 2423 10360 2423 10360 4 WL[11]
+rlabel metal3 2423 9460 2423 9460 4 WL[10]
+rlabel metal3 2423 8560 2423 8560 4 WL[9]
+rlabel metal3 2423 7660 2423 7660 4 WL[8]
+rlabel metal3 4121 7660 4121 7660 4 WL[8]
+rlabel metal3 4121 8560 4121 8560 4 WL[9]
+rlabel metal3 4121 9460 4121 9460 4 WL[10]
+rlabel metal3 4121 10360 4121 10360 4 WL[11]
+rlabel metal3 3023 10360 3023 10360 4 WL[11]
+rlabel metal3 3023 9460 3023 9460 4 WL[10]
+rlabel metal3 3023 8560 3023 8560 4 WL[9]
+rlabel metal3 3023 7660 3023 7660 4 WL[8]
+rlabel metal3 5321 7660 5321 7660 4 WL[8]
+rlabel metal3 5321 8560 5321 8560 4 WL[9]
+rlabel metal3 5321 9460 5321 9460 4 WL[10]
+rlabel metal3 5321 10360 5321 10360 4 WL[11]
+rlabel metal3 3623 10360 3623 10360 4 WL[11]
+rlabel metal3 3623 9460 3623 9460 4 WL[10]
+rlabel metal3 3623 8560 3623 8560 4 WL[9]
+rlabel metal3 3623 7660 3623 7660 4 WL[8]
+rlabel metal3 623 10360 623 10360 4 WL[11]
+rlabel metal3 623 9460 623 9460 4 WL[10]
+rlabel metal3 623 8560 623 8560 4 WL[9]
+rlabel metal3 623 7660 623 7660 4 WL[8]
+rlabel metal3 4223 10360 4223 10360 4 WL[11]
+rlabel metal3 4223 9460 4223 9460 4 WL[10]
+rlabel metal3 4223 8560 4223 8560 4 WL[9]
+rlabel metal3 4223 7660 4223 7660 4 WL[8]
+rlabel metal3 2921 7660 2921 7660 4 WL[8]
+rlabel metal3 2921 8560 2921 8560 4 WL[9]
+rlabel metal3 2921 9460 2921 9460 4 WL[10]
+rlabel metal3 2921 10360 2921 10360 4 WL[11]
+rlabel metal3 4823 10360 4823 10360 4 WL[11]
+rlabel metal3 4823 9460 4823 9460 4 WL[10]
+rlabel metal3 4823 8560 4823 8560 4 WL[9]
+rlabel metal3 4823 7660 4823 7660 4 WL[8]
+rlabel metal3 1223 10360 1223 10360 4 WL[11]
+rlabel metal3 1223 9460 1223 9460 4 WL[10]
+rlabel metal3 1223 8560 1223 8560 4 WL[9]
+rlabel metal3 1223 7660 1223 7660 4 WL[8]
+rlabel metal3 8977 7660 8977 7660 4 WL[8]
+rlabel metal3 6577 10360 6577 10360 4 WL[11]
+rlabel metal3 6577 9460 6577 9460 4 WL[10]
+rlabel metal3 6577 8560 6577 8560 4 WL[9]
+rlabel metal3 6577 7660 6577 7660 4 WL[8]
+rlabel metal3 10719 7660 10719 7660 4 WL[8]
+rlabel metal3 9577 10360 9577 10360 4 WL[11]
+rlabel metal3 10719 8560 10719 8560 4 WL[9]
+rlabel metal3 10719 9460 10719 9460 4 WL[10]
+rlabel metal3 9577 9460 9577 9460 4 WL[10]
+rlabel metal3 9577 8560 9577 8560 4 WL[9]
+rlabel metal3 9577 7660 9577 7660 4 WL[8]
+rlabel metal3 9679 7660 9679 7660 4 WL[8]
+rlabel metal3 9679 8560 9679 8560 4 WL[9]
+rlabel metal3 9679 9460 9679 9460 4 WL[10]
+rlabel metal3 9679 10360 9679 10360 4 WL[11]
+rlabel metal3 8377 10360 8377 10360 4 WL[11]
+rlabel metal3 8377 9460 8377 9460 4 WL[10]
+rlabel metal3 8377 8560 8377 8560 4 WL[9]
+rlabel metal3 8377 7660 8377 7660 4 WL[8]
+rlabel metal3 8479 7660 8479 7660 4 WL[8]
+rlabel metal3 8479 8560 8479 8560 4 WL[9]
+rlabel metal3 8479 9460 8479 9460 4 WL[10]
+rlabel metal3 8479 10360 8479 10360 4 WL[11]
+rlabel metal3 10177 10360 10177 10360 4 WL[11]
+rlabel metal3 10177 9460 10177 9460 4 WL[10]
+rlabel metal3 10177 8560 10177 8560 4 WL[9]
+rlabel metal3 10177 7660 10177 7660 4 WL[8]
+rlabel metal3 7279 7660 7279 7660 4 WL[8]
+rlabel metal3 7279 8560 7279 8560 4 WL[9]
+rlabel metal3 7279 9460 7279 9460 4 WL[10]
+rlabel metal3 7279 10360 7279 10360 4 WL[11]
+rlabel metal3 7777 10360 7777 10360 4 WL[11]
+rlabel metal3 7777 9460 7777 9460 4 WL[10]
+rlabel metal3 7777 8560 7777 8560 4 WL[9]
+rlabel metal3 7777 7660 7777 7660 4 WL[8]
+rlabel metal3 6079 7660 6079 7660 4 WL[8]
+rlabel metal3 6079 8560 6079 8560 4 WL[9]
+rlabel metal3 6079 9460 6079 9460 4 WL[10]
+rlabel metal3 6079 10360 6079 10360 4 WL[11]
+rlabel metal3 10777 10360 10777 10360 4 WL[11]
+rlabel metal3 10777 9460 10777 9460 4 WL[10]
+rlabel metal3 10777 8560 10777 8560 4 WL[9]
+rlabel metal3 10777 7660 10777 7660 4 WL[8]
+rlabel metal3 10719 10360 10719 10360 4 WL[11]
+rlabel metal3 8977 10360 8977 10360 4 WL[11]
+rlabel metal3 8977 9460 8977 9460 4 WL[10]
+rlabel metal3 8977 8560 8977 8560 4 WL[9]
+rlabel metal3 7177 10360 7177 10360 4 WL[11]
+rlabel metal3 7177 9460 7177 9460 4 WL[10]
+rlabel metal3 7177 8560 7177 8560 4 WL[9]
+rlabel metal3 7177 7660 7177 7660 4 WL[8]
+rlabel metal3 7777 6760 7777 6760 4 WL[7]
+rlabel metal3 7777 5860 7777 5860 4 WL[6]
+rlabel metal3 7777 4960 7777 4960 4 WL[5]
+rlabel metal3 7777 4060 7777 4060 4 WL[4]
+rlabel metal3 7279 4060 7279 4060 4 WL[4]
+rlabel metal3 7279 4960 7279 4960 4 WL[5]
+rlabel metal3 7279 5860 7279 5860 4 WL[6]
+rlabel metal3 7279 6760 7279 6760 4 WL[7]
+rlabel metal3 10719 4060 10719 4060 4 WL[4]
+rlabel metal3 8377 6760 8377 6760 4 WL[7]
+rlabel metal3 8377 5860 8377 5860 4 WL[6]
+rlabel metal3 8377 4960 8377 4960 4 WL[5]
+rlabel metal3 8377 4060 8377 4060 4 WL[4]
+rlabel metal3 9679 4060 9679 4060 4 WL[4]
+rlabel metal3 8977 6760 8977 6760 4 WL[7]
+rlabel metal3 8977 5860 8977 5860 4 WL[6]
+rlabel metal3 8977 4960 8977 4960 4 WL[5]
+rlabel metal3 8977 4060 8977 4060 4 WL[4]
+rlabel metal3 9679 4960 9679 4960 4 WL[5]
+rlabel metal3 9577 6760 9577 6760 4 WL[7]
+rlabel metal3 9577 5860 9577 5860 4 WL[6]
+rlabel metal3 9577 4960 9577 4960 4 WL[5]
+rlabel metal3 9577 4060 9577 4060 4 WL[4]
+rlabel metal3 10177 6760 10177 6760 4 WL[7]
+rlabel metal3 10177 5860 10177 5860 4 WL[6]
+rlabel metal3 10177 4960 10177 4960 4 WL[5]
+rlabel metal3 10177 4060 10177 4060 4 WL[4]
+rlabel metal3 6079 4060 6079 4060 4 WL[4]
+rlabel metal3 6079 4960 6079 4960 4 WL[5]
+rlabel metal3 6079 5860 6079 5860 4 WL[6]
+rlabel metal3 6079 6760 6079 6760 4 WL[7]
+rlabel metal3 10777 6760 10777 6760 4 WL[7]
+rlabel metal3 10777 5860 10777 5860 4 WL[6]
+rlabel metal3 10777 4960 10777 4960 4 WL[5]
+rlabel metal3 10777 4060 10777 4060 4 WL[4]
+rlabel metal3 9679 5860 9679 5860 4 WL[6]
+rlabel metal3 9679 6760 9679 6760 4 WL[7]
+rlabel metal3 8479 4060 8479 4060 4 WL[4]
+rlabel metal3 8479 4960 8479 4960 4 WL[5]
+rlabel metal3 8479 5860 8479 5860 4 WL[6]
+rlabel metal3 8479 6760 8479 6760 4 WL[7]
+rlabel metal3 10719 5860 10719 5860 4 WL[6]
+rlabel metal3 10719 4960 10719 4960 4 WL[5]
+rlabel metal3 7177 6760 7177 6760 4 WL[7]
+rlabel metal3 7177 5860 7177 5860 4 WL[6]
+rlabel metal3 7177 4960 7177 4960 4 WL[5]
+rlabel metal3 7177 4060 7177 4060 4 WL[4]
+rlabel metal3 10719 6760 10719 6760 4 WL[7]
+rlabel metal3 6577 6760 6577 6760 4 WL[7]
+rlabel metal3 6577 5860 6577 5860 4 WL[6]
+rlabel metal3 6577 4960 6577 4960 4 WL[5]
+rlabel metal3 6577 4060 6577 4060 4 WL[4]
+rlabel metal3 1823 5860 1823 5860 4 WL[6]
+rlabel metal3 1823 4960 1823 4960 4 WL[5]
+rlabel metal3 1823 4060 1823 4060 4 WL[4]
+rlabel metal3 5321 4060 5321 4060 4 WL[4]
+rlabel metal3 5321 4960 5321 4960 4 WL[5]
+rlabel metal3 2423 6760 2423 6760 4 WL[7]
+rlabel metal3 2423 5860 2423 5860 4 WL[6]
+rlabel metal3 2423 4960 2423 4960 4 WL[5]
+rlabel metal3 2423 4060 2423 4060 4 WL[4]
+rlabel metal3 5321 5860 5321 5860 4 WL[6]
+rlabel metal3 5321 6760 5321 6760 4 WL[7]
+rlabel metal3 681 4960 681 4960 4 WL[5]
+rlabel metal3 681 4060 681 4060 4 WL[4]
+rlabel metal3 3023 6760 3023 6760 4 WL[7]
+rlabel metal3 3023 5860 3023 5860 4 WL[6]
+rlabel metal3 3023 4960 3023 4960 4 WL[5]
+rlabel metal3 3023 4060 3023 4060 4 WL[4]
+rlabel metal3 3623 6760 3623 6760 4 WL[7]
+rlabel metal3 3623 5860 3623 5860 4 WL[6]
+rlabel metal3 3623 4960 3623 4960 4 WL[5]
+rlabel metal3 3623 4060 3623 4060 4 WL[4]
+rlabel metal3 4121 4060 4121 4060 4 WL[4]
+rlabel metal3 4121 4960 4121 4960 4 WL[5]
+rlabel metal3 4121 5860 4121 5860 4 WL[6]
+rlabel metal3 4121 6760 4121 6760 4 WL[7]
+rlabel metal3 1721 4960 1721 4960 4 WL[5]
+rlabel metal3 1721 5860 1721 5860 4 WL[6]
+rlabel metal3 1223 6760 1223 6760 4 WL[7]
+rlabel metal3 1223 5860 1223 5860 4 WL[6]
+rlabel metal3 4223 6760 4223 6760 4 WL[7]
+rlabel metal3 4223 5860 4223 5860 4 WL[6]
+rlabel metal3 4223 4960 4223 4960 4 WL[5]
+rlabel metal3 4223 4060 4223 4060 4 WL[4]
+rlabel metal3 1223 4960 1223 4960 4 WL[5]
+rlabel metal3 4823 6760 4823 6760 4 WL[7]
+rlabel metal3 4823 5860 4823 5860 4 WL[6]
+rlabel metal3 4823 4960 4823 4960 4 WL[5]
+rlabel metal3 4823 4060 4823 4060 4 WL[4]
+rlabel metal3 2921 4060 2921 4060 4 WL[4]
+rlabel metal3 2921 4960 2921 4960 4 WL[5]
+rlabel metal3 2921 5860 2921 5860 4 WL[6]
+rlabel metal3 2921 6760 2921 6760 4 WL[7]
+rlabel metal3 623 6760 623 6760 4 WL[7]
+rlabel metal3 623 5860 623 5860 4 WL[6]
+rlabel metal3 623 4960 623 4960 4 WL[5]
+rlabel metal3 623 4060 623 4060 4 WL[4]
+rlabel metal3 1223 4060 1223 4060 4 WL[4]
+rlabel metal3 1721 6760 1721 6760 4 WL[7]
+rlabel metal3 1721 4060 1721 4060 4 WL[4]
+rlabel metal3 681 6760 681 6760 4 WL[7]
+rlabel metal3 681 5860 681 5860 4 WL[6]
+rlabel metal3 1823 6760 1823 6760 4 WL[7]
+rlabel metal3 1721 3160 1721 3160 4 WL[3]
+rlabel metal3 1721 1360 1721 1360 4 WL[1]
+rlabel metal3 681 2260 681 2260 4 WL[2]
+rlabel metal3 3023 3160 3023 3160 4 WL[3]
+rlabel metal3 3023 2260 3023 2260 4 WL[2]
+rlabel metal3 3023 1360 3023 1360 4 WL[1]
+rlabel metal3 3023 460 3023 460 4 WL[0]
+rlabel metal3 s 3066 -11 3066 -11 4 VDD
+rlabel metal3 s 3666 918 3666 918 4 VSS
+rlabel metal3 s 5334 907 5334 907 4 VSS
+rlabel metal3 s 5334 5 5334 5 4 VDD
+rlabel metal3 4121 460 4121 460 4 WL[0]
+rlabel metal3 4121 1360 4121 1360 4 WL[1]
+rlabel metal3 4121 2260 4121 2260 4 WL[2]
+rlabel metal3 4121 3160 4121 3160 4 WL[3]
+rlabel metal3 681 1360 681 1360 4 WL[1]
+rlabel metal3 681 460 681 460 4 WL[0]
+rlabel metal3 623 2260 623 2260 4 WL[2]
+rlabel metal3 s 666 920 666 920 4 VSS
+rlabel metal3 3623 3160 3623 3160 4 WL[3]
+rlabel metal3 3623 2260 3623 2260 4 WL[2]
+rlabel metal3 3623 1360 3623 1360 4 WL[1]
+rlabel metal3 3623 460 3623 460 4 WL[0]
+rlabel metal3 s 3666 -11 3666 -11 4 VDD
+rlabel metal3 s 4266 918 4266 918 4 VSS
+rlabel metal3 623 1360 623 1360 4 WL[1]
+rlabel metal3 623 460 623 460 4 WL[0]
+rlabel metal3 s 666 -11 666 -11 4 VDD
+rlabel metal3 s 1266 918 1266 918 4 VSS
+rlabel metal3 1823 3160 1823 3160 4 WL[3]
+rlabel metal3 1823 2260 1823 2260 4 WL[2]
+rlabel metal3 1823 1360 1823 1360 4 WL[1]
+rlabel metal3 1823 460 1823 460 4 WL[0]
+rlabel metal3 s 1866 -11 1866 -11 4 VDD
+rlabel metal3 s 2466 918 2466 918 4 VSS
+rlabel metal3 5321 460 5321 460 4 WL[0]
+rlabel metal3 5321 1360 5321 1360 4 WL[1]
+rlabel metal3 4223 3160 4223 3160 4 WL[3]
+rlabel metal3 4223 2260 4223 2260 4 WL[2]
+rlabel metal3 4223 1360 4223 1360 4 WL[1]
+rlabel metal3 4223 460 4223 460 4 WL[0]
+rlabel metal3 s 4266 -11 4266 -11 4 VDD
+rlabel metal3 s 4866 918 4866 918 4 VSS
+rlabel metal3 681 3160 681 3160 4 WL[3]
+rlabel metal3 5321 2260 5321 2260 4 WL[2]
+rlabel metal3 s 4134 907 4134 907 4 VSS
+rlabel metal3 s 4134 5 4134 5 4 VDD
+rlabel metal3 2921 460 2921 460 4 WL[0]
+rlabel metal3 2921 1360 2921 1360 4 WL[1]
+rlabel metal3 5321 3160 5321 3160 4 WL[3]
+rlabel metal3 1721 2260 1721 2260 4 WL[2]
+rlabel metal3 s 1734 907 1734 907 4 VSS
+rlabel metal3 623 3160 623 3160 4 WL[3]
+rlabel metal3 4823 3160 4823 3160 4 WL[3]
+rlabel metal3 4823 2260 4823 2260 4 WL[2]
+rlabel metal3 4823 1360 4823 1360 4 WL[1]
+rlabel metal3 4823 460 4823 460 4 WL[0]
+rlabel metal3 s 4866 -11 4866 -11 4 VDD
+rlabel metal3 2921 2260 2921 2260 4 WL[2]
+rlabel metal3 2921 3160 2921 3160 4 WL[3]
+rlabel metal3 s 1734 5 1734 5 4 VDD
+rlabel metal3 1223 3160 1223 3160 4 WL[3]
+rlabel metal3 1223 2260 1223 2260 4 WL[2]
+rlabel metal3 2423 3160 2423 3160 4 WL[3]
+rlabel metal3 2423 2260 2423 2260 4 WL[2]
+rlabel metal3 2423 1360 2423 1360 4 WL[1]
+rlabel metal3 2423 460 2423 460 4 WL[0]
+rlabel metal3 s 2466 -11 2466 -11 4 VDD
+rlabel metal3 s 3066 918 3066 918 4 VSS
+rlabel metal3 1223 1360 1223 1360 4 WL[1]
+rlabel metal3 s 2934 907 2934 907 4 VSS
+rlabel metal3 s 2934 5 2934 5 4 VDD
+rlabel metal3 1223 460 1223 460 4 WL[0]
+rlabel metal3 s 1266 -11 1266 -11 4 VDD
+rlabel metal3 s 1866 918 1866 918 4 VSS
+rlabel metal3 s 666 918 666 918 4 VSS
+rlabel metal3 1721 460 1721 460 4 WL[0]
+rlabel metal3 s 4266 918 4266 918 4 VSS
+rlabel metal3 s 4266 -7 4266 -7 4 VDD
+rlabel metal3 s 4866 918 4866 918 4 VSS
+rlabel metal3 s 4866 -7 4866 -7 4 VDD
+rlabel metal3 s 3666 918 3666 918 4 VSS
+rlabel metal3 s 3666 -7 3666 -7 4 VDD
+rlabel metal3 s 3066 918 3066 918 4 VSS
+rlabel metal3 s 3066 -7 3066 -7 4 VDD
+rlabel metal3 s 2466 918 2466 918 4 VSS
+rlabel metal3 s 2466 -7 2466 -7 4 VDD
+rlabel metal3 s 1866 918 1866 918 4 VSS
+rlabel metal3 s 1866 -7 1866 -7 4 VDD
+rlabel metal3 s 1266 918 1266 918 4 VSS
+rlabel metal3 s 1266 -7 1266 -7 4 VDD
+rlabel metal3 s 666 918 666 918 4 VSS
+rlabel metal3 s 666 -7 666 -7 4 VDD
+rlabel metal3 8977 2260 8977 2260 4 WL[2]
+rlabel metal3 8977 1360 8977 1360 4 WL[1]
+rlabel metal3 8977 460 8977 460 4 WL[0]
+rlabel metal3 s 8934 -11 8934 -11 4 VDD
+rlabel metal3 s 9534 918 9534 918 4 VSS
+rlabel metal3 7777 3160 7777 3160 4 WL[3]
+rlabel metal3 s 7266 907 7266 907 4 VSS
+rlabel metal3 s 7266 5 7266 5 4 VDD
+rlabel metal3 s 10734 920 10734 920 4 VSS
+rlabel metal3 10719 460 10719 460 4 WL[0]
+rlabel metal3 8377 3160 8377 3160 4 WL[3]
+rlabel metal3 8377 2260 8377 2260 4 WL[2]
+rlabel metal3 10777 3160 10777 3160 4 WL[3]
+rlabel metal3 10777 2260 10777 2260 4 WL[2]
+rlabel metal3 s 9666 907 9666 907 4 VSS
+rlabel metal3 s 9666 5 9666 5 4 VDD
+rlabel metal3 8479 460 8479 460 4 WL[0]
+rlabel metal3 8479 1360 8479 1360 4 WL[1]
+rlabel metal3 10777 1360 10777 1360 4 WL[1]
+rlabel metal3 10777 460 10777 460 4 WL[0]
+rlabel metal3 s 10734 -11 10734 -11 4 VDD
+rlabel metal3 8377 1360 8377 1360 4 WL[1]
+rlabel metal3 8377 460 8377 460 4 WL[0]
+rlabel metal3 s 7134 918 7134 918 4 VSS
+rlabel metal3 s 8334 -11 8334 -11 4 VDD
+rlabel metal3 s 8934 918 8934 918 4 VSS
+rlabel metal3 7777 2260 7777 2260 4 WL[2]
+rlabel metal3 7777 1360 7777 1360 4 WL[1]
+rlabel metal3 7777 460 7777 460 4 WL[0]
+rlabel metal3 8479 2260 8479 2260 4 WL[2]
+rlabel metal3 10719 3160 10719 3160 4 WL[3]
+rlabel metal3 8479 3160 8479 3160 4 WL[3]
+rlabel metal3 9577 3160 9577 3160 4 WL[3]
+rlabel metal3 9577 2260 9577 2260 4 WL[2]
+rlabel metal3 9577 1360 9577 1360 4 WL[1]
+rlabel metal3 9577 460 9577 460 4 WL[0]
+rlabel metal3 7177 3160 7177 3160 4 WL[3]
+rlabel metal3 7177 2260 7177 2260 4 WL[2]
+rlabel metal3 7177 1360 7177 1360 4 WL[1]
+rlabel metal3 7177 460 7177 460 4 WL[0]
+rlabel metal3 s 7134 -11 7134 -11 4 VDD
+rlabel metal3 s 6534 918 6534 918 4 VSS
+rlabel metal3 s 9534 -11 9534 -11 4 VDD
+rlabel metal3 10719 1360 10719 1360 4 WL[1]
+rlabel metal3 s 8466 907 8466 907 4 VSS
+rlabel metal3 s 8466 5 8466 5 4 VDD
+rlabel metal3 7279 460 7279 460 4 WL[0]
+rlabel metal3 7279 1360 7279 1360 4 WL[1]
+rlabel metal3 s 10134 918 10134 918 4 VSS
+rlabel metal3 9679 460 9679 460 4 WL[0]
+rlabel metal3 9679 1360 9679 1360 4 WL[1]
+rlabel metal3 9679 2260 9679 2260 4 WL[2]
+rlabel metal3 9679 3160 9679 3160 4 WL[3]
+rlabel metal3 10719 2260 10719 2260 4 WL[2]
+rlabel metal3 6577 3160 6577 3160 4 WL[3]
+rlabel metal3 6577 2260 6577 2260 4 WL[2]
+rlabel metal3 6577 1360 6577 1360 4 WL[1]
+rlabel metal3 6577 460 6577 460 4 WL[0]
+rlabel metal3 s 6534 -11 6534 -11 4 VDD
+rlabel metal3 s 7734 918 7734 918 4 VSS
+rlabel metal3 6079 460 6079 460 4 WL[0]
+rlabel metal3 s 10734 918 10734 918 4 VSS
+rlabel metal3 s 10734 -7 10734 -7 4 VDD
+rlabel metal3 s 10134 918 10134 918 4 VSS
+rlabel metal3 s 10134 -7 10134 -7 4 VDD
+rlabel metal3 s 9534 918 9534 918 4 VSS
+rlabel metal3 s 9534 -7 9534 -7 4 VDD
+rlabel metal3 s 8934 918 8934 918 4 VSS
+rlabel metal3 s 8934 -7 8934 -7 4 VDD
+rlabel metal3 s 8334 918 8334 918 4 VSS
+rlabel metal3 s 8334 -7 8334 -7 4 VDD
+rlabel metal3 s 7734 918 7734 918 4 VSS
+rlabel metal3 s 7734 -7 7734 -7 4 VDD
+rlabel metal3 s 7134 918 7134 918 4 VSS
+rlabel metal3 s 7134 -7 7134 -7 4 VDD
+rlabel metal3 s 6534 918 6534 918 4 VSS
+rlabel metal3 s 6534 -7 6534 -7 4 VDD
+rlabel metal3 6079 1360 6079 1360 4 WL[1]
+rlabel metal3 6079 2260 6079 2260 4 WL[2]
+rlabel metal3 s 7734 -11 7734 -11 4 VDD
+rlabel metal3 s 8334 918 8334 918 4 VSS
+rlabel metal3 7279 2260 7279 2260 4 WL[2]
+rlabel metal3 7279 3160 7279 3160 4 WL[3]
+rlabel metal3 s 6066 907 6066 907 4 VSS
+rlabel metal3 s 6066 5 6066 5 4 VDD
+rlabel metal3 10177 3160 10177 3160 4 WL[3]
+rlabel metal3 10177 2260 10177 2260 4 WL[2]
+rlabel metal3 10177 1360 10177 1360 4 WL[1]
+rlabel metal3 10177 460 10177 460 4 WL[0]
+rlabel metal3 s 10134 -11 10134 -11 4 VDD
+rlabel metal3 s 10734 918 10734 918 4 VSS
+rlabel metal3 6079 3160 6079 3160 4 WL[3]
+rlabel metal3 8977 3160 8977 3160 4 WL[3]
+rlabel metal3 19279 4960 19279 4960 4 WL[5]
+rlabel metal3 19777 6760 19777 6760 4 WL[7]
+rlabel metal3 19777 5860 19777 5860 4 WL[6]
+rlabel metal3 19777 4960 19777 4960 4 WL[5]
+rlabel metal3 19777 4060 19777 4060 4 WL[4]
+rlabel metal3 19177 6760 19177 6760 4 WL[7]
+rlabel metal3 19177 5860 19177 5860 4 WL[6]
+rlabel metal3 19177 4960 19177 4960 4 WL[5]
+rlabel metal3 19177 4060 19177 4060 4 WL[4]
+rlabel metal3 16879 5860 16879 5860 4 WL[6]
+rlabel metal3 16879 4960 16879 4960 4 WL[5]
+rlabel metal3 21519 6760 21519 6760 4 WL[7]
+rlabel metal3 21577 6760 21577 6760 4 WL[7]
+rlabel metal3 21577 5860 21577 5860 4 WL[6]
+rlabel metal3 21577 4960 21577 4960 4 WL[5]
+rlabel metal3 21577 4060 21577 4060 4 WL[4]
+rlabel metal3 16879 4060 16879 4060 4 WL[4]
+rlabel metal3 20977 6760 20977 6760 4 WL[7]
+rlabel metal3 20977 5860 20977 5860 4 WL[6]
+rlabel metal3 20977 4960 20977 4960 4 WL[5]
+rlabel metal3 20977 4060 20977 4060 4 WL[4]
+rlabel metal3 21519 4960 21519 4960 4 WL[5]
+rlabel metal3 20377 6760 20377 6760 4 WL[7]
+rlabel metal3 20377 5860 20377 5860 4 WL[6]
+rlabel metal3 20377 4960 20377 4960 4 WL[5]
+rlabel metal3 20377 4060 20377 4060 4 WL[4]
+rlabel metal3 19279 4060 19279 4060 4 WL[4]
+rlabel metal3 18079 6760 18079 6760 4 WL[7]
+rlabel metal3 18079 5860 18079 5860 4 WL[6]
+rlabel metal3 18079 4960 18079 4960 4 WL[5]
+rlabel metal3 18079 4060 18079 4060 4 WL[4]
+rlabel metal3 19279 5860 19279 5860 4 WL[6]
+rlabel metal3 19279 6760 19279 6760 4 WL[7]
+rlabel metal3 17977 6760 17977 6760 4 WL[7]
+rlabel metal3 17977 5860 17977 5860 4 WL[6]
+rlabel metal3 17977 4960 17977 4960 4 WL[5]
+rlabel metal3 17977 4060 17977 4060 4 WL[4]
+rlabel metal3 20479 4960 20479 4960 4 WL[5]
+rlabel metal3 20479 5860 20479 5860 4 WL[6]
+rlabel metal3 17377 6760 17377 6760 4 WL[7]
+rlabel metal3 17377 5860 17377 5860 4 WL[6]
+rlabel metal3 17377 4960 17377 4960 4 WL[5]
+rlabel metal3 17377 4060 17377 4060 4 WL[4]
+rlabel metal3 21519 5860 21519 5860 4 WL[6]
+rlabel metal3 20479 6760 20479 6760 4 WL[7]
+rlabel metal3 21519 4060 21519 4060 4 WL[4]
+rlabel metal3 20479 4060 20479 4060 4 WL[4]
+rlabel metal3 18577 6760 18577 6760 4 WL[7]
+rlabel metal3 18577 5860 18577 5860 4 WL[6]
+rlabel metal3 18577 4960 18577 4960 4 WL[5]
+rlabel metal3 18577 4060 18577 4060 4 WL[4]
+rlabel metal3 16879 6760 16879 6760 4 WL[7]
+rlabel metal3 14921 4960 14921 4960 4 WL[5]
+rlabel metal3 14921 5860 14921 5860 4 WL[6]
+rlabel metal3 13823 6760 13823 6760 4 WL[7]
+rlabel metal3 13823 5860 13823 5860 4 WL[6]
+rlabel metal3 13823 4960 13823 4960 4 WL[5]
+rlabel metal3 13823 4060 13823 4060 4 WL[4]
+rlabel metal3 14921 6760 14921 6760 4 WL[7]
+rlabel metal3 13721 5860 13721 5860 4 WL[6]
+rlabel metal3 13721 6760 13721 6760 4 WL[7]
+rlabel metal3 12521 4060 12521 4060 4 WL[4]
+rlabel metal3 12521 4960 12521 4960 4 WL[5]
+rlabel metal3 12521 5860 12521 5860 4 WL[6]
+rlabel metal3 14423 6760 14423 6760 4 WL[7]
+rlabel metal3 14423 5860 14423 5860 4 WL[6]
+rlabel metal3 14423 4960 14423 4960 4 WL[5]
+rlabel metal3 14423 4060 14423 4060 4 WL[4]
+rlabel metal3 12521 6760 12521 6760 4 WL[7]
+rlabel metal3 11481 6760 11481 6760 4 WL[7]
+rlabel metal3 15023 6760 15023 6760 4 WL[7]
+rlabel metal3 15023 5860 15023 5860 4 WL[6]
+rlabel metal3 15023 4960 15023 4960 4 WL[5]
+rlabel metal3 15023 4060 15023 4060 4 WL[4]
+rlabel metal3 13721 4060 13721 4060 4 WL[4]
+rlabel metal3 13721 4960 13721 4960 4 WL[5]
+rlabel metal3 11423 6760 11423 6760 4 WL[7]
+rlabel metal3 11423 5860 11423 5860 4 WL[6]
+rlabel metal3 15623 6760 15623 6760 4 WL[7]
+rlabel metal3 15623 5860 15623 5860 4 WL[6]
+rlabel metal3 15623 4960 15623 4960 4 WL[5]
+rlabel metal3 15623 4060 15623 4060 4 WL[4]
+rlabel metal3 11481 5860 11481 5860 4 WL[6]
+rlabel metal3 12023 6760 12023 6760 4 WL[7]
+rlabel metal3 12023 5860 12023 5860 4 WL[6]
+rlabel metal3 12023 4960 12023 4960 4 WL[5]
+rlabel metal3 12023 4060 12023 4060 4 WL[4]
+rlabel metal3 11423 4960 11423 4960 4 WL[5]
+rlabel metal3 11423 4060 11423 4060 4 WL[4]
+rlabel metal3 11481 4960 11481 4960 4 WL[5]
+rlabel metal3 16121 4060 16121 4060 4 WL[4]
+rlabel metal3 16121 4960 16121 4960 4 WL[5]
+rlabel metal3 16121 5860 16121 5860 4 WL[6]
+rlabel metal3 16121 6760 16121 6760 4 WL[7]
+rlabel metal3 12623 6760 12623 6760 4 WL[7]
+rlabel metal3 12623 5860 12623 5860 4 WL[6]
+rlabel metal3 11481 4060 11481 4060 4 WL[4]
+rlabel metal3 12623 4960 12623 4960 4 WL[5]
+rlabel metal3 12623 4060 12623 4060 4 WL[4]
+rlabel metal3 13223 6760 13223 6760 4 WL[7]
+rlabel metal3 13223 5860 13223 5860 4 WL[6]
+rlabel metal3 13223 4960 13223 4960 4 WL[5]
+rlabel metal3 13223 4060 13223 4060 4 WL[4]
+rlabel metal3 14921 4060 14921 4060 4 WL[4]
+rlabel metal3 13823 2260 13823 2260 4 WL[2]
+rlabel metal3 13823 1360 13823 1360 4 WL[1]
+rlabel metal3 13823 460 13823 460 4 WL[0]
+rlabel metal3 s 13866 -11 13866 -11 4 VDD
+rlabel metal3 s 14466 918 14466 918 4 VSS
+rlabel metal3 11423 2260 11423 2260 4 WL[2]
+rlabel metal3 11423 1360 11423 1360 4 WL[1]
+rlabel metal3 11423 460 11423 460 4 WL[0]
+rlabel metal3 s 11466 -11 11466 -11 4 VDD
+rlabel metal3 s 12666 918 12666 918 4 VSS
+rlabel metal3 16121 1360 16121 1360 4 WL[1]
+rlabel metal3 16121 2260 16121 2260 4 WL[2]
+rlabel metal3 16121 3160 16121 3160 4 WL[3]
+rlabel metal3 11481 2260 11481 2260 4 WL[2]
+rlabel metal3 11481 1360 11481 1360 4 WL[1]
+rlabel metal3 14423 3160 14423 3160 4 WL[3]
+rlabel metal3 14423 2260 14423 2260 4 WL[2]
+rlabel metal3 14423 1360 14423 1360 4 WL[1]
+rlabel metal3 14423 460 14423 460 4 WL[0]
+rlabel metal3 s 14466 -11 14466 -11 4 VDD
+rlabel metal3 s 15066 918 15066 918 4 VSS
+rlabel metal3 s 12534 907 12534 907 4 VSS
+rlabel metal3 s 14934 907 14934 907 4 VSS
+rlabel metal3 s 14934 5 14934 5 4 VDD
+rlabel metal3 11481 460 11481 460 4 WL[0]
+rlabel metal3 s 12534 5 12534 5 4 VDD
+rlabel metal3 13721 460 13721 460 4 WL[0]
+rlabel metal3 13721 1360 13721 1360 4 WL[1]
+rlabel metal3 13721 2260 13721 2260 4 WL[2]
+rlabel metal3 15023 3160 15023 3160 4 WL[3]
+rlabel metal3 15023 2260 15023 2260 4 WL[2]
+rlabel metal3 15023 1360 15023 1360 4 WL[1]
+rlabel metal3 15023 460 15023 460 4 WL[0]
+rlabel metal3 s 15066 -11 15066 -11 4 VDD
+rlabel metal3 s 15666 918 15666 918 4 VSS
+rlabel metal3 s 11466 920 11466 920 4 VSS
+rlabel metal3 12623 3160 12623 3160 4 WL[3]
+rlabel metal3 12623 2260 12623 2260 4 WL[2]
+rlabel metal3 12623 1360 12623 1360 4 WL[1]
+rlabel metal3 12623 460 12623 460 4 WL[0]
+rlabel metal3 s 12666 -11 12666 -11 4 VDD
+rlabel metal3 s 13266 918 13266 918 4 VSS
+rlabel metal3 s 16134 907 16134 907 4 VSS
+rlabel metal3 13721 3160 13721 3160 4 WL[3]
+rlabel metal3 15623 3160 15623 3160 4 WL[3]
+rlabel metal3 15623 2260 15623 2260 4 WL[2]
+rlabel metal3 15623 1360 15623 1360 4 WL[1]
+rlabel metal3 15623 460 15623 460 4 WL[0]
+rlabel metal3 s 15666 -11 15666 -11 4 VDD
+rlabel metal3 s 12066 918 12066 918 4 VSS
+rlabel metal3 s 11466 2 11466 2 4 VDD
+rlabel metal3 s 11466 918 11466 918 4 VSS
+rlabel metal3 12521 1360 12521 1360 4 WL[1]
+rlabel metal3 s 13734 907 13734 907 4 VSS
+rlabel metal3 13223 3160 13223 3160 4 WL[3]
+rlabel metal3 13223 2260 13223 2260 4 WL[2]
+rlabel metal3 12023 3160 12023 3160 4 WL[3]
+rlabel metal3 12023 2260 12023 2260 4 WL[2]
+rlabel metal3 12023 1360 12023 1360 4 WL[1]
+rlabel metal3 12023 460 12023 460 4 WL[0]
+rlabel metal3 s 12066 -11 12066 -11 4 VDD
+rlabel metal3 s 15666 918 15666 918 4 VSS
+rlabel metal3 s 15666 -7 15666 -7 4 VDD
+rlabel metal3 s 15066 918 15066 918 4 VSS
+rlabel metal3 s 15066 -7 15066 -7 4 VDD
+rlabel metal3 s 14466 918 14466 918 4 VSS
+rlabel metal3 s 14466 -7 14466 -7 4 VDD
+rlabel metal3 s 13866 918 13866 918 4 VSS
+rlabel metal3 s 13866 -7 13866 -7 4 VDD
+rlabel metal3 s 13266 918 13266 918 4 VSS
+rlabel metal3 s 13266 -7 13266 -7 4 VDD
+rlabel metal3 s 12666 918 12666 918 4 VSS
+rlabel metal3 s 12666 -7 12666 -7 4 VDD
+rlabel metal3 s 12066 918 12066 918 4 VSS
+rlabel metal3 s 12066 -7 12066 -7 4 VDD
+rlabel metal3 s 11466 918 11466 918 4 VSS
+rlabel metal3 s 11466 -7 11466 -7 4 VDD
+rlabel metal3 13223 1360 13223 1360 4 WL[1]
+rlabel metal3 13223 460 13223 460 4 WL[0]
+rlabel metal3 s 13266 -11 13266 -11 4 VDD
+rlabel metal3 s 13866 918 13866 918 4 VSS
+rlabel metal3 s 16134 5 16134 5 4 VDD
+rlabel metal3 14921 460 14921 460 4 WL[0]
+rlabel metal3 14921 1360 14921 1360 4 WL[1]
+rlabel metal3 14921 2260 14921 2260 4 WL[2]
+rlabel metal3 14921 3160 14921 3160 4 WL[3]
+rlabel metal3 s 13734 5 13734 5 4 VDD
+rlabel metal3 16121 460 16121 460 4 WL[0]
+rlabel metal3 12521 2260 12521 2260 4 WL[2]
+rlabel metal3 12521 3160 12521 3160 4 WL[3]
+rlabel metal3 11481 3160 11481 3160 4 WL[3]
+rlabel metal3 12521 460 12521 460 4 WL[0]
+rlabel metal3 11423 3160 11423 3160 4 WL[3]
+rlabel metal3 13823 3160 13823 3160 4 WL[3]
+rlabel metal3 19777 1360 19777 1360 4 WL[1]
+rlabel metal3 17977 3160 17977 3160 4 WL[3]
+rlabel metal3 21519 460 21519 460 4 WL[0]
+rlabel metal3 s 21534 920 21534 920 4 VSS
+rlabel metal3 21519 2260 21519 2260 4 WL[2]
+rlabel metal3 20977 3160 20977 3160 4 WL[3]
+rlabel metal3 20977 2260 20977 2260 4 WL[2]
+rlabel metal3 20977 1360 20977 1360 4 WL[1]
+rlabel metal3 20977 460 20977 460 4 WL[0]
+rlabel metal3 s 20934 -11 20934 -11 4 VDD
+rlabel metal3 s 20334 918 20334 918 4 VSS
+rlabel metal3 19777 460 19777 460 4 WL[0]
+rlabel metal3 17977 2260 17977 2260 4 WL[2]
+rlabel metal3 17977 1360 17977 1360 4 WL[1]
+rlabel metal3 17977 460 17977 460 4 WL[0]
+rlabel metal3 s 17934 -11 17934 -11 4 VDD
+rlabel metal3 s 17334 918 17334 918 4 VSS
+rlabel metal3 s 19734 -11 19734 -11 4 VDD
+rlabel metal3 s 19134 918 19134 918 4 VSS
+rlabel metal3 s 18066 907 18066 907 4 VSS
+rlabel metal3 16879 1360 16879 1360 4 WL[1]
+rlabel metal3 s 16866 5 16866 5 4 VDD
+rlabel metal3 20479 3160 20479 3160 4 WL[3]
+rlabel metal3 19279 460 19279 460 4 WL[0]
+rlabel metal3 20479 1360 20479 1360 4 WL[1]
+rlabel metal3 16879 3160 16879 3160 4 WL[3]
+rlabel metal3 19777 3160 19777 3160 4 WL[3]
+rlabel metal3 21577 3160 21577 3160 4 WL[3]
+rlabel metal3 21577 2260 21577 2260 4 WL[2]
+rlabel metal3 s 20334 918 20334 918 4 VSS
+rlabel metal3 s 20334 -7 20334 -7 4 VDD
+rlabel metal3 s 21534 918 21534 918 4 VSS
+rlabel metal3 s 21534 -7 21534 -7 4 VDD
+rlabel metal3 s 20934 918 20934 918 4 VSS
+rlabel metal3 s 20934 -7 20934 -7 4 VDD
+rlabel metal3 s 19734 918 19734 918 4 VSS
+rlabel metal3 s 19734 -7 19734 -7 4 VDD
+rlabel metal3 s 19134 918 19134 918 4 VSS
+rlabel metal3 s 19134 -7 19134 -7 4 VDD
+rlabel metal3 s 18534 918 18534 918 4 VSS
+rlabel metal3 s 18534 -7 18534 -7 4 VDD
+rlabel metal3 s 17934 918 17934 918 4 VSS
+rlabel metal3 s 17934 -7 17934 -7 4 VDD
+rlabel metal3 s 17334 918 17334 918 4 VSS
+rlabel metal3 s 17334 -7 17334 -7 4 VDD
+rlabel metal3 21577 1360 21577 1360 4 WL[1]
+rlabel metal3 21577 460 21577 460 4 WL[0]
+rlabel metal3 20377 3160 20377 3160 4 WL[3]
+rlabel metal3 20377 2260 20377 2260 4 WL[2]
+rlabel metal3 s 19266 907 19266 907 4 VSS
+rlabel metal3 s 20466 5 20466 5 4 VDD
+rlabel metal3 s 20466 907 20466 907 4 VSS
+rlabel metal3 s 19266 5 19266 5 4 VDD
+rlabel metal3 16879 460 16879 460 4 WL[0]
+rlabel metal3 s 16866 907 16866 907 4 VSS
+rlabel metal3 s 18066 5 18066 5 4 VDD
+rlabel metal3 20377 1360 20377 1360 4 WL[1]
+rlabel metal3 s 17934 918 17934 918 4 VSS
+rlabel metal3 18079 3160 18079 3160 4 WL[3]
+rlabel metal3 18079 2260 18079 2260 4 WL[2]
+rlabel metal3 20377 460 20377 460 4 WL[0]
+rlabel metal3 18079 1360 18079 1360 4 WL[1]
+rlabel metal3 s 20334 -11 20334 -11 4 VDD
+rlabel metal3 s 21534 -11 21534 -11 4 VDD
+rlabel metal3 21519 1360 21519 1360 4 WL[1]
+rlabel metal3 s 20934 918 20934 918 4 VSS
+rlabel metal3 19279 1360 19279 1360 4 WL[1]
+rlabel metal3 19279 2260 19279 2260 4 WL[2]
+rlabel metal3 19279 3160 19279 3160 4 WL[3]
+rlabel metal3 17377 3160 17377 3160 4 WL[3]
+rlabel metal3 17377 2260 17377 2260 4 WL[2]
+rlabel metal3 17377 1360 17377 1360 4 WL[1]
+rlabel metal3 17377 460 17377 460 4 WL[0]
+rlabel metal3 s 17334 -11 17334 -11 4 VDD
+rlabel metal3 s 18534 918 18534 918 4 VSS
+rlabel metal3 21519 3160 21519 3160 4 WL[3]
+rlabel metal3 16879 2260 16879 2260 4 WL[2]
+rlabel metal3 19177 3160 19177 3160 4 WL[3]
+rlabel metal3 19177 2260 19177 2260 4 WL[2]
+rlabel metal3 19177 1360 19177 1360 4 WL[1]
+rlabel metal3 20479 460 20479 460 4 WL[0]
+rlabel metal3 18079 460 18079 460 4 WL[0]
+rlabel metal3 20479 2260 20479 2260 4 WL[2]
+rlabel metal3 19177 460 19177 460 4 WL[0]
+rlabel metal3 s 19134 -11 19134 -11 4 VDD
+rlabel metal3 s 21534 918 21534 918 4 VSS
+rlabel metal3 18577 3160 18577 3160 4 WL[3]
+rlabel metal3 18577 2260 18577 2260 4 WL[2]
+rlabel metal3 18577 1360 18577 1360 4 WL[1]
+rlabel metal3 18577 460 18577 460 4 WL[0]
+rlabel metal3 s 18534 -11 18534 -11 4 VDD
+rlabel metal3 s 19734 918 19734 918 4 VSS
+rlabel metal3 19777 2260 19777 2260 4 WL[2]
+rlabel metal3 s 701 8562 701 8562 4 WL[9]
+port 1 nsew
+rlabel metal3 s 701 7662 701 7662 4 WL[8]
+port 2 nsew
+rlabel metal3 s 701 10362 701 10362 4 WL[11]
+port 3 nsew
+rlabel metal3 s 701 13962 701 13962 4 WL[15]
+port 4 nsew
+rlabel metal3 s 701 462 701 462 4 WL[0]
+port 5 nsew
+rlabel metal3 s 701 2262 701 2262 4 WL[2]
+port 6 nsew
+rlabel metal3 s 701 11262 701 11262 4 WL[12]
+port 7 nsew
+rlabel metal3 s 701 9462 701 9462 4 WL[10]
+port 8 nsew
+rlabel metal3 s 701 10362 701 10362 4 WL[11]
+port 3 nsew
+rlabel metal3 s 701 5862 701 5862 4 WL[6]
+port 9 nsew
+rlabel metal3 s 701 4062 701 4062 4 WL[4]
+port 10 nsew
+rlabel metal3 s 701 3162 701 3162 4 WL[3]
+port 11 nsew
+rlabel metal3 s 701 4062 701 4062 4 WL[4]
+port 10 nsew
+rlabel metal3 s 701 13062 701 13062 4 WL[14]
+port 12 nsew
+rlabel metal3 s 701 11262 701 11262 4 WL[12]
+port 7 nsew
+rlabel metal3 s 701 4962 701 4962 4 WL[5]
+port 13 nsew
+rlabel metal3 s 701 5862 701 5862 4 WL[6]
+port 9 nsew
+rlabel metal3 s 701 6762 701 6762 4 WL[7]
+port 14 nsew
+rlabel metal3 s 701 7662 701 7662 4 WL[8]
+port 2 nsew
+rlabel metal3 s 701 8562 701 8562 4 WL[9]
+port 1 nsew
+rlabel metal3 s 701 1362 701 1362 4 WL[1]
+port 15 nsew
+rlabel metal3 s 701 9462 701 9462 4 WL[10]
+port 8 nsew
+rlabel metal3 s 701 12162 701 12162 4 WL[13]
+port 16 nsew
+rlabel metal3 s 701 13062 701 13062 4 WL[14]
+port 12 nsew
+rlabel metal3 s 701 13962 701 13962 4 WL[15]
+port 4 nsew
+rlabel metal3 s 701 1362 701 1362 4 WL[1]
+port 15 nsew
+rlabel metal3 s 701 462 701 462 4 WL[0]
+port 5 nsew
+rlabel metal3 s 701 2262 701 2262 4 WL[2]
+port 6 nsew
+rlabel metal3 s 701 3162 701 3162 4 WL[3]
+port 11 nsew
+rlabel metal3 s 701 4962 701 4962 4 WL[5]
+port 13 nsew
+rlabel metal3 s 701 12162 701 12162 4 WL[13]
+port 16 nsew
+rlabel metal3 s 701 6762 701 6762 4 WL[7]
+port 14 nsew
+<< properties >>
+string GDS_END 1660906
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_ip_sram/gds/gf180mcu_fd_ip_sram__sram128x8m8wm1.gds
+string GDS_START 1566500
+<< end >>

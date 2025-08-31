@@ -1,0 +1,32 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1755724134
+<< isosubstrate >>
+rect -42 55812 56113 57130
+rect -42 43017 57057 55812
+use comp018green_esd_clamp_v5p0_1  comp018green_esd_clamp_v5p0_1_0
+timestamp 1755724134
+transform 1 0 43564 0 1 51
+box -4188 -51 13013 56967
+use comp018green_esd_clamp_v5p0_2  comp018green_esd_clamp_v5p0_2_0
+timestamp 1755724134
+transform 0 1 51 1 0 43565
+box -407 -51 13369 47415
+use power_via_cor_3  power_via_cor_3_0
+timestamp 1755724134
+transform 1 0 42556 0 1 508
+box 1094 35210 14833 56443
+use power_via_cor_5  power_via_cor_5_0
+timestamp 1755724134
+transform 0 1 508 1 0 42557
+box 1068 32 14833 50982
+use top_routing_cor  top_routing_cor_0
+timestamp 1755724134
+transform 1 0 -1300 0 1 56651
+box 0 0 1 1
+<< properties >>
+string GDS_END 7058450
+string GDS_FILE $PDKPATH/libs.ref/gf180mcu_fd_io/gds/gf180mcu_fd_io.gds
+string GDS_START 7058102
+<< end >>
