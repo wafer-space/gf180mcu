@@ -322,7 +322,7 @@ polygons_count += count
 contact_tables = %w[contact contact_split efuse geom dnwell nwell lvpwell nat
                     hres ldnmos ldpmos lres otp_mk pres sab sram_3p3 sram_5p0 main]
 
-if contact_tables.include?(TABLE_NAME)
+if TABLES.any?{|x| contact_tables.include?(x)}
   contact = get_polygons(33, 0)
   count = contact.count
   logger.info("contact has #{count} polygons")
@@ -360,7 +360,7 @@ polygons_count += count
 via1_tables = %w[geom mim_a mim_b metaltop_30k via1 via1_split
                  dnwell nwell lvpwell nat main]
 
-if via1_tables.include?(TABLE_NAME)
+if TABLES.any?{|x| via1_tables.include?(x)}
   via1 = get_polygons(35, 0)
   count = via1.count
   logger.info("via1 has #{count} polygons")
@@ -401,7 +401,7 @@ via2_tables = %w[geom mim_a mim_b metaltop_30k dnwell
 case METAL_LEVEL
 when '3LM', '4LM', '5LM', '6LM'
 
-  if via2_tables.include?(TABLE_NAME)
+  if TABLES.any?{|x| via2_tables.include?(x)}
     via2 = get_polygons(38, 0)
     count = via2.count
     logger.info("via2 has #{count} polygons")
@@ -543,34 +543,39 @@ end
 
 case METAL_LEVEL
 when '2LM'
-  top_via       = via1 if via1_tables.include?(TABLE_NAME)
-  topmin1_via   = contact if contact_tables.include?(TABLE_NAME)
+  top_via       = via1 if TABLES.any?{|x| via1_tables.include?(x)}
+  topmin1_via   = contact if TABLES.any?{|x| contact_tables.include?(x)}
   top_metal     = metal2
   topmin1_metal = metal1
+  top_metal_dummy = metal2_dummy
   metals = [metal1, metal2]
 when '3LM'
-  top_via       = via2 if via2_tables.include?(TABLE_NAME)
-  topmin1_via   = via1 if via1_tables.include?(TABLE_NAME)
+  top_via       = via2 if TABLES.any?{|x| via2_tables.include?(x)}
+  topmin1_via   = via1 if TABLES.any?{|x| via1_tables.include?(x)}
   top_metal     = metal3
   topmin1_metal = metal2
+  top_metal_dummy = metal3_dummy
   metals = [metal1, metal2, metal3]
 when '4LM'
   top_via = via3
-  topmin1_via   = via2 if via2_tables.include?(TABLE_NAME)
+  topmin1_via   = via2 if TABLES.any?{|x| via2_tables.include?(x)}
   top_metal     = metal4
   topmin1_metal = metal3
+  top_metal_dummy = metal4_dummy
   metals = [metal1, metal2, metal3, metal4]
 when '5LM'
   top_via       = via4
   topmin1_via   = via3
   top_metal     = metal5
   topmin1_metal = metal4
+  top_metal_dummy = metal5_dummy
   metals = [metal1, metal2, metal3, metal4, metal5]
 when '6LM'
   top_via       = via5
   topmin1_via   = via4
   top_metal     = metaltop
   topmin1_metal = metal5
+  top_metal_dummy = metaltop_dummy
   metals = [metal1, metal2, metal3, metal4, metal5, metaltop]
 else
   logger.error("Unknown metal stack #{METAL_LEVEL}")

@@ -68,23 +68,19 @@ end
 
 logger.info('Evaluate switches.')
 
-# threads
-if $thr
-  threads($thr)
-else
-  thr ||= Etc.nprocessors
-  threads(thr)
+def bool_check?(obj)
+  obj.to_s.downcase == 'true'
 end
 
-logger.info("Number of threads to use #{$thr}")
+# threads
+$threads = ($threads || Etc.nprocessors).to_i
+threads($threads)
+logger.info("Number of threads to use: #{$threads}")
 
 #=== PRINT DETAILS ===
+verbose(bool_check?($verbose))
+
 logger.info("Verbose mode: #{$verbose}")
-if $verbose == 'true'
-  verbose(true)
-else
-  verbose(false)
-end
 
 # === TILING MODE ===
 case $run_mode

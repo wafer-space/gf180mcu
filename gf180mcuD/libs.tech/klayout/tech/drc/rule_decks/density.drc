@@ -68,23 +68,19 @@ end
 
 logger.info('Evaluate switches.')
 
-# threads
-if $thr
-  threads($thr)
-else
-  thr ||= Etc.nprocessors
-  threads(thr)
+def bool_check?(obj)
+  obj.to_s.downcase == 'true'
 end
 
-logger.info("Number of threads to use #{$thr}")
+# threads
+$threads = ($threads || Etc.nprocessors).to_i
+threads($threads)
+logger.info("Number of threads to use: #{$threads}")
 
 #=== PRINT DETAILS ===
+verbose(bool_check?($verbose))
+
 logger.info("Verbose mode: #{$verbose}")
-if $verbose == 'true'
-  verbose(true)
-else
-  verbose(false)
-end
 
 # === TILING MODE ===
 case $run_mode
@@ -397,6 +393,10 @@ logger.info('Starting GF180MCU DENSITY layer derivations.')
 
 # === LAYOUT EXTENT ===
 CHIP = extent.sized(0.0)
+chip_area = CHIP.area
+logger.info("Total area of the design is #{chip_area} um^2.")
+tiles_boundary = tile_boundary(CHIP)
+chip_bbox = CHIP.bbox
 
 #=====================================================================================================================
 #-------------------------------------------------- MAIN RUNSET ------------------------------------------------------
@@ -421,9 +421,9 @@ end
 logger.info('Executing rule PL.8')
 if (poly2.area / CHIP.area) * 100 < 14
   logger.info('[ERROR] PL.8 : Poly2 coverage over the entire die shall be >= 14%')
-  #poly2.output('PL.8',
-  #             'PL.8 : Poly2 coverage over the entire die shall be >= 14%
-  #              Dummy poly2 lines must be added to meet the minimum poly2 density requirement. : 14%')
+  CHIP.output('PL.8',
+              'PL.8 : Poly2 coverage over the entire die shall be >= 14%
+               Dummy poly2 lines must be added to meet the minimum poly2 density requirement. : 14%')
 end
 
 # Rule M1.4: Metal1 coverage over the entire die shall be >30%
@@ -432,10 +432,10 @@ end
 logger.info('Executing rule M1.4')
 if (metal1.area / CHIP.area) * 100 < 30
   logger.info('[ERROR] M1.4 : Metal1 coverage over the entire die shall be >30%')
-  #metal1.output('M1.4',
-  #              'M1.4 : Metal1 coverage over the entire die shall be >30%
-  #              (Refer to section 13.0 for Dummy Metal fill guidelines.
-  #               Customer needs to ensure enough dummy metal to satisfy Metal1 coverage) : 30%')
+  CHIP.output('M1.4',
+                'M1.4 : Metal1 coverage over the entire die shall be >30%
+                 (Refer to section 13.0 for Dummy Metal fill guidelines.
+                 Customer needs to ensure enough dummy metal to satisfy Metal1 coverage) : 30%')
 end
 
 # Rule M2.4: Metal2 coverage over the entire die shall be >30%
@@ -444,10 +444,10 @@ end
 logger.info('Executing rule M2.4')
 if (metal2.area / CHIP.area) * 100 < 30
   logger.info('[ERROR] M2.4 : Metal2 coverage over the entire die shall be >30%')
-  #metal2.output('M2.4',
-  #              'M2.4 : Metal2 coverage over the entire die shall be >30%
-  #              (Refer to section 13.0 for Dummy Metal fill guidelines.
-  #               Customer needs to ensure enough dummy metal to satisfy Metal2 coverage) : 30%')
+  CHIP.output('M2.4',
+              'M2.4 : Metal2 coverage over the entire die shall be >30%
+               Refer to section 13.0 for Dummy Metal fill guidelines.
+               Customer needs to ensure enough dummy metal to satisfy Metal2 coverage) : 30%')
 end
 
 if METAL_LEVEL == '3LM' || METAL_LEVEL == '4LM' || METAL_LEVEL == '5LM' || METAL_LEVEL == '6LM'
@@ -457,10 +457,10 @@ if METAL_LEVEL == '3LM' || METAL_LEVEL == '4LM' || METAL_LEVEL == '5LM' || METAL
   logger.info('Executing rule M3.4')
   if (metal3.area / CHIP.area) * 100 < 30
     logger.info('[ERROR] M3.4 : metal3 coverage over the entire die shall be >30%')
-    #metal3.output('M3.4',
-    #              'M3.4 : metal3 coverage over the entire die shall be >30%
-    #                (Refer to section 13.0 for Dummy Metal fill guidelines.
-    #                Customer needs to ensure enough dummy metal to satisfy metal3 coverage) : 30%')
+    CHIP.output('M3.4',
+                'M3.4 : metal3 coverage over the entire die shall be >30%
+                 (Refer to section 13.0 for Dummy Metal fill guidelines.
+                 Customer needs to ensure enough dummy metal to satisfy metal3 coverage) : 30%')
   end
 end
 
@@ -471,10 +471,10 @@ if METAL_LEVEL == '4LM' || METAL_LEVEL == '5LM' || METAL_LEVEL == '6LM'
   logger.info('Executing rule M4.4')
   if (metal4.area / CHIP.area) * 100 < 30
     logger.info('[ERROR] M4.4 : metal4 coverage over the entire die shall be >30%')
-    #metal4.output('M4.4',
-    #              'M4.4 : metal4 coverage over the entire die shall be >30%
-    #                (Refer to section 13.0 for Dummy Metal fill guidelines.
-    #                Customer needs to ensure enough dummy metal to satisfy metal4 coverage) : 30%')
+    CHIP.output('M4.4',
+                'M4.4 : metal4 coverage over the entire die shall be >30%
+                 (Refer to section 13.0 for Dummy Metal fill guidelines.
+                 Customer needs to ensure enough dummy metal to satisfy metal4 coverage) : 30%')
   end
 end
 
@@ -485,10 +485,10 @@ if METAL_LEVEL == '5LM' || METAL_LEVEL == '6LM'
   logger.info('Executing rule M5.4')
   if (metal5.area / CHIP.area) * 100 < 30
     logger.info('[ERROR] M5.4 : metal5 coverage over the entire die shall be >30%')
-    #metal5.output('M5.4',
-    #              'M5.4 : metal5 coverage over the entire die shall be >30%
-    #                (Refer to section 13.0 for Dummy Metal fill guidelines.
-    #                Customer needs to ensure enough dummy metal to satisfy metal5 coverage) : 30%')
+    CHIP.output('M5.4',
+                'M5.4 : metal5 coverage over the entire die shall be >30%
+                 (Refer to section 13.0 for Dummy Metal fill guidelines.
+                 Customer needs to ensure enough dummy metal to satisfy metal5 coverage) : 30%')
   end
 end
 
@@ -499,10 +499,10 @@ if METAL_TOP == '30K'
   logger.info('Executing rule MT30.7')
   if (top_metal.area / CHIP.area) * 100 < 30
     logger.info('[ERROR] MT30.7 : Thick MetalTop coverage over the entire die shall be >30%')
-    #top_metal.output('MT30.7',
-    #                 'MT30.7 : Thick MetalTop coverage over the entire die shall be >30%
-    #                            (Refer to section 13.0 for Dummy Metal-fill guidelines.
-    #                            Customer needs to ensure enough dummy metal to satisfy Metaln coverage). : 30%')
+    CHIP.output('MT30.7',
+                'MT30.7 : Thick MetalTop coverage over the entire die shall be >30%
+                 (Refer to section 13.0 for Dummy Metal-fill guidelines.
+                 Customer needs to ensure enough dummy metal to satisfy Metaln coverage). : 30%')
   end
 else
   # Rule MT.3: MetalTop coverage over the entire die shall be >30%
@@ -511,16 +511,17 @@ else
   logger.info('Executing rule MT.3')
   if (top_metal.area / CHIP.area) * 100 < 30
     logger.info('[ERROR] MT.3 : MetalTop coverage over the entire die shall be >30%')
-    #top_metal.output('MT.3',
-    #                 'MT.3 : MetalTop coverage over the entire die shall be >30%
-    #                            (Refer to section 10.3 for Dummy Metal-fill guidelines.
-    #                            Customer needs to ensure enough dummy metal to satisfy Metaln coverage) : 30%')
+    CHIP.output('MT.3',
+                'MT.3 : MetalTop coverage over the entire die shall be >30%
+                 (Refer to section 10.3 for Dummy Metal-fill guidelines.
+                 Customer needs to ensure enough dummy metal to satisfy Metaln coverage) : 30%')
   end
 end
 
+# ===================================
 exec_end_time = Time.now
 run_time = exec_end_time - exec_start_time
-logger.info(format('DRC Total Run time %f seconds', run_time))
+logger.info("KLayout DRC run for density table completed in #{run_time.round(2)} seconds")
 
 #===================================
 #--------------- END ---------------

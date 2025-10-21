@@ -22,8 +22,12 @@ You need the following set of tools installed to be able to run GF180MCU DRC:
 The `run_drc.py` script takes your input gds file to run DRC rule decks of GF180 technology on it with switches to select subsets of all checks. 
 
 ```bash
-    run_drc.py (--help| -h)
-    run_drc.py (--path=<file_path>) (--variant=<combined_options>) [--verbose] [--table=<table_name>]... [--mp=<num_cores>] [--run_dir=<run_dir_path>] [--topcell=<topcell_name>] [--thr=<thr>] [--run_mode=<run_mode>] [--no_feol] [--no_beol] [--connectivity] [--density] [--density_only] [--antenna] [--antenna_only] [--no_offgrid] [--macro_gen] [--slow_via]
+    run_drc.py (--help | -h)
+    run_drc.py --path=<file_path>
+            [--table=<table_name>]... [--mp=<num_cores>] [--run_dir=<run_dir_path>]
+            [--topcell=<topcell_name>] [--run_mode=<mode>] [--no_feol] [--no_beol] [--no_density]
+            [--density_thr=<density_threads>] [--density_only] [--antenna]
+            [--antenna_only] [--no_offgrid] [--verbose] [--no_connectivity] [--slow_via]
 ```
 
 Example:
@@ -54,9 +58,9 @@ Example:
 
 - `--run_dir=<run_dir_path>`            Run directory to save all the results [default: pwd]
 
-- `--thr=<thr>`                         The number of threads used in run.
+- `--density_thr=<density_threads>`     The number of threads used in run.
 
-- `--run_mode=<run_mode>`               Select klayout mode Allowed modes (flat , deep, tiling). [default: flat]
+- `--run_mode=<run_mode>`               Select klayout mode Allowed modes (flat, deep). [default: deep]
 
 - `--no_feol`                           Turn off FEOL rules from running.
 
@@ -64,7 +68,7 @@ Example:
 
 - `--no_connectivity`                   Turn off connectivity rules.
 
-- `--density`                           Turn on Density rules.
+- `--no_density`                        Turn off Density rules.
 
 - `--density_only`                      Turn on Density rules only.
 
@@ -72,13 +76,9 @@ Example:
 
 - `--antenna_only`                      Turn on Antenna checks only.
 
-- `--split_deep`                        Spliting some long run rules to be run in deep mode permanently.
-
 - `--no_offgrid`                        Turn off OFFGRID checking rules.
 
 - `--verbose`                           Detailed rule execution log for debugging.
-
-- `--macro_gen`                         Generating the full rule deck without run.
 
 - `--slow_via`                          Turn on SLOW_VIA option for MT30.8 rule.
 
