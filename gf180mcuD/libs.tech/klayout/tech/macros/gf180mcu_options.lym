@@ -450,7 +450,7 @@ require 'yaml'
     ## write default options 
     drc_options = {
              "run_mode"=&gt;"flat",
-             "variant"=&gt;"C" ,
+             "variant"=&gt;"D" ,
              "top_cell_name"=&gt;"",
              "verbose"=&gt;"false",
              "feol"=&gt;true,
@@ -459,7 +459,7 @@ require 'yaml'
              "connectivity"=&gt;"false" }
     lvs_options = {"sub_name"=&gt;"gf180mcu_gnd",
             "run_mode"=&gt;"flat", 
-            "variant"=&gt;"C" ,
+            "variant"=&gt;"D" ,
             "netlist"=&gt;"" ,
             "spice_net"=&gt;true,
             "top_cell_name"=&gt;"",

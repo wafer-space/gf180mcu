@@ -68,7 +68,7 @@ end
 #=== GET SUBSTRATE NAME ===
 substrate_name = $lvs_sub || 'gf180mcu_gnd'
 
-logger.info("Substrate name used: #{$lvs_sub}")
+logger.info("Substrate name used: #{substrate_name}")
 
 #=== NET NAMES OPTION ===
 # true: use net names instead of numbers
