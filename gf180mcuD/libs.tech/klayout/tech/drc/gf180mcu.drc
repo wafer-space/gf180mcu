@@ -95,6 +95,7 @@ threads($threads)
 logger.info("Number of threads to use: #{$threads}")
 
 # Run mode
+$run_mode = $run_mode || 'deep'
 setup_run_mode($run_mode)
 logger.info("#{$run_mode} mode is enabled.")
 
@@ -465,6 +466,7 @@ logger.info('Running all OFFGRID rules') if OFFGRID
 # %include rule_decks/beol/dummy_metal5.drc
 # %include rule_decks/beol/dummy_metaltop.drc
 # %include rule_decks/beol/dummy_poly2.drc
+# %include rule_decks/beol/guard_ring.drc
 # %include rule_decks/beol/metal1.drc
 # %include rule_decks/beol/metal2.drc
 # %include rule_decks/beol/metal3.drc
