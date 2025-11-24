@@ -174,23 +174,6 @@ require 'yaml'
   end
   mw.menu.insert_item("submenu.drc_menu.end", "connectivity", connectivity_action)
 
-  #9 Setting dummy rules
-  dummy_action = RBA::Action::new
-  dummy_action.title = "Dummy rules"
-  dummy_action.checkable=(true)
-  dummy_action.checked=(false)
-  dummy_action.on_triggered do
-    options = YAML.load(File.read(__dir__ + "/drc_options.yml"))
-      if dummy_action.is_checked?
-        options["dummy"] = "true"
-        File.open(__dir__ + "/drc_options.yml", "w") { |file| file.write(options.to_yaml) }
-      else
-        options["dummy"] = "false"
-        File.open(__dir__ + "/drc_options.yml", "w") { |file| file.write(options.to_yaml) }
-      end
-
-  end
-  mw.menu.insert_item("submenu.drc_menu.end", "dummy", dummy_action)
   #####################################################################################
   # Adding LVS options
   #####################################################################################

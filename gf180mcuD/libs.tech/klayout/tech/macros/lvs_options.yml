@@ -1,7 +1,7 @@
 ---
 sub_name: gf180mcu_gnd
 run_mode: flat
-variant: C
+variant: D
 netlist: ''
 spice_net: true
 top_cell_name: ''

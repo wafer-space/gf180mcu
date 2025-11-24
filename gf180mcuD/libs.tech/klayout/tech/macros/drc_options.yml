@@ -1,10 +1,9 @@
 ---
 run_mode: flat
-variant: C
+variant: D
 top_cell_name: ''
 verbose: 'false'
 feol: true
 beol: true
 offgrid: 'true'
 connectivity: 'false'
-dummy: 'true'

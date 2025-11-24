@@ -95,8 +95,6 @@ $offgrid = options["offgrid"]
 
 $conn_drc = options["connectivity"]
 
-$dummy = options["dummy"]
-
 unless File.exist?"#{run_dir}/macros/run_drc_main/main.drc"
   STDERR.puts "file run_drc_main.drc doesn't exist"
   exit
