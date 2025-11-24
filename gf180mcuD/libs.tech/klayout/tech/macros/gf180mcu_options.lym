@@ -449,16 +449,16 @@ require 'yaml'
   mw.on_view_closed do
     ## write default options 
     drc_options = {
-             "run_mode"=&gt;"flat",
+             "run_mode"=&gt;"deep",
              "variant"=&gt;"C" ,
              "top_cell_name"=&gt;"",
              "verbose"=&gt;"false",
              "feol"=&gt;true,
              "beol"=&gt;true,
              "offgrid"=&gt; "true",
-             "connectivity"=&gt;"false" }
+             "connectivity"=&gt;"true" }
     lvs_options = {"sub_name"=&gt;"gf180mcu_gnd",
-            "run_mode"=&gt;"flat", 
+            "run_mode"=&gt;"deep", 
             "variant"=&gt;"C" ,
             "netlist"=&gt;"" ,
             "spice_net"=&gt;true,
