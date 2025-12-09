@@ -16,13 +16,58 @@
 # limitations under the License.
 ################################################################################################
 
+################################################################################################
+# INPUT OPTIONS
+################################################################################################
+#
+# Required:
+#   $input                  - Path to the input GDS/OASIS layout file
+#   $report                 - Path for the DRC report output file (.lyrdb format)
+#
+# Optional - Processing Control:
+#   $topcell                - Name of the top cell to process (if not specified, uses top cell)
+#   $thread_klayout_drc     - Number of threads for KLayout DRC functions (default: number of processors)
+#   $thread_workers         - Number of high-level worker threads (default: number of processors)
+#   $run_mode               - Execution mode: 'tiling', 'deep', or flat (default: flat)
+#   $verbose                - Enable verbose output: 'true' or 'false' (default: false)
+#
+# Optional - Technology Options:
+#   $table_name             - Rule table name to run (default: 'main')
+#                             Options: dnwell, dnwell_split, nwell, nwell_split, lvpwell,
+#                                      lvpwell_split, nat, nat_split, ldnmos, ldnmos_split,
+#                                      ldpmos, ldpmos_split, main
+#   $metal_level            - Metal stack configuration (default: '5LM')
+#                             Options: '3LM', '4LM', '5LM', '6LM'
+#   $metal_top              - Top metal thickness (default: '11K')
+#   $mim_option             - MIM capacitor option (default: 'B')
+#                             Options: 'A' or 'B'
+#
+# Optional - Rule Enablement (true/false):
+#   $feol                   - Enable Front-End-Of-Line rules (default: false)
+#   $beol                   - Enable Back-End-Of-Line rules (default: false)
+#   $conn_drc               - Enable connectivity-based DRC rules (default: false)
+#   $split_deep             - Enable split deep rules (default: false)
+#   $offgrid                - Enable off-grid checking (default: false)
+#   $wedge                  - Enable wedge bonding rules (default: false)
+#   $ball                   - Enable ball bonding rules (default: false)
+#   $gold                   - Enable gold metallization rules (default: false)
+#   $dummy                  - Enable dummy fill rules (default: false)
+#   $dummy_no_sub_prev      - Disable dummy subtraction prevention (default: false)
+#   $slow_via               - Enable slow via rules (default: false)
+#
+# Example usage:
+#   klayout -b -r gf180mcu_drc.rb -rd input=design.gds -rd report=drc_results.lyrdb \
+#           -rd metal_level=5LM -rd feol=true -rd beol=true -rd conn_drc=true
+#
+################################################################################################
+
 #=======================================================================================================================
 #--------------------------------------------- GF 0.18um MCU DRC RULE DECK ---------------------------------------------
 #=======================================================================================================================
 require 'time'
 require 'logger'
 require 'etc'
-
+require_relative './parallel_rule_checker'
 exec_start_time = Time.now
 
 # Custom formatter including timestamp and memory usage
@@ -52,17 +97,39 @@ if $input
   end
 end
 
-logger.info('Loading database to memory is complete.')
+# Number of threads for KLayout DRC functions
+# They can rarely keep the processor busy, as there seem to be memory
+# bottlenecks. High level multi threading used in addition below
+thread_klayout_drc = Integer($thread_klayout_drc || Etc.nprocessors)
+threads(thread_klayout_drc)
 
-if $report
-  logger.info("GF180MCU Klayout DRC runset output at: #{$report}")
-  report('DRC Run Report at', $report)
-else
-  layout_dir = Pathname.new(RBA::CellView.active.filename).parent.realpath
-  report_path = layout_dir.join('gf180_drc.lyrdb').to_s
-  logger.info("GF180MCU Klayout DRC runset output at default location: #{report_path}")
-  report('DRC Run Report at', report_path)
+logger.info("Number of threads to use for klayout drc funtions #{thread_klayout_drc}")
+
+# Number of threads for KLayout DRC functions
+# They can rarely keep the processor busy, as there seem to be memory
+# bottlenecks. High level multi threading used in addition below
+thread_workers = Integer($thread_workers || Etc.nprocessors)
+logger.info("Number of high level worker threads #{thread_workers}")
+
+# If thread_workers is 1, run check as they were previously, all in the same binding
+# with a report made at the beginning.
+if thread_workers == 1
+  if $report
+    logger.info("GF180MCU Klayout DRC runset output at: #{$report}")
+    report('DRC Run Report at', $report)
+  else
+    layout_dir = Pathname.new(RBA::CellView.active.filename).parent.realpath
+    report_path = layout_dir.join('gf180_drc.lyrdb').to_s
+    logger.info("GF180MCU Klayout DRC runset output at default location: #{report_path}")
+    report('DRC Run Report at', report_path)
+  end
 end
+
+if not defined? $report
+  raise StandardError.new "report must be defined"
+end
+
+logger.info('Loading database to memory is complete.')
 
 #================================================
 #------------------ SWITCHES --------------------
@@ -119,19 +186,11 @@ OFFGRID = bool_check?($offgrid)
 
 logger.info("Offgrid enabled:  #{OFFGRID}")
 
-# threads
-if $thr
-  threads($thr)
-else
-  thr ||= Etc.nprocessors
-  threads(thr)
-end
-
-logger.info("Number of threads to use #{$thr}")
 
 #=== PRINT DETAILS ===
 
-verbose(bool_check?($verbose))
+$verbose = bool_check?($verbose) || false
+verbose($verbose)
 
 logger.info("Verbose mode: #{$verbose}")
 
@@ -427,77 +486,88 @@ logger.info('Running all FEOL rules') if FEOL
 logger.info('Running all BEOL rules') if BEOL
 logger.info('Running all DUMMY rules') if DUMMY
 
-# %include rule_decks/comp.drc
-# %include rule_decks/contact.drc
-# %include rule_decks/contact_split.drc
-# %include rule_decks/dnwell.drc
-# %include rule_decks/dnwell_split.drc
-# %include rule_decks/drc_bjt.drc
-# %include rule_decks/dualgate.drc
-# %include rule_decks/efuse.drc
-# %include rule_decks/esd.drc
-# %include rule_decks/geom.drc
-# %include rule_decks/hres.drc
-# %include rule_decks/ldnmos.drc
-# %include rule_decks/ldnmos_split.drc
-# %include rule_decks/ldpmos.drc
-# %include rule_decks/ldpmos_split.drc
-# %include rule_decks/lres.drc
-# %include rule_decks/lvpwell.drc
-# %include rule_decks/lvpwell_split.drc
-# %include rule_decks/lvs_bjt.drc
-# %include rule_decks/mcell.drc
-# %include rule_decks/metal1.drc
-# %include rule_decks/metal1_split.drc
-# %include rule_decks/metal2.drc
-# %include rule_decks/metal3.drc
-# %include rule_decks/metal4.drc
-# %include rule_decks/metal5.drc
-# %include rule_decks/metaltop_30k.drc
-# %include rule_decks/metaltop.drc
-# %include rule_decks/mim_a.drc
-# %include rule_decks/mim_b.drc
-# %include rule_decks/nat.drc
-# %include rule_decks/nat_split.drc
-# %include rule_decks/nplus.drc
-# %include rule_decks/nwell.drc
-# %include rule_decks/nwell_split.drc
-# %include rule_decks/otp_mk.drc
-# %include rule_decks/poly2.drc
-# %include rule_decks/pplus.drc
-# %include rule_decks/pres.drc
-# %include rule_decks/sab.drc
-# %include rule_decks/sram_3p3.drc
-# %include rule_decks/sram_5p0.drc
-# %include rule_decks/tail.drc
-# %include rule_decks/via1.drc
-# %include rule_decks/via1_split.drc
-# %include rule_decks/via2.drc
-# %include rule_decks/via2_split.drc
-# %include rule_decks/via3.drc
-# %include rule_decks/via3_split.drc
-# %include rule_decks/via4.drc
-# %include rule_decks/via4_split.drc
-# %include rule_decks/via5.drc
-# %include rule_decks/ymtp_mk.drc
+rule_files = ["./rule_decks/comp.drc",
+              "./rule_decks/contact.drc",
+              "./rule_decks/contact_split.drc",
+              "./rule_decks/dnwell.drc",
+              "./rule_decks/dnwell_split.drc",
+              "./rule_decks/drc_bjt.drc",
+              "./rule_decks/dualgate.drc",
+              "./rule_decks/efuse.drc",
+              "./rule_decks/esd.drc",
+              "./rule_decks/geom.drc",
+              "./rule_decks/hres.drc",
+              "./rule_decks/ldnmos.drc",
+              "./rule_decks/ldnmos_split.drc",
+              "./rule_decks/ldpmos.drc",
+              "./rule_decks/ldpmos_split.drc",
+              "./rule_decks/lres.drc",
+              "./rule_decks/lvpwell.drc",
+              "./rule_decks/lvpwell_split.drc",
+              "./rule_decks/lvs_bjt.drc",
+              "./rule_decks/mcell.drc",
+              "./rule_decks/metal1.drc",
+              "./rule_decks/metal1_split.drc",
+              "./rule_decks/metal2.drc",
+              "./rule_decks/metal3.drc",
+              "./rule_decks/metal4.drc",
+              "./rule_decks/metal5.drc",
+              "./rule_decks/metaltop_30k.drc",
+              "./rule_decks/metaltop.drc",
+              "./rule_decks/mim_a.drc",
+              "./rule_decks/mim_b.drc",
+              "./rule_decks/nat.drc",
+              "./rule_decks/nat_split.drc",
+              "./rule_decks/nplus.drc",
+              "./rule_decks/nwell.drc",
+              "./rule_decks/nwell_split.drc",
+              "./rule_decks/otp_mk.drc",
+              "./rule_decks/poly2.drc",
+              "./rule_decks/pplus.drc",
+              "./rule_decks/pres.drc",
+              "./rule_decks/sab.drc",
+              "./rule_decks/sram_3p3.drc",
+              "./rule_decks/sram_5p0.drc",
+              "./rule_decks/via1.drc",
+              "./rule_decks/via1_split.drc",
+              "./rule_decks/via2.drc",
+              "./rule_decks/via2_split.drc",
+              "./rule_decks/via3.drc",
+              "./rule_decks/via3_split.drc",
+              "./rule_decks/via4.drc",
+              "./rule_decks/via4_split.drc",
+              "./rule_decks/via5.drc",
+              "./rule_decks/ymtp_mk.drc",
+              "./rule_decks/dummy_exclude.drc",
+              "./rule_decks/dummy_comp.drc",
+              "./rule_decks/dummy_poly2.drc",
+              "./rule_decks/dummy_metal1.drc",
+              "./rule_decks/dummy_metal2.drc",
+              "./rule_decks/dummy_metal3.drc",
+              "./rule_decks/dummy_metal4.drc",
+              "./rule_decks/dummy_metal5.drc",
+              "./rule_decks/guard_ring.drc",
+              "./rule_decks/cup.drc",
+             ]
 
-# Always enabled
-# %include rule_decks/dummy_exclude.drc
+rule_files_abs = []
+rule_files.each do | element |
+  rule_files_abs.push(File.join(File.dirname(__FILE__), element))
+end
 
-# %include rule_decks/dummy_comp.drc
-# %include rule_decks/dummy_poly2.drc
-# %include rule_decks/dummy_metal1.drc
-# %include rule_decks/dummy_metal2.drc
-# %include rule_decks/dummy_metal3.drc
-# %include rule_decks/dummy_metal4.drc
-# %include rule_decks/dummy_metal5.drc
+if thread_workers == 1
+  rule_files_abs.each do | element |
+    eval(File.read(element), binding, element)
+  end
+else
+  checker = ParallelRuleChecker.new(rule_files_abs, binding, logger, num_workers: thread_workers)
+  results = checker.run
 
-# %include rule_decks/guard_ring.drc
+  results.save($report)
+end
 
-# %include rule_decks/cup.drc
-
-#================================================
-#-------------------- Tail ----------------------
-#================================================
+##================================================
+##-------------------- Tail ----------------------
+##================================================
 
 # %include rule_decks/tail.drc

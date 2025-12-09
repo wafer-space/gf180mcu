@@ -36,6 +36,18 @@ require "yaml"
 layout_path = Pathname.new(RBA::CellView.active.filename)
 layout_dir = layout_path.split()[0]
 
+lay_view = RBA::LayoutView::current
+if lay_view.is_dirty
+    v = RBA::MessageBox::warning("Outdated save file", "DRC check runs on the save file, but it outdated. Would you like to save now?", RBA::MessageBox::Yes + RBA::MessageBox::No)
+     if v == RBA::MessageBox::Yes
+       # Get the main window
+       mw = RBA::MainWindow.instance
+
+       # Trigger the File->Save menu action
+       mw.menu.action("file_menu.save").trigger
+    end
+end
+
 ## read saved options from yaml file
 dir_path = File.dirname(File.expand_path(__FILE__))
 options = YAML.load(File.read(dir_path + "/drc_options.yml"))
@@ -43,29 +55,7 @@ options = YAML.load(File.read(dir_path + "/drc_options.yml"))
 ## reading the parent directory of the current file
 run_dir = File.expand_path("..", dir_path)
 
-## read the log of drc run to get output lydb file paths if run_dir option is disables 
-gds_name = layout_path.split()[1].to_s.split(".")[0]
-
-out_dir = "#{run_dir}/macros/run_drc_main"
-
-if Dir.exist?out_dir
-  `rm #{out_dir}/drc_run*.log`
-end
-
-## create options passed to run_drc.py 
-options_str = "--variant=#{options["variant"]} --run_dir=#{run_dir}/macros/run_drc_main --macro_gen"
-
-## run_drc command line
-cmd = "python3 #{run_dir}/drc/run_drc.py --path=#{layout_path} #{options_str}"
-
-## start running drc 
-puts "######### running #{cmd}"
-drc_res = `#{cmd}`
-
-## pass options to main.drc
-$run_mode = options["run_mode"]
-
-if options["variant"] == "A" 
+if options["variant"] == "A"
   $metal_top = "30K"
   $metal_level = "3LM"
   $mim_option = "A"
@@ -83,34 +73,37 @@ elsif options["variant"] == "D"
   $mim_option = "B"
 end
 
-$topcell = options["top_cell_name"]
+## run_drc command line
+cmd = "klayout -b -r #{run_dir}/drc/gf180mcu.drc " +
+        "-rd input=#{layout_path} " +
+        "-rd mim_option=#{$mim_option} " +
+        "-rd metal_top=#{$metal_top} " +
+        "-rd metal_level=#{$metal_level} " +
+        "-rd feol=#{options["feol"]} " +
+        "-rd beol=#{options["beol"]} " +
+        "-rd offgrid=#{options["offgrid"]} " +
+        "-rd run_mode=#{options["run_mode"]} " +
+        "-rd dummy=#{options["dummy"]} " +
+        "-rd conn_drc=#{options["connectivity"]} "+
+        "-rd verbose=#{options["verbose"]} " +
+        "-rd topcell=#{options["top_cell_name"]} " +
+        "-rd report=main.lyrdb"
 
-$verbose = options["verbose"]
+## start running drc
+puts "######### running #{cmd}"
+system("#{cmd}")
+status = $?
 
-$feol = options["feol"]
-
-$beol = options["beol"]
-
-$offgrid = options["offgrid"]
-
-$conn_drc = options["connectivity"]
-
-$dummy = options["dummy"]
-
-unless File.exist?"#{run_dir}/macros/run_drc_main/main.drc"
-  STDERR.puts "file run_drc_main.drc doesn't exist"
-  exit
+if status.exitstatus != 0
+  STDERR.puts "Error: drc script failed with exit code #{status.exitstatus}"
+  exit status.exitstatus
 end
 
-## include run files
-
-$report = "antenna.lyrdb"
-#%include ../drc/rule_decks/antenna.drc
-$report = "density.lyrdb"
-#%include ../drc/rule_decks/density.drc
-$report = "main.lyrdb"
-#%include run_drc_main/main.drc
-
+resulting_report = RBA::ReportDatabase.new()
+resulting_report.load("main.lyrdb")
+view = RBA::LayoutView::current
+rdb_index = view.add_rdb(resulting_report)
+view.show_rdb(rdb_index, view.active_cellview_index)
 
 </text>
 </klayout-macro>
