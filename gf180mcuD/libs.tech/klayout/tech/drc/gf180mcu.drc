@@ -67,7 +67,8 @@
 require 'time'
 require 'logger'
 require 'etc'
-require_relative './parallel_rule_checker'
+puts File.expand_path('parallel_rule_checker.rb', File.dirname(__FILE__))
+require(File.expand_path('parallel_rule_checker.rb', File.dirname(__FILE__))) # 'parallel_rule_checker.rb'
 exec_start_time = Time.now
 
 # Custom formatter including timestamp and memory usage
