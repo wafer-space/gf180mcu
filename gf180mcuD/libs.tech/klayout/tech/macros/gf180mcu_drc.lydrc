@@ -87,13 +87,28 @@ cmd = "klayout -b -r #{run_dir}/drc/gf180mcu.drc " +
         "-rd conn_drc=#{options["connectivity"]} "+
         "-rd verbose=#{options["verbose"]} " +
         "-rd topcell=#{options["top_cell_name"]} " +
+        "-rd thread_workers=1 " +
         "-rd report=main.lyrdb"
 
 ## start running drc
 puts "######### running #{cmd}"
-system("#{cmd}")
-status = $?
 
+IO.popen("#{cmd}") do |io|
+  while !io.eof?
+    # Check if data is ready
+    ready = IO.select([io], nil, nil, 0.01)
+
+    if ready
+      line = io.gets
+      log(line.chomp) if line
+    else
+      # Timeout - just yield to UI
+      RBA::Application.instance.process_events rescue nil
+    end
+  end
+end
+
+status = $?
 if status.exitstatus != 0
   STDERR.puts "Error: drc script failed with exit code #{status.exitstatus}"
   exit status.exitstatus
