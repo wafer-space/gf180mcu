@@ -8,3 +8,4 @@ beol: true
 offgrid: 'true'
 connectivity: 'false'
 dummy: 'true'
+thread_workers: 2

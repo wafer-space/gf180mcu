@@ -191,6 +191,21 @@ require 'yaml'
 
   end
   mw.menu.insert_item("submenu.drc_menu.end", "dummy", dummy_action)
+
+  # Thread_workers
+  thread_workers_action = RBA::Action::new
+  thread_workers_action.title = "Thread workers"
+  thread_workers_action.on_triggered do
+    thread_workers_select = RBA::InputDialog::ask_int_ex("Number of thread workers", "Select numbers of thread to use for DRC check. Make sure you have enough RAM to support the threads. '0' uses the maximum available cores", 0, 0,4096, 1)
+      options = YAML.load(File.read(__dir__ + "/drc_options.yml"))
+      if thread_workers_select
+        options["thread_workers"] = thread_workers_select
+        File.open(__dir__ + "/drc_options.yml", "w") { |file| file.write(options.to_yaml) }
+      end
+
+  end
+  mw.menu.insert_item("submenu.drc_menu.end", "thread_workers", thread_workers_action)
+
   #####################################################################################
   # Adding LVS options
   #####################################################################################

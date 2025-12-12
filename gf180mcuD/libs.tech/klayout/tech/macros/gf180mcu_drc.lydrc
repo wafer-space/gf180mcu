@@ -87,7 +87,7 @@ cmd = "klayout -b -r #{run_dir}/drc/gf180mcu.drc " +
         "-rd conn_drc=#{options["connectivity"]} "+
         "-rd verbose=#{options["verbose"]} " +
         "-rd topcell=#{options["top_cell_name"]} " +
-        "-rd thread_workers=1 " +
+        "-rd thread_workers=#{options["thread_workers"]} " +
         "-rd report=main.lyrdb"
 
 ## start running drc
